@@ -1,5 +1,3 @@
-
-
 ![Logo de Platzi](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Platzi.jpg/1024px-Platzi.jpg)
 
 # Formacion-Sena-Itglobers
