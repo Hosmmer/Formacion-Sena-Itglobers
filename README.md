@@ -103,3 +103,24 @@ El Curso de Frontend Developer de Platzi es una excelente opción para quienes d
 
 Desarrollar habilidades avanzadas en diseño web responsive con el curso especializado en desarrollo frontend. Enfócarte en la maquetación y diseño de páginas y componentes para plataformas de comercio electrónico o e-commerce. Aprende a implementar prácticas de diseño adaptativo para asegurar una experiencia de usuario óptima en diversos dispositivos y resoluciones. Este curso te proporcionará los conocimientos y herramientas necesarios para construir interfaces web robustas y estéticamente atractivas, elevando tu perfil profesional en el campo del desarrollo frontend.
 
+
+## Contenido del Curso
+![Imagen Fundamento](https://s3-us-west-2.amazonaws.com/devcodepro/media/blog/que-es-responsive-web-design.jpg)
+- **Diseño web responsive.**
+- **Maquetación de páginas y componentes.**
+- **Prácticas de diseño adaptativo para e-commerce.**
+- **Optimización de interfaces de usuario.**
+- **Usabilidad y accesibilidad en el desarrollo frontend.**
+
+## Beneficios del Curso
+![Imagen Fundamento](https://www.40defiebre.com/wp-content/uploads/2012/09/diseno-responsive.jpg).
+
+>**Este curso proporciona herramientas clave para mejorar el perfil profesional de un desarrollador frontend. Los estudiantes aprenderán a:**
+- **Construir interfaces web robustas y estéticamente atractivas.**
+- **Asegurar una experiencia de usuario óptima en múltiples dispositivos.**
+- **Desarrollar proyectos adaptativos que se alineen con las mejores prácticas del diseño moderno.**
+- **Aplicar habilidades avanzadas en entornos profesionales, con un enfoque particular en proyectos de e-commerce.**
+
+## Conclusión
+Este curso es ideal para aquellos que buscan perfeccionar sus competencias en el desarrollo frontend y expandir su experiencia en la creación de soluciones para plataformas de comercio electrónico. A través de una combinación de teoría y práctica, los participantes estarán mejor preparados para afrontar los desafíos del diseño web en entornos profesionales.
+
