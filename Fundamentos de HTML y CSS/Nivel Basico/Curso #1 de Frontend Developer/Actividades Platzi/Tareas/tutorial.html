@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        main,
+        footer:nth-child(3) {
+            padding: 1em;
+            text-align: center;
+            color: red;
+        }
+
+        header img {
+            width: 300px;
+            height: 200px;
+            object-fit: contain;
+        }
+
+        @media (min-width: 768px) {
+
+            header,
+            main,
+            footer {
+                padding: 2em;
+                color: blueviolet;
+            }
+
+            main {
+                display: flex;
+                justify-content: center;
+            }
+
+            section {
+                max-width: 400px;
+            }
+        }
+
+        @media (max-width: 767px) {
+
+            header,
+            main,
+            footer {
+                padding: 0.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Platzi.jpg/1024px-Platzi.jpg"
+            alt="Logo de Platzi">
+        <h1>Welcome to my Responsive HTML & CSS Basic website</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About us</h2>
+            <p>This is a Responsive web page for the tutorial.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Responsive Web tutorial</p>
+    </footer>
+</body>
+
+</html>
