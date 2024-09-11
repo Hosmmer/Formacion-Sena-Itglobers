@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #000000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+#fruits article:nth-child(1) h3:hover {
+    color: red;
+}
+
+#fruits article:nth-child(2) h3:hover {
+    color: yellow;
+}
+
+#fruits article:nth-child(3) h3:hover {
+    color: orange;
+}
+
+
+#vegetables article:nth-child(1) h3:hover {
+    color: orange;
+}
+
+#vegetables article:nth-child(2) h3:hover {
+    color: green;
+}
+
+#vegetables article:nth-child(3) h3:hover {
+    color: greenyellow;
+}
+
+article h3 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+article p {
+    padding: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
