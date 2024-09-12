@@ -1,0 +1,130 @@
+/* Reseteo de márgenes y rellenos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/fondo.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+}
+
+.title-box {
+    background-color: #251818;
+    color: rgb(247, 162, 4);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    height: 6vh;
+    width: 12vw;
+    border-radius: 8px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-card {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card-text {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 414px) {
+    .title-box {
+        width: 32vw;
+        font-size: 1rem;
+        top: 200px;
+        right: 280px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-box {
+        width: 28vw;
+        font-size: 1.2rem;
+        text-align: right;
+        left: 160px;
+        top: 140px;
+
+    }
+
+    .card-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card {
+        width: 80%;
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .title-box {
+        width: 10vw;
+        font-size: 1.5rem;
+        top: 100px;
+        left: 700px;
+    }
+
+    .card-container {
+        gap: 30px;
+    }
+
+    .card {
+        width: 300px;
+    }
+}
