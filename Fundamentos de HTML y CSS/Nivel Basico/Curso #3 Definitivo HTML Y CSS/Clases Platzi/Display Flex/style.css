@@ -16,19 +16,23 @@ body {
 .container {
     border: 0.3rem solid black;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .box {
-    width: 10rem;
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 
 .box1 {
     background-color: blue;
 }
 
+
 .box2 {
     background-color: blueviolet;
+
 }
 
 .box3 {
