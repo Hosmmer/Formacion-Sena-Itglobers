@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("./assets/fondo.png");
+    background-image: url("../fondo.png");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -48,7 +48,7 @@ body {
     border-radius: 8px;
     position: absolute;
     top: 100px;
-    left: 300px;
+    left: 100px;
 }
 
 .card-content {
@@ -71,12 +71,19 @@ body {
     margin-top: 10px;
 }
 
-@media (max-width: 414px) {
+
+
+
+
+
+@media (max-width: 375px) {
     .title-box {
-        width: 32vw;
+        position: absolute;
+        width: 38vw;
+        height: 6vh;
         font-size: 1rem;
-        top: 200px;
-        right: 280px;
+        top: 140px;
+        left: 130px;
     }
 
     .card-container {
@@ -91,36 +98,41 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
     .title-box {
-        width: 28vw;
-        font-size: 1.2rem;
-        text-align: right;
-        left: 160px;
+        position: absolute;
+        width: 38vw;
+        height: 6vh;
+        font-size: 1rem;
         top: 140px;
-
+        left: 130px;
     }
 
     .card-container {
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 
     .card {
-        width: 80%;
-        max-width: 350px;
+        width: 90%;
+        max-width: 400px;
     }
 }
+
+
 
 @media (min-width: 1200px) {
     .title-box {
         width: 10vw;
         font-size: 1.5rem;
-        top: 100px;
-        left: 700px;
+        top: 190px;
+        left: 865px;
     }
 
     .card-container {
+        flex-direction: row;
+        justify-content: center;
         gap: 30px;
     }
 
