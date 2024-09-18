@@ -122,3 +122,37 @@ Desarrollar habilidades avanzadas en diseño web responsive con el curso especia
 ## Conclusión
 Este curso es ideal para aquellos que buscan perfeccionar sus competencias en el desarrollo frontend y expandir su experiencia en la creación de soluciones para plataformas de comercio electrónico. A través de una combinación de teoría y práctica, los participantes estarán mejor preparados para afrontar los desafíos del diseño web en entornos profesionales.
 
+<h1> 3. Curso #3 Definitivo de HTML y CSS </h1>
+
+ >**Contenido: 7 horas**
+ >**Práctica: 16 horas**
+
+## Descripción del Curso
+
+El curso "Definitivo de HTML y CSS" de Platzi es una introducción completa a las bases de la web moderna. Aprenderás a estructurar sitios web con HTML y a darle estilo con CSS, utilizando buenas prácticas que te permitirán crear páginas web accesibles, eficientes y visualmente atractivas. Es un curso fundamental para quienes desean comenzar su carrera en el desarrollo front-end o reforzar sus conocimientos en la creación de interfaces web.
+
+## Contenido del Curso
+
+![Imagen Fundamento](https://static.platzi.com/media/courses/Opengraph-definitivo-html-css2.png)
+- **Fundamentos de HTML5: Etiquetas, semántica y estructura básica.**
+- **CSS3: Selectores, propiedades, modelos de caja y diseño responsivo.**
+- **Diseño adaptable (Responsive Design): Técnicas para adaptar el diseño a diferentes dispositivos.**
+- **Layouts avanzados: Flexbox y Grid para una distribución efectiva del contenido.**
+- **Accesibilidad web: Cómo crear sitios accesibles para todos los usuarios.**
+- **Buenas prácticas: Código limpio, reutilizable y enfocado en la experiencia del usuario.**
+
+## Beneficios del Curso
+
+![Imagen Fundamento](https://www.tooltyp.com/wp-content/uploads/2019/01/1900x920-beneficios-del-html5-y-el-css3-para-nuestra-marca.jpg).
+
+
+- **Dominarás las tecnologías fundamentales del front-end.**
+- **Crearás sitios web profesionales y visualmente atractivos.**
+- **Aprenderás a diseñar interfaces que se adapten a cualquier dispositivo.**
+- **Estarás preparado para avanzar hacia tecnologías más avanzadas como JavaScript y frameworks modernos.**
+- **Obtendrás habilidades clave para empezar o mejorar tu perfil como desarrollador web.**
+
+## Conclusión
+El curso "Definitivo de HTML y CSS" es ideal para quienes buscan aprender o reforzar los pilares del desarrollo web. Con una base sólida en HTML y CSS, estarás listo para enfrentar proyectos más complejos y llevar tus habilidades de front-end al siguiente nivel. Además, dominarás herramientas esenciales para construir páginas web que ofrezcan una experiencia de usuario optimizada en todos los dispositivos.
+
+
