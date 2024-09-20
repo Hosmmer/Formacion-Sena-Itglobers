@@ -20,6 +20,7 @@
     --grey: #bababa;
     --off-white: #FAF8F7;
     --just-white: #fff;
+    --card-white: #808080;
 }
 
 * {
@@ -55,7 +56,7 @@ header img {
     align-self: center;
 }
 
-.header--title-container {
+.header__title-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -65,14 +66,14 @@ header img {
     align-self: center;
 }
 
-.header--title-container h1 {
+.header__title-container h1 {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
 }
 
-.header--title-container p {
+.header__title-container p {
     margin-top: 25px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -80,7 +81,7 @@ header img {
     color: var(--soft-orange);
 }
 
-.header--title-container .header--button {
+.header__title-container .header__button {
     position: absolute;
     left: calc(50% - 118px);
     top: 270px;
@@ -99,7 +100,7 @@ header img {
     color: var(--black);
 }
 
-.header--button span {
+.header__button span {
     display: inline-block;
     width: 18px;
     height: 17px;
@@ -115,7 +116,7 @@ main {
     background-color: var(--off-white);
 }
 
-.main-exchange-container {
+.main__exchange-container {
     width: 100%;
     min-width: 320px;
     height: auto;
@@ -124,14 +125,14 @@ main {
     text-align: center;
 }
 
-.main-exchange-container--title {
+.main__title {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
 }
 
-.main-container-background--img {
+.main__background-img {
     width: 200px;
     height: 200px;
     margin: 0 auto;
@@ -139,7 +140,7 @@ main {
     background: url('./assets/img/bitcoin.svg') center/cover no-repeat;
 }
 
-.main-exchange-container h2 {
+.main__exchange-container h2 {
     margin-bottom: 30px;
     font-size: 2.4rem;
     font-weight: bold;
@@ -147,7 +148,7 @@ main {
     color: var(--black);
 }
 
-.main-exchange-container p {
+.main__exchange-container p {
     margin-bottom: 30px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -156,7 +157,7 @@ main {
 }
 
 /* Crear tabla con grid */
-.main-table-container {
+.main__table__container-grid {
     margin-top: 40px;
     width: 65%;
     align-self: center;
@@ -166,14 +167,14 @@ main {
 }
 
 /* Contenedor de tabla */
-.table-container {
+.table__container-grid {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: relative;
 }
 
-.table-container h3 {
+.table__container-grid h3 {
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.3rem;
@@ -183,7 +184,7 @@ main {
 }
 
 /* Configuración de la tabla */
-.grid-table-container {
+.grid__table__container-items {
     display: grid;
     margin: 0 4rem 0 6rem;
     /* Usa un solo margen */
@@ -193,34 +194,38 @@ main {
     gap: 1.5px;
 }
 
-.grid-table-container div {
+.grid__table__container-items div {
     padding: 10px 12px;
     background-color: var(--just-white);
 }
 
 /* Bordes redondeados para las esquinas */
-.grid-table-container div:first-child {
+
+/* Esquina superior izquierda */
+
+.grid__table__container-items div:first-child {
     border-radius: 8px 0 0 0;
-    /* Esquina superior izquierda */
 }
 
-.grid-table-container div:nth-child(2) {
+/* Esquina superior derecha */
+
+.grid__table__container-items div:nth-child(2) {
     border-radius: 0 8px 0 0;
-    /* Esquina superior derecha */
 }
 
-.grid-table-container div:nth-child(7) {
+/* Esquina inferior izquierda */
+
+.grid__table__container-items div:nth-child(7) {
     border-radius: 0 0 0 8px;
-    /* Esquina inferior izquierda */
 }
 
-.grid-table-container div:nth-child(8) {
+/* Esquina inferior derecha */
+.grid__table__container-items div:nth-child(8) {
     border-radius: 0 0 8px 0;
-    /* Esquina inferior derecha */
 }
 
 /* Títulos y precios */
-.items--grid--title {
+.items__grid-title {
     font-family: var(--font-inter);
     font-size: 1.655rem;
     font-weight: 500;
@@ -228,7 +233,7 @@ main {
     color: #B5B0AC;
 }
 
-.items--grid-price {
+.items__grid-price {
     display: flex;
     align-items: center;
     font-family: var(--font-inter);
@@ -239,32 +244,32 @@ main {
 }
 
 /* Alinea al final los iconos*/
-.items--grid--value {
-    display: flex;
+.items__grid-value {
+
     align-items: center;
     justify-content: flex-end;
 
 }
 
-.items--grid--value .icon-trending {
+.items__grid-value .icon-trending {
     width: 12px;
     height: 8px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 14px;
+    margin-left: 1.1rem;
 }
 
-.items--grid--value .icon-trending-down {
+.items__grid-value .icon__trending-down {
     background-image: url('./assets/icon/icon-trending-down.svg');
 }
 
-.items--grid--value .icon-trending-up {
-    background-image: url('./assets/icon/icon-trending-up.svg');
+.items__grid-value .icon__trending-up {
+    background-image: url('./assets/icon/icon-trending-up.svg   ');
 }
 
 /* Fecha de actualización */
-.grid-table-update-date {
+.grid__table__update-date {
     background-color: var(--soft-orange);
     color: var(--warm-black);
     text-align: center;
@@ -276,8 +281,8 @@ main {
     border-radius: 8px;
 }
 
-.grid-table-update-date p,
-.grid-table-update-date span {
+.grid__table__update-date p,
+.grid__table__update-date span {
     font-family: var(--font-inter);
     font-size: 12px;
     line-height: 14.52px;
@@ -285,15 +290,117 @@ main {
     text-align: center;
 }
 
-.grid-table-update-date span {
+.grid__table__update-date span {
     font-weight: 700;
 }
 
 /* Icono de flecha hacia la derecha */
-.grid-table-icon-right img {
+.grid__table__icon-right img {
     position: absolute;
     width: 2.5rem;
     height: 2.5rem;
     margin-left: 27.5rem;
     top: 10.2rem;
+}
+
+/* Card de los productos */
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+
+}
+
+.product__detail__batata-logo {
+
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url('./assets/img/logo-main.svg');
+}
+
+.product__detail-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product__detail-title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.product__detail-title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--card-white);
+}
+
+.card__product-detail {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px #00000029;
+}
+
+/* Card iconos de los productos */
+.card__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card__icon-clock {
+    background-image: url("./assets/icon/icon-clock.svg");
+}
+
+.card__icon-eye {
+    background-image: url("./assets/icon/icon-eyes.svg");
+}
+
+.card__icon-dolar {
+    background-image: url("./assets/icon/icon-dolar.svg");
+}
+
+.card__icon-check {
+    background-image: url("./assets/icon/icon-check.svg");
+}
+
+/* Card title y body texto de los productos */
+.card__product-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.card_product-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--card-white);
 }
