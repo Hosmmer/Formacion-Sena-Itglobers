@@ -1,0 +1,299 @@
+/* 
+1.Posicionamiento
+2.Modelo de Caja 
+3.Tipografia
+4.visuales
+5.otros
+*/
+:root {
+    /*Fuentes*/
+    --font-sans: 'DM Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    /*colores*/
+
+    --bitcoint-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #FAF8F7;
+    --just-white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-sans);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-sans);
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+
+}
+
+
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header--title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.header--title-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.header--title-container p {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--soft-orange);
+}
+
+.header--title-container .header--button {
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    box-shadow: 0px 4px 8px rgb(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header--button span {
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    margin-left: 6px;
+    margin-top: -2px;
+    background-image: url('./assets/icon/icon-down-arrow.svg');
+    /* background-size: 20px; */
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange-container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-container-background--img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: url('./assets/img/bitcoin.svg') center/cover no-repeat;
+}
+
+.main-exchange-container h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.main-exchange-container p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+/* Crear tabla con grid */
+.main-table-container {
+    margin-top: 40px;
+    width: 65%;
+    align-self: center;
+    min-width: 320px;
+    max-width: 520px;
+    text-align: left;
+}
+
+/* Contenedor de tabla */
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.table-container h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: #ff9536;
+    margin: 0 0 12px 7.5rem;
+    /* Combina márgenes */
+}
+
+/* Configuración de la tabla */
+.grid-table-container {
+    display: grid;
+    margin: 0 4rem 0 6rem;
+    /* Usa un solo margen */
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1rem;
+    font-family: var(--font-inter);
+    gap: 1.5px;
+}
+
+.grid-table-container div {
+    padding: 10px 12px;
+    background-color: var(--just-white);
+}
+
+/* Bordes redondeados para las esquinas */
+.grid-table-container div:first-child {
+    border-radius: 8px 0 0 0;
+    /* Esquina superior izquierda */
+}
+
+.grid-table-container div:nth-child(2) {
+    border-radius: 0 8px 0 0;
+    /* Esquina superior derecha */
+}
+
+.grid-table-container div:nth-child(7) {
+    border-radius: 0 0 0 8px;
+    /* Esquina inferior izquierda */
+}
+
+.grid-table-container div:nth-child(8) {
+    border-radius: 0 0 8px 0;
+    /* Esquina inferior derecha */
+}
+
+/* Títulos y precios */
+.items--grid--title {
+    font-family: var(--font-inter);
+    font-size: 1.655rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: #B5B0AC;
+}
+
+.items--grid-price {
+    display: flex;
+    align-items: center;
+    font-family: var(--font-inter);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+/* Alinea al final los iconos*/
+.items--grid--value {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.items--grid--value .icon-trending {
+    width: 12px;
+    height: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 14px;
+}
+
+.items--grid--value .icon-trending-down {
+    background-image: url('./assets/icon/icon-trending-down.svg');
+}
+
+.items--grid--value .icon-trending-up {
+    background-image: url('./assets/icon/icon-trending-up.svg');
+}
+
+/* Fecha de actualización */
+.grid-table-update-date {
+    background-color: var(--soft-orange);
+    color: var(--warm-black);
+    text-align: center;
+    margin-top: 15px;
+    align-self: center;
+    width: 180px;
+    height: 28px;
+    padding: 8px 0;
+    border-radius: 8px;
+}
+
+.grid-table-update-date p,
+.grid-table-update-date span {
+    font-family: var(--font-inter);
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #282623;
+    text-align: center;
+}
+
+.grid-table-update-date span {
+    font-weight: 700;
+}
+
+/* Icono de flecha hacia la derecha */
+.grid-table-icon-right img {
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 27.5rem;
+    top: 10.2rem;
+}
