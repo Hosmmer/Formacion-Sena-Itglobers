@@ -155,4 +155,37 @@ El curso "Definitivo de HTML y CSS" de Platzi es una introducción completa a la
 ## Conclusión
 El curso "Definitivo de HTML y CSS" es ideal para quienes buscan aprender o reforzar los pilares del desarrollo web. Con una base sólida en HTML y CSS, estarás listo para enfrentar proyectos más complejos y llevar tus habilidades de front-end al siguiente nivel. Además, dominarás herramientas esenciales para construir páginas web que ofrezcan una experiencia de usuario optimizada en todos los dispositivos.
 
+<h1> 4. Curso #4 Práctico de HTML y CSS </h1>
 
+ >**Contenido: 2 horas**
+ >**Práctica: 14 horas**
+
+## Descripción del Curso
+
+Este curso, impartido por el profesor Diego De Granda, te guía paso a paso en la creación de un clon de la página principal de Google utilizando HTML y CSS. Es un proyecto práctico que pone a prueba tus conocimientos sobre posicionamiento, modelo de cajas, tipos de display, flexbox y CSS Grid. Al replicar esta interfaz, aprenderás a aplicar técnicas modernas de maquetación y diseño web responsivo, optimizando tanto el diseño como la funcionalidad de tu sitio.
+
+## Contenido del Curso
+ ![Imagen Fundamento](https://static.platzi.com/media/user_upload/captura_clon-82de2137-8ca3-452d-a7d5-3c7a395703c4.jpg)
+- **Configuración inicial del entorno de trabajo**
+- **Estructura HTML del clon**
+- **Uso adecuado de etiquetas semánticas**
+- **Modelo de cajas y propiedades esenciales de CSS**
+- **Aplicación de fuentes y colores**
+- **Posicionamiento y tipos de display**
+- **Posicionamiento absoluto, relativo y fijo**
+- **Display block, inline-block y flex**
+- **Creación de layouts flexibles con Flexbox**
+- **Uso de CSS Grid para distribución avanzada**
+- **Diseño adaptable a distintos tamaños de pantalla**
+- **Revisión final del código**
+- **Buenas prácticas para maquetación web**
+  
+## Beneficios del Curso
+![Imagen Fundamento](https://kevinmelgarejo.com/wp-content/uploads/2021/07/Google-for-education-con-herramientas-de-aprendizaje.png)
+- **Práctica real: Trabajarás en un proyecto concreto que te permitirá afianzar tus conocimientos en HTML y CSS.**
+- **Aprendizaje profundo de Flexbox y Grid: Dominarás estas herramientas clave para la creación de layouts modernos.**
+- **Desarrollo de habilidades para el diseño responsive: Aprenderás a hacer sitios web que se adapten a cualquier dispositivo.**
+- **Fortalecimiento de tu portafolio: Podrás agregar un proyecto llamativo que demuestre tus habilidades técnicas y de diseño.**
+
+## Conclusión
+Este curso es ideal para consolidar tus conocimientos de HTML y CSS a través de un proyecto práctico y divertido. Al finalizar, no solo habrás replicado una de las interfaces más conocidas de la web, sino que también habrás ganado experiencia valiosa en el uso de herramientas modernas como Flexbox y CSS Grid. Este proyecto mejorará tu portafolio y te permitirá destacar en tus futuros desarrollos web.
