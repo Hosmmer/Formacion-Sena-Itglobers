@@ -189,3 +189,37 @@ Este curso, impartido por el profesor Diego De Granda, te guía paso a paso en l
 
 ## Conclusión
 Este curso es ideal para consolidar tus conocimientos de HTML y CSS a través de un proyecto práctico y divertido. Al finalizar, no solo habrás replicado una de las interfaces más conocidas de la web, sino que también habrás ganado experiencia valiosa en el uso de herramientas modernas como Flexbox y CSS Grid. Este proyecto mejorará tu portafolio y te permitirá destacar en tus futuros desarrollos web.
+
+
+<h1> 5. Curso #5 Responsive Design: Maquetación Mobile First </h1>
+
+ >**Contenido: 5 horas**
+ >**Práctica: 20 horas**
+
+## Descripción del Curso
+
+El Curso de Responsive Design: Maquetación Mobile First está diseñado para aquellos que desean dominar las técnicas de diseño y desarrollo web centradas en dispositivos móviles. Con el creciente uso de smartphones y tablets, es esencial que los profesionales del frontend puedan crear experiencias de usuario fluidas y adaptables. A lo largo de este curso, aprenderás a implementar estrategias de diseño que priorizan la experiencia móvil, asegurando que tus proyectos se vean y funcionen perfectamente en cualquier dispositivo.
+
+## Contenido del Curso
+ ![Imagen Fundamento](https://public-images.interaction-design.org/literature/articles/materials/02-04-4-mobile-first.png)
+- **Conceptos básicos y su importancia.**
+- **Diferencias entre responsive y adaptive design.**
+- **Principios de Mobile First.**
+- **Estrategias de diseño centradas en el usuario.**
+- **Maquetación y Estilos.**
+- **Creación de layouts fluidos.**
+- **Implementación de tipografía y escalabilidad.**
+- **Herramientas de testing para dispositivos móviles.**
+- **Desarrollo de un proyecto completo con enfoque mobile first.**
+  
+## Beneficios del Curso
+![Imagen Fundamento](https://www.techmagic.co/blog/content/images/2022/06/Mobile-First-Design-6-1.png)
+
+- **Dominio del Mobile First: Aprenderás a diseñar y desarrollar proyectos que priorizan la experiencia en dispositivos móviles, lo cual es crucial en el entorno actual.**
+- **Habilidades Prácticas: La combinación de teoría y práctica te permitirá aplicar lo aprendido de inmediato en proyectos reales.**
+- **Adaptación a Nuevas Tecnologías: Estarás preparado para usar las herramientas y tecnologías más recientes en el diseño web.**
+- **Incremento de Oportunidades Laborales: La capacidad de crear sitios web responsivos te hará más atractivo para los empleadores, ya que la demanda de estos profesionales está en aumento.**
+  
+## Conclusión
+Maquetación Mobile First es una inversión valiosa para quienes buscan destacarse en el campo del desarrollo web. Con el 50% del tráfico en internet proveniente de dispositivos móviles, dominar las técnicas de responsive design no solo es relevante, sino esencial. Al finalizar el curso, estarás capacitado para crear experiencias de usuario excepcionales en cualquier dispositivo, ampliando tus horizontes profesionales y preparándote para enfrentar los desafíos del futuro en el diseño web.
+
