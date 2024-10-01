@@ -1,0 +1,226 @@
+$primary-color: #FFEFE7;
+$secundary-color: #FFDAC6;
+$tertiary-color: #BABD8D;
+$primary-text-color: #7C6A0A;
+$quaternary-color: #FA9500;
+$furniture-color:#FFFFFF;
+$white-color: #FFFFFF;
+$font-stack: 'IBM Plex Sans', sans-serif;
+$paragraph-size: 1.45em;
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: $primary-color;
+    font-family: $font-stack;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    color: $primary-text-color;
+    padding: 30px 50px 50px 30px;
+
+    p {
+        font-size: $paragraph-size;
+        padding-left: 15px;
+    }
+
+    .icons-container {
+        display: flex;
+        gap: 35px;
+
+        button {
+            cursor: pointer;
+            background: none;
+            border-style: none;
+        }
+
+    }
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 45px;
+    padding-right: 45px;
+    width: auto;
+    color: $primary-text-color;
+
+    .impact__title--text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 35px;
+    }
+
+
+
+    h1 {
+        font-family: $font-stack;
+        font-size: 3em;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    p {
+
+        font-family: $font-stack;
+        font-size: $paragraph-size;
+
+    }
+
+    button {
+        width: 12vw;
+        padding: 20px;
+        background-color: $quaternary-color;
+        border-style: none;
+        border-radius: 35px;
+        font-size: 1em;
+        color: $white-color;
+    }
+
+    img {
+        width: 25vw;
+        border-radius: 19px;
+    }
+
+}
+
+
+section {
+
+    width: auto;
+    height: auto;
+    padding: 60px;
+
+    h2 {
+        color: $primary-text-color;
+        font-size: 2em;
+        text-align:left;
+        margin-left: 15rem;
+    }
+
+    .product-skincare {
+        padding-bottom: 60px;
+
+        h2 {
+            bottom: 80px;
+            font-weight: 300;
+            padding-bottom: 60px;
+
+        }
+
+        .product__section--contain {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            column-gap: 200px;
+            row-gap: 80px;
+            width: auto;
+            height: auto;
+
+            .section__product--cards {
+                width: 16vw;
+                height: 48vh;
+                background-color: $secundary-color;
+                color: $primary-text-color;
+                padding: 10px 20px 0px 20px;
+                border-radius: 8px;
+
+                .section__product--icon {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    padding-bottom: 12px;
+
+                    svg {
+                        width: 28px;
+                        height: 28px;
+
+                    }
+                }
+
+                .section__product--img {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 12vw;
+                        height: 30vh;
+                        object-fit: cover;
+                        border-radius: 6px;
+                    }
+                }
+
+                h3 {
+                    font-family: $font-stack;
+                    font-size: 25px;
+                    font-weight: 600;
+                    line-height: 32.5px;
+                    text-align: left;
+                    margin-top: 15px;
+                    margin-left: 20px;
+                }
+
+                p {
+                    font-family: $font-stack;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19.5px;
+                    text-align: left;
+                    margin-left: 20px;
+                }
+            }
+        }
+
+    }
+
+    .product-firniture {
+        @extend .product-skincare;
+
+        .product__section--contain {
+
+                .section__product--cards {
+                    background-color: $tertiary-color;
+                    color: $furniture-color;
+                    .section__product--icon{
+                        svg
+                        {
+                            stroke:$furniture-color;
+                        }
+                    }
+                
+                }
+        }
+
+
+
+    }
+
+}
+
+
+
+
+
+footer {
+
+    background-color: $quaternary-color;
+    width: 100%;
+    height: 250px;
+}

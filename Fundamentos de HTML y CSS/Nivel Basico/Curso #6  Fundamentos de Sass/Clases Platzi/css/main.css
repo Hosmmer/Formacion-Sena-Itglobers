@@ -1,0 +1,166 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #FFEFE7;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #7C6A0A;
+  padding: 30px 50px 50px 30px;
+}
+nav p {
+  font-size: 1.45em;
+  padding-left: 15px;
+}
+nav .icons-container {
+  display: flex;
+  gap: 35px;
+}
+nav .icons-container button {
+  cursor: pointer;
+  background: none;
+  border-style: none;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-left: 45px;
+  padding-right: 45px;
+  width: auto;
+  color: #7C6A0A;
+}
+article .impact__title--text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 35px;
+}
+article h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 3em;
+  padding: 0px;
+  margin: 0px;
+}
+article p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.45em;
+}
+article button {
+  width: 12vw;
+  padding: 20px;
+  background-color: #FA9500;
+  border-style: none;
+  border-radius: 35px;
+  font-size: 1em;
+  color: #FFFFFF;
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
+}
+
+section {
+  width: auto;
+  height: auto;
+  padding: 60px;
+}
+section h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+  text-align: left;
+  margin-left: 15rem;
+}
+section .product-skincare, section .product-firniture {
+  padding-bottom: 60px;
+}
+section .product-skincare h2, section .product-firniture h2 {
+  bottom: 80px;
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .product-skincare .product__section--contain, section .product-firniture .product__section--contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+  row-gap: 80px;
+  width: auto;
+  height: auto;
+}
+section .product-skincare .product__section--contain .section__product--cards, section .product-firniture .product__section--contain .section__product--cards {
+  width: 16vw;
+  height: 48vh;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 10px 20px 0px 20px;
+  border-radius: 8px;
+}
+section .product-skincare .product__section--contain .section__product--cards .section__product--icon, section .product-firniture .product__section--contain .section__product--cards .section__product--icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+}
+section .product-skincare .product__section--contain .section__product--cards .section__product--icon svg, section .product-firniture .product__section--contain .section__product--cards .section__product--icon svg {
+  width: 28px;
+  height: 28px;
+}
+section .product-skincare .product__section--contain .section__product--cards .section__product--img, section .product-firniture .product__section--contain .section__product--cards .section__product--img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .product-skincare .product__section--contain .section__product--cards .section__product--img img, section .product-firniture .product__section--contain .section__product--cards .section__product--img img {
+  width: 12vw;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+section .product-skincare .product__section--contain .section__product--cards h3, section .product-firniture .product__section--contain .section__product--cards h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32.5px;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+section .product-skincare .product__section--contain .section__product--cards p, section .product-firniture .product__section--contain .section__product--cards p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  margin-left: 20px;
+}
+section .product-firniture .product__section--contain .section__product--cards {
+  background-color: #BABD8D;
+  color: #FFFFFF;
+}
+section .product-firniture .product__section--contain .section__product--cards .section__product--icon svg {
+  stroke: #FFFFFF;
+}
+
+footer {
+  background-color: #FA9500;
+  width: 100%;
+  height: 250px;
+}/*# sourceMappingURL=main.css.map */
