@@ -3,14 +3,110 @@ $secundary-color: #FFDAC6;
 $tertiary-color: #BABD8D;
 $primary-text-color: #7C6A0A;
 $quaternary-color: #FA9500;
-$furniture-color:#FFFFFF;
+$furniture-color: #FFFFFF;
+$section-color: #E86424;
 $white-color: #FFFFFF;
 $font-stack: 'IBM Plex Sans', sans-serif;
 $paragraph-size: 1.45em;
 
+@mixin flexCenter($direction: row, $content: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $align;
+}
+
+@mixin buttonStyle {
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.3);
+            transition-duration: 0.3s;
+        }
+    }
+}
+
+@mixin rotateHover($duration: 1.8s) {
+    cursor: pointer;
+
+    &:hover {
+        transform: rotateY(360deg);
+        transition-duration: $duration;
+    }
+}
+
+@mixin scaleHover($scale: 1.1, $duration: 0.3s) {
+    cursor: pointer;
+
+    &:hover {
+        transform: scale($scale);
+        transition-duration: $duration;
+    }
+}
+
+@mixin cardStyles($bg-color, $text-color) {
+    width: 16vw;
+    height: 48vh;
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 10px 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    @include rotateHover(1.8s);
+
+    .section__product--icon {
+        width: 100%;
+        @include flexCenter(row, flex-end);
+        padding-bottom: 12px;
+
+        svg {
+            width: 28px;
+            height: 28px;
+            // Cambiado a currentColor para usar color heredado
+            stroke: currentColor;
+        }
+    }
+
+    .section__product--img {
+        width: 100%;
+        height: auto;
+        @include flexCenter(row, center, center);
+
+        img {
+            width: 12vw;
+            height: 30vh;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+    }
+
+    h3,
+    p {
+        font-family: $font-stack;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 32.5px;
+        margin-top: 15px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.5px;
+    }
+}
+
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background-color: $primary-color;
     font-family: $font-stack;
@@ -20,41 +116,35 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 nav {
     width: auto;
-    display: flex;
-    justify-content: space-between;
+    @include flexCenter(row, space-between);
     color: $primary-text-color;
     padding: 30px 50px 50px 30px;
 
     p {
         font-size: $paragraph-size;
         padding-left: 15px;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.1);
+            transition-duration: 0.3s;
+        }
     }
 
     .icons-container {
         display: flex;
         gap: 35px;
 
-        button {
-            cursor: pointer;
-            background: none;
-            border-style: none;
-        }
-
+        @include buttonStyle;
     }
 }
 
 article {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 70px;
-    padding-left: 45px;
-    padding-right: 45px;
-    width: auto;
+    @include flexCenter(row, space-between);
+    padding: 70px 45px 0;
     color: $primary-text-color;
 
     .impact__title--text {
@@ -64,130 +154,69 @@ article {
         gap: 35px;
     }
 
-
-
     h1 {
-        font-family: $font-stack;
         font-size: 3em;
-        padding: 0px;
-        margin: 0px;
+
     }
 
     p {
-
-        font-family: $font-stack;
         font-size: $paragraph-size;
-
     }
+
+    @include buttonStyle;
 
     button {
         width: 12vw;
         padding: 20px;
         background-color: $quaternary-color;
-        border-style: none;
         border-radius: 35px;
         font-size: 1em;
         color: $white-color;
+        @include scaleHover(1.2, 0.4s);
     }
 
     img {
         width: 25vw;
         border-radius: 19px;
-    }
+        cursor: pointer;
 
+        &:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            transition-duration: 0.3s;
+        }
+    }
 }
 
-
 section {
-
-    width: auto;
-    height: auto;
     padding: 60px;
 
     h2 {
         color: $primary-text-color;
         font-size: 2em;
-        text-align:left;
-        margin-left: 15rem;
+        text-align: left;
+
     }
 
     .product-skincare {
         padding-bottom: 60px;
 
         h2 {
-            bottom: 80px;
             font-weight: 300;
             padding-bottom: 60px;
-
+            font-weight: bold;
+            margin-left: 100px;
         }
 
         .product__section--contain {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flexCenter(row, space-evenly);
             flex-wrap: wrap;
             column-gap: 200px;
-            row-gap: 80px;
-            width: auto;
-            height: auto;
+            row-gap: 100px;
 
             .section__product--cards {
-                width: 16vw;
-                height: 48vh;
-                background-color: $secundary-color;
-                color: $primary-text-color;
-                padding: 10px 20px 0px 20px;
-                border-radius: 8px;
-
-                .section__product--icon {
-                    width: 100%;
-                    display: flex;
-                    justify-content: flex-end;
-                    padding-bottom: 12px;
-
-                    svg {
-                        width: 28px;
-                        height: 28px;
-
-                    }
-                }
-
-                .section__product--img {
-                    width: 100%;
-                    height: auto;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    img {
-                        width: 12vw;
-                        height: 30vh;
-                        object-fit: cover;
-                        border-radius: 6px;
-                    }
-                }
-
-                h3 {
-                    font-family: $font-stack;
-                    font-size: 25px;
-                    font-weight: 600;
-                    line-height: 32.5px;
-                    text-align: left;
-                    margin-top: 15px;
-                    margin-left: 20px;
-                }
-
-                p {
-                    font-family: $font-stack;
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 19.5px;
-                    text-align: left;
-                    margin-left: 20px;
-                }
+                @include cardStyles($secundary-color, $primary-text-color);
             }
         }
-
     }
 
     .product-firniture {
@@ -195,32 +224,186 @@ section {
 
         .product__section--contain {
 
-                .section__product--cards {
-                    background-color: $tertiary-color;
-                    color: $furniture-color;
-                    .section__product--icon{
-                        svg
-                        {
-                            stroke:$furniture-color;
-                        }
-                    }
-                
-                }
+            .section__product--cards {
+                @include cardStyles($tertiary-color, $furniture-color);
+
+            }
         }
-
-
-
     }
 
 }
 
 
 
+.info__about--us {
+    padding-bottom: 60px;
 
+    h2 {
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+
+    .about__mission--section {
+        @include flexCenter(row, space-evenly, center);
+
+        .about__ambient--earth {
+            width: 30vw;
+            display: flex;
+            gap: 1px;
+            color: $section-color;
+
+            img {
+                object-fit: contain;
+
+            }
+
+            P {
+                text-align: center;
+                font-size: $paragraph-size;
+            }
+        }
+
+        .about__innovation--focus {
+            @extend .about__ambient--earth;
+        }
+    }
+}
+
+.info-gallery {
+    h2 {
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+
+    .gallery__section--img {
+        @include flexCenter(row, space-between, center);
+
+        img {
+            width: 28vw;
+            height: 45vh;
+            object-fit: cover;
+            border-radius: 16px;
+            object-position: 5px 35%;
+
+            @include scaleHover(1.2, 0.4s);
+        }
+    }
+}
+
+.info-location {
+
+    color: $section-color;
+
+    h2 {
+        padding-bottom: 60px;
+        padding-top: 60px;
+
+    }
+
+    .location__google--img {
+        @include flexCenter(row, center, center);
+        padding-bottom: 50px;
+    }
+
+    p,
+    h3 {
+        font-size: $paragraph-size;
+        text-align: center;
+    }
+
+}
 
 footer {
-
+    h3,p{
+        @include scaleHover(0.8, 0.4s);
+    }
     background-color: $quaternary-color;
     width: 100%;
-    height: 250px;
+    height: auto;
+    padding: 40px;
+    line-height: 30px;
+
+    color: $furniture-color;
+
+    .social-media {
+        @include scaleHover(0.8, 0.4s);
+        @include flexCenter(row, center, center);
+        gap: 40px;
+        padding-bottom: 10px;
+        line-height: 20px;
+          cursor: pointer;
+    }
+}
+
+
+/* Reponsive Desing mobile */
+$mobile-breakpoint: 320px;
+
+@media (max-width: $mobile-breakpoint) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+
+        p {
+            font-size: 0.8em;
+            padding-left: 0;
+        }
+
+        .icons-container {
+            gap: 5px;
+        }
+    }
+
+    article {
+
+        padding: 15px 5px 0;
+
+        h1 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 0.9em;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 0.8em;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px; // Redondeo de bordes para mejor estética
+        }
+    }
+
+    section {
+        padding: 15px 5px;
+
+        h2 {
+            font-size: 1.2em;
+        }
+
+        .product-skincare,
+        .product-firniture {
+            .product__section--contain {
+                flex-direction: column;
+                column-gap: 0;
+                row-gap: 20px;
+
+                .section__product--cards {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
 }
