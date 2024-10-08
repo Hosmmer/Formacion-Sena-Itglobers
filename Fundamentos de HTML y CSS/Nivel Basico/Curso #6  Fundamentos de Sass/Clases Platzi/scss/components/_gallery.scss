@@ -1,0 +1,21 @@
+.info-gallery {
+    @extend .skincare__container;
+
+    h2 {
+        font-weight: bold;
+        padding-bottom: 10rem;
+    }
+
+    .gallery__section--img {
+        @include flexCenter(row, space-between, center);
+
+        img {
+            @include hover-scale(1.2, 0.4s);
+            width: 28vw;
+            height: 45vh;
+            object-fit: cover;
+            border-radius: 16px;
+            object-position: 5px 35%;
+        }
+    }
+}

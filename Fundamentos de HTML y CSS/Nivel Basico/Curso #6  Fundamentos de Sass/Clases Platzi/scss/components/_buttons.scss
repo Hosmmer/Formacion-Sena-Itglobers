@@ -1,0 +1,10 @@
+// _buttons.scss
+button {
+    @include buttonStyle;
+    @include hover-scale(1.1, 0.4s);
+    background-color: $quaternary-color;
+    color: $white-color;
+    border-radius: 35px;
+    padding: 20px;
+    width: 12vw;
+}

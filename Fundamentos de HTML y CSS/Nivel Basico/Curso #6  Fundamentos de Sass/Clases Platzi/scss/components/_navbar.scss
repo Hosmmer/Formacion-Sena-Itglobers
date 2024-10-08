@@ -1,0 +1,15 @@
+.navbar__container {
+    @include flexCenter(row, space-between);
+
+    .navbar__logo a {
+        @include hover-scale(1.1, 0.3s);
+        cursor: pointer;
+    }
+
+    .navbar__container--icon {
+        img {
+            @include hover-scale(1.1, 0.3s);
+            width: 1.5vw;
+        }
+    }
+}

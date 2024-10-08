@@ -1,0 +1,13 @@
+// _skincare.scss
+section .skincare__container {
+    h2 {
+        font-size: 38px;
+        font-weight: 400;
+    }
+
+    .skincare__products {
+        article.product-card {
+            @include cardStyles($secundary-color, $primary-text-color);
+        }
+    }
+}

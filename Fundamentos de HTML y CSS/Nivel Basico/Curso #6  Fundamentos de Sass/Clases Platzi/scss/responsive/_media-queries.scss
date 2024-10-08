@@ -1,0 +1,309 @@
+/* Reponsive Desing mobile */
+
+
+// Media query para pantallas pequeñas (320px)
+@media (max-width: $mobile-breakpoint) {
+
+
+    body header nav {
+        flex-direction: row; // Cambia la dirección del flex
+        padding: 30px 1px 40px; // Ajusta el padding
+        color: #333; // Cambia el color, si es necesario
+        // Puedes agregar más estilos según lo que necesites
+    }
+
+    body header nav .navbar__logo a {
+        &:hover {
+            transform: none;
+        }
+    }
+
+    main {
+        section {
+            padding: 0px 0px 0px 0px;
+        }
+    }
+
+    .navbar__container {
+        .navbar__container--icon {
+            display: none;
+        }
+
+        body header nav .navbar__logo a {
+            &:hover {
+                transform: none !important; // Forzar eliminación del efecto
+            }
+
+        }
+
+
+        .navbar__menu--button {
+            position: absolute;
+            margin-left: 270px;
+            background-image: url('../assets/svg/menu-mobile.svg');
+            width: 7vw;
+            height: 7vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center; // Center the background image
+            background-color: transparent; // Fallback color if the image fails to load
+            border: none;
+            color: inherit;
+
+
+        }
+    }
+
+    section .skincare__container h2 {
+        margin-left: -970px;
+        text-align: center;
+        align-content: center;
+
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    section .firniture__container h2 {
+        margin-left: 10px;
+    }
+
+    // Elimina el box-shadow en dispositivos móviles
+    .section__background--image img {
+        &:hover {
+            box-shadow: none !important;
+        }
+    }
+
+    article .section__background--image img {
+        width: 98%;
+        height: 90%;
+        border-radius: 10px 10px 10px 10px;
+        opacity: 0px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+
+    .impact-section {
+        margin-bottom: -250px;
+        display: flex;
+        flex-direction: column; // Organiza los elementos en columna para móvil
+    }
+
+
+
+    .impact__title--text {
+
+        h1 {
+            text-align: left;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        order: 2; // El texto aparecerá después de la imagen
+        display: flex;
+        flex-direction: column; // Asegura que el texto se apile en columnas
+
+        margin-top: 1rem; // Añadir un poco de margen superior
+
+        text-align: left; // Centrar el texto en móvil
+    }
+
+
+    // Ajustar el botón y la tarjeta en la sección "impact"
+    article {
+        margin: 10px 0 0px 0px;
+
+        padding: 1px 5px; // Reducir padding para móviles
+        flex-direction: column; // Ordenar en columna
+        margin-left: 18px;
+
+        button {
+            margin: 1px 80px;
+            width: 50%; // Botón ocupa el ancho completo
+        }
+    }
+
+
+    .skincare {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    section .firniture__container .firniture__products article.product-card h3 {
+        margin-right: 1rem;
+    }
+
+    section .skincare__container .skincare__products article.product-card h3,
+    section .furniture__container .furniture__products article.product-card h3 {
+        margin-right: 1rem;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+
+
+    section .skincare__container .skincare__products article.product-card p,
+    section .firniture__container .firniture__products article.product-card p {
+        font-size: 10px;
+        line-height: 16px;
+        text-align: left;
+    }
+
+    section .skincare__container .skincare__products article.product-card .section__product--img img,
+    section .firniture__container .firniture__products article.product-card .section__product--img img {
+        width: 40vw;
+        height: 25vh;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+
+
+    section .skincare__container .skincare__products article.product-card,
+    section .firniture__container .firniture__products article.product-card {
+        width: 60vw;
+        height: 60vh;
+        padding: 15px;
+        justify-content: center;
+
+    }
+
+
+    section .firniture__container .firniture__products,
+    section .skincare__container .skincare__products {
+        margin-top: 0px;
+        align-items: center;
+        flex-wrap: nowrap;
+        column-gap: 0;
+        row-gap: 0;
+    }
+
+    .info__about--us .about__mission--section {
+        display: block;
+    }
+
+    .info__about--us .about__mission--section .about__ambient--earth,
+    .info__about--us .about__mission--section .about__innovation--focus {
+        display: inline;
+    }
+
+    .info__about--us .about__mission--section .about__ambient--earth img,
+    .info__about--us .about__mission--section .about__innovation--focus img {
+        padding: 10px;
+        width: 40vw;
+        margin: 20px auto;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .info__about--us .about__mission--section .about__ambient--earth,
+    .info__about--us .about__mission--section .about__innovation--focus {
+        font-size: 0.8rem;
+    }
+
+    section .info__about--us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    section .info__about--us h2 {
+        padding: 20px 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    section .info-gallery h2 {
+        margin-left: 1px;
+    }
+
+    .info-gallery .gallery__section--img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .info-gallery .gallery__section--img img {
+        display: block;
+        width: 80vw;
+        height: 50vh;
+        object-fit: cover;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+        margin-bottom: 20px;
+        overflow: none !important;
+    }
+
+    .section .info-location {
+        margin-top: -100px;
+        margin-bottom: 20px;
+    }
+
+    section .info-location h2 {
+        margin-left: 1px;
+    }
+
+    .info-location .location__google--img {
+        img {
+            width: 250px;
+            height: 250px;
+            /* Para posicionar con `top` y `left` */
+            left: 30px;
+            border-radius: 3.85px 0px 0px 0px;
+            /* Ajustes para la imagen */
+            object-fit: cover;
+            /* Mantiene la proporción sin distorsión */
+            background-size: cover;
+            /* Si usas fondo, esto asegura que la imagen cubra el área */
+            background-position: center;
+            background-repeat: no-repeat;
+            /* Mejora de calidad */
+            image-rendering: -webkit-optimize-contrast;
+            /* Mejora nitidez en Webkit (Chrome, Safari) */
+            image-rendering: crisp-edges;
+            /* Mejora la calidad de la imagen sin suavizarla */
+            /* Acercar la imagen sin cambiar width/height */
+            transform: scale(1.1);
+            /* Escala la imagen un 10% */
+            transition: transform 0.3s ease-in-out;
+            /* Suaviza la transición de escala si es dinámica */
+            /* Si la imagen se muestra como fondo, estos ajustes son útiles */
+            background-attachment: fixed;
+        }
+
+    }
+
+    .info-location p,
+    .info-location h3 {
+        font-size: 1rem;
+    }
+
+    body footer .footer-container .social-media {
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start
+    }
+
+    body footer .footer-container .social-media img {
+
+        width: 8vw;
+    }
+
+    body footer {
+        padding: 5px;
+    }
+}

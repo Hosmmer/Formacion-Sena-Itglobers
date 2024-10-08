@@ -1,9 +1,25 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #FFEFE7;
-  font-family: "IBM Plex Sans", sans-serif;
+@charset "UTF-8";
+section .skincare__container, section .info-location, section .info-gallery, section .info__about--us, section .firniture__container {
+  padding-bottom: 60px;
+}
+section .skincare__container h2, section .info-location h2, section .info-gallery h2, section .info__about--us h2, section .firniture__container h2 {
+  margin-left: 8rem;
+  padding-bottom: 60px;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 65px;
+  text-align: left;
+}
+
+section .firniture__container .firniture__products, section .skincare__container .skincare__products, section .info-location .skincare__products, section .info-gallery .skincare__products, section .info__about--us .skincare__products, section .firniture__container .skincare__products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+  row-gap: 100px;
 }
 
 * {
@@ -12,36 +28,255 @@ body {
   padding: 0;
 }
 
-nav {
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFEFE7;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+header nav {
   width: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: #7C6A0A;
-  padding: 30px 50px 50px 30px;
+  padding: 30px 50px;
 }
-nav p {
+header nav .navbar__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .navbar__logo a {
+  position: absolute;
+  justify-content: flex-end;
+  color: #7C6A0A;
+  padding: 2rem;
   font-size: 1.45em;
-  padding-left: 15px;
+  text-decoration: none;
   cursor: pointer;
 }
-nav p:hover {
+header nav .navbar__logo a:hover {
   transform: scale(1.1);
   transition-duration: 0.3s;
 }
-nav .icons-container {
+header nav .navbar__container--icon {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 10vw;
   gap: 35px;
 }
-nav .icons-container button {
+header nav .navbar__container--icon li {
+  list-style: none;
+}
+header nav .navbar__container--icon img {
+  width: 1.5vw;
+}
+header nav .navbar__container--icon img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+header nav .navbar__container--icon button {
   background: none;
   border: none;
   cursor: pointer;
 }
-nav .icons-container button:hover {
-  transform: scale(1.3);
-  transition-duration: 0.3s;
+
+footer {
+  background-color: #FA9500;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  line-height: 30px;
+  color: #FFFFFF;
+  gap: 200px;
+}
+footer .footer-nav li,
+footer .footer-nav a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: inherit;
+  padding: 0.2rem 0;
+}
+footer .footer-container h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: left;
+  cursor: pointer;
+}
+footer .footer-container .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  line-height: 20px;
+  cursor: pointer;
+}
+footer .footer-container .social-media img {
+  width: 1.8vw;
+}
+
+section {
+  padding: 60px;
+}
+section h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+  text-align: left;
+}
+section .skincare__container .skincare__products article.product-card, section .info-location .skincare__products article.product-card, section .info-gallery .skincare__products article.product-card, section .info__about--us .skincare__products article.product-card, section .firniture__container .skincare__products article.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 16vw;
+  height: 48vh;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 10px 20px 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+section .skincare__container .skincare__products article.product-card:hover, section .info-location .skincare__products article.product-card:hover, section .info-gallery .skincare__products article.product-card:hover, section .info__about--us .skincare__products article.product-card:hover, section .firniture__container .skincare__products article.product-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.247);
+  transition-duration: 0.2s;
+}
+section .skincare__container .skincare__products article.product-card .product__card--icon, section .info-location .skincare__products article.product-card .product__card--icon, section .info-gallery .skincare__products article.product-card .product__card--icon, section .info__about--us .skincare__products article.product-card .product__card--icon, section .firniture__container .skincare__products article.product-card .product__card--icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: end;
+  width: 100%;
+  padding-bottom: 12px;
+}
+section .skincare__container .skincare__products article.product-card .product__card--icon svg, section .info-location .skincare__products article.product-card .product__card--icon svg, section .info-gallery .skincare__products article.product-card .product__card--icon svg, section .info__about--us .skincare__products article.product-card .product__card--icon svg, section .firniture__container .skincare__products article.product-card .product__card--icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
+}
+section .skincare__container .skincare__products article.product-card .section__product--img, section .info-location .skincare__products article.product-card .section__product--img, section .info-gallery .skincare__products article.product-card .section__product--img, section .info__about--us .skincare__products article.product-card .section__product--img, section .firniture__container .skincare__products article.product-card .section__product--img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+section .skincare__container .skincare__products article.product-card .section__product--img img, section .info-location .skincare__products article.product-card .section__product--img img, section .info-gallery .skincare__products article.product-card .section__product--img img, section .info__about--us .skincare__products article.product-card .section__product--img img, section .firniture__container .skincare__products article.product-card .section__product--img img {
+  width: 12vw;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+section .skincare__container .skincare__products article.product-card h3, section .info-location .skincare__products article.product-card h3, section .info-gallery .skincare__products article.product-card h3, section .info__about--us .skincare__products article.product-card h3, section .firniture__container .skincare__products article.product-card h3,
+section .skincare__container .skincare__products article.product-card p,
+section .info-location .skincare__products article.product-card p,
+section .info-gallery .skincare__products article.product-card p,
+section .info__about--us .skincare__products article.product-card p,
+section .firniture__container .skincare__products article.product-card p {
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-left: 20px;
+  max-width: 100%;
+}
+section .skincare__container .skincare__products article.product-card h3, section .info-location .skincare__products article.product-card h3, section .info-gallery .skincare__products article.product-card h3, section .info__about--us .skincare__products article.product-card h3, section .firniture__container .skincare__products article.product-card h3 {
+  margin-right: 4.5rem;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32.5px;
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+section .skincare__container .skincare__products article.product-card p, section .info-location .skincare__products article.product-card p, section .info-gallery .skincare__products article.product-card p, section .info__about--us .skincare__products article.product-card p, section .firniture__container .skincare__products article.product-card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.5px;
+  overflow: hidden;
+  text-align: left;
+}
+section .firniture__container .firniture__products article.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 16vw;
+  height: 48vh;
+  background-color: #BABD8D;
+  color: #FFFFFF;
+  padding: 10px 20px 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+section .firniture__container .firniture__products article.product-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.247);
+  transition-duration: 0.2s;
+}
+section .firniture__container .firniture__products article.product-card .product__card--icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: end;
+  width: 100%;
+  padding-bottom: 12px;
+}
+section .firniture__container .firniture__products article.product-card .product__card--icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
+}
+section .firniture__container .firniture__products article.product-card .section__product--img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+section .firniture__container .firniture__products article.product-card .section__product--img img {
+  width: 12vw;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+section .firniture__container .firniture__products article.product-card h3,
+section .firniture__container .firniture__products article.product-card p {
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-left: 20px;
+  max-width: 100%;
+}
+section .firniture__container .firniture__products article.product-card h3 {
+  margin-right: 4.5rem;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32.5px;
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+section .firniture__container .firniture__products article.product-card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.5px;
+  overflow: hidden;
+  text-align: left;
 }
 
 article {
@@ -55,7 +290,7 @@ article {
 article .impact__title--text {
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
+  margin-bottom: 20rem;
   gap: 35px;
 }
 article h1 {
@@ -69,178 +304,27 @@ article button {
   border: none;
   cursor: pointer;
 }
-article button:hover {
-  transform: scale(1.3);
-  transition-duration: 0.3s;
-}
 article button {
   width: 12vw;
+  margin-top: 3rem;
   padding: 20px;
   background-color: #FA9500;
   border-radius: 35px;
   font-size: 1em;
   color: #FFFFFF;
-  cursor: pointer;
 }
 article button:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 0.4s;
 }
-article img {
-  width: 25vw;
+article .section__background--image img {
+  width: 30vw;
   border-radius: 19px;
   cursor: pointer;
 }
-article img:hover {
+article .section__background--image img:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   transition-duration: 0.3s;
-}
-
-section {
-  padding: 60px;
-}
-section h2 {
-  color: #7C6A0A;
-  font-size: 2em;
-  text-align: left;
-}
-section .product-skincare, section .product-firniture {
-  padding-bottom: 60px;
-}
-section .product-skincare h2, section .product-firniture h2 {
-  font-weight: 300;
-  padding-bottom: 60px;
-  font-weight: bold;
-  margin-left: 100px;
-}
-section .product-skincare .product__section--contain, section .product-firniture .product__section--contain {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  -moz-column-gap: 200px;
-       column-gap: 200px;
-  row-gap: 100px;
-}
-section .product-skincare .product__section--contain .section__product--cards, section .product-firniture .product__section--contain .section__product--cards {
-  width: 16vw;
-  height: 48vh;
-  background-color: #FFDAC6;
-  color: #7C6A0A;
-  padding: 10px 20px 0;
-  border-radius: 8px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-section .product-skincare .product__section--contain .section__product--cards:hover, section .product-firniture .product__section--contain .section__product--cards:hover {
-  transform: rotateY(360deg);
-  transition-duration: 1.8s;
-}
-section .product-skincare .product__section--contain .section__product--cards .section__product--icon, section .product-firniture .product__section--contain .section__product--cards .section__product--icon {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  padding-bottom: 12px;
-}
-section .product-skincare .product__section--contain .section__product--cards .section__product--icon svg, section .product-firniture .product__section--contain .section__product--cards .section__product--icon svg {
-  width: 28px;
-  height: 28px;
-  stroke: currentColor;
-}
-section .product-skincare .product__section--contain .section__product--cards .section__product--img, section .product-firniture .product__section--contain .section__product--cards .section__product--img {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-section .product-skincare .product__section--contain .section__product--cards .section__product--img img, section .product-firniture .product__section--contain .section__product--cards .section__product--img img {
-  width: 12vw;
-  height: 30vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 6px;
-}
-section .product-skincare .product__section--contain .section__product--cards h3, section .product-firniture .product__section--contain .section__product--cards h3,
-section .product-skincare .product__section--contain .section__product--cards p,
-section .product-firniture .product__section--contain .section__product--cards p {
-  font-family: "IBM Plex Sans", sans-serif;
-  text-align: left;
-  margin-left: 20px;
-}
-section .product-skincare .product__section--contain .section__product--cards h3, section .product-firniture .product__section--contain .section__product--cards h3 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 32.5px;
-  margin-top: 15px;
-}
-section .product-skincare .product__section--contain .section__product--cards p, section .product-firniture .product__section--contain .section__product--cards p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 19.5px;
-}
-section .product-firniture .product__section--contain .section__product--cards {
-  width: 16vw;
-  height: 48vh;
-  background-color: #BABD8D;
-  color: #FFFFFF;
-  padding: 10px 20px 0;
-  border-radius: 8px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-section .product-firniture .product__section--contain .section__product--cards:hover {
-  transform: rotateY(360deg);
-  transition-duration: 1.8s;
-}
-section .product-firniture .product__section--contain .section__product--cards .section__product--icon {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  padding-bottom: 12px;
-}
-section .product-firniture .product__section--contain .section__product--cards .section__product--icon svg {
-  width: 28px;
-  height: 28px;
-  stroke: currentColor;
-}
-section .product-firniture .product__section--contain .section__product--cards .section__product--img {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-section .product-firniture .product__section--contain .section__product--cards .section__product--img img {
-  width: 12vw;
-  height: 30vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 6px;
-}
-section .product-firniture .product__section--contain .section__product--cards h3,
-section .product-firniture .product__section--contain .section__product--cards p {
-  font-family: "IBM Plex Sans", sans-serif;
-  text-align: left;
-  margin-left: 20px;
-}
-section .product-firniture .product__section--contain .section__product--cards h3 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 32.5px;
-  margin-top: 15px;
-}
-section .product-firniture .product__section--contain .section__product--cards p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 19.5px;
 }
 
 .info__about--us {
@@ -249,6 +333,9 @@ section .product-firniture .product__section--contain .section__product--cards p
 .info__about--us h2 {
   font-weight: bold;
   padding-bottom: 60px;
+  font-size: 30px;
+  line-height: 65px;
+  text-align: left;
 }
 .info__about--us .about__mission--section {
   display: flex;
@@ -266,13 +353,13 @@ section .product-firniture .product__section--contain .section__product--cards p
   -o-object-fit: contain;
      object-fit: contain;
 }
-.info__about--us .about__mission--section .about__ambient--earth P, .info__about--us .about__mission--section .about__innovation--focus P {
+.info__about--us .about__mission--section .about__ambient--earth p, .info__about--us .about__mission--section .about__innovation--focus p {
   text-align: center;
   font-size: 1.45em;
 }
 .info-gallery h2 {
   font-weight: bold;
-  padding-bottom: 60px;
+  padding-bottom: 10rem;
 }
 .info-gallery .gallery__section--img {
   display: flex;
@@ -288,7 +375,6 @@ section .product-firniture .product__section--contain .section__product--cards p
   border-radius: 16px;
   -o-object-position: 5px 35%;
      object-position: 5px 35%;
-  cursor: pointer;
 }
 .info-gallery .gallery__section--img img:hover {
   transform: scale(1.2);
@@ -315,90 +401,237 @@ section .product-firniture .product__section--contain .section__product--cards p
   text-align: center;
 }
 
-footer {
-  background-color: #FA9500;
-  width: 100%;
-  height: auto;
-  padding: 40px;
-  line-height: 30px;
-  color: #FFFFFF;
-}
-footer h3, footer p {
-  cursor: pointer;
-}
-footer h3:hover, footer p:hover {
-  transform: scale(0.8);
-  transition-duration: 0.4s;
-}
-footer .social-media {
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  padding-bottom: 10px;
-  line-height: 20px;
-  cursor: pointer;
-}
-footer .social-media:hover {
-  transform: scale(0.8);
-  transition-duration: 0.4s;
-}
-
 /* Reponsive Desing mobile */
 @media (max-width: 320px) {
-  nav {
+  body header nav {
+    flex-direction: row;
+    padding: 30px 1px 40px;
+    color: #333;
+  }
+  body header nav .navbar__logo a:hover {
+    transform: none;
+  }
+  main section {
+    padding: 0px 0px 0px 0px;
+  }
+  .navbar__container .navbar__container--icon {
+    display: none;
+  }
+  .navbar__container body header nav .navbar__logo a:hover {
+    transform: none !important;
+  }
+  .navbar__container .navbar__menu--button {
+    position: absolute;
+    margin-left: 270px;
+    background-image: url("../assets/svg/menu-mobile.svg");
+    width: 7vw;
+    height: 7vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+  }
+  section .skincare__container h2, section .firniture__container h2, section .info__about--us h2, section .info-gallery h2, section .info-location h2 {
+    margin-left: -970px;
+    text-align: center;
+    align-content: center;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  section .firniture__container h2 {
+    margin-left: 10px;
+  }
+  .section__background--image img:hover {
+    box-shadow: none !important;
+  }
+  article .section__background--image img {
+    width: 98%;
+    height: 90%;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .impact-section {
+    margin-bottom: -250px;
+    display: flex;
     flex-direction: column;
-    padding: 10px;
   }
-  nav p {
-    font-size: 0.8em;
-    padding-left: 0;
+  .impact__title--text {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    text-align: left;
   }
-  nav .icons-container {
-    gap: 5px;
+  .impact__title--text h1 {
+    text-align: left;
+    font-size: 2rem;
+  }
+  .impact__title--text p {
+    font-size: 1rem;
   }
   article {
-    padding: 15px 5px 0;
-  }
-  article h1 {
-    font-size: 1.5em;
-  }
-  article p {
-    font-size: 0.9em;
+    margin: 10px 0 0px 0px;
+    padding: 1px 5px;
+    flex-direction: column;
+    margin-left: 18px;
   }
   article button {
-    width: 100%;
-    padding: 10px;
-    font-size: 0.8em;
+    margin: 1px 80px;
+    width: 50%;
   }
-  article img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+  .skincare {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
   }
-  section {
-    padding: 15px 5px;
+  section .firniture__container .firniture__products article.product-card h3 {
+    margin-right: 1rem;
   }
-  section h2 {
-    font-size: 1.2em;
+  section .skincare__container .skincare__products article.product-card h3, section .firniture__container .skincare__products article.product-card h3, section .info__about--us .skincare__products article.product-card h3, section .info-gallery .skincare__products article.product-card h3, section .info-location .skincare__products article.product-card h3,
+  section .furniture__container .furniture__products article.product-card h3 {
+    margin-right: 1rem;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
   }
-  section .product-skincare .product__section--contain,
-  section .product-firniture .product__section--contain {
-    flex-direction: column;
+  section .skincare__container .skincare__products article.product-card p, section .firniture__container .skincare__products article.product-card p, section .info__about--us .skincare__products article.product-card p, section .info-gallery .skincare__products article.product-card p, section .info-location .skincare__products article.product-card p,
+  section .firniture__container .firniture__products article.product-card p {
+    font-size: 10px;
+    line-height: 16px;
+    text-align: left;
+  }
+  section .skincare__container .skincare__products article.product-card .section__product--img img, section .firniture__container .skincare__products article.product-card .section__product--img img, section .info__about--us .skincare__products article.product-card .section__product--img img, section .info-gallery .skincare__products article.product-card .section__product--img img, section .info-location .skincare__products article.product-card .section__product--img img,
+  section .firniture__container .firniture__products article.product-card .section__product--img img {
+    width: 40vw;
+    height: 25vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  section .skincare__container .skincare__products article.product-card, section .firniture__container .skincare__products article.product-card, section .info__about--us .skincare__products article.product-card, section .info-gallery .skincare__products article.product-card, section .info-location .skincare__products article.product-card,
+  section .firniture__container .firniture__products article.product-card {
+    width: 60vw;
+    height: 60vh;
+    padding: 15px;
+    justify-content: center;
+  }
+  section .firniture__container .firniture__products,
+  section .skincare__container .skincare__products,
+  section .firniture__container .skincare__products,
+  section .info__about--us .skincare__products,
+  section .info-gallery .skincare__products,
+  section .info-location .skincare__products {
+    margin-top: 0px;
+    align-items: center;
+    flex-wrap: nowrap;
     -moz-column-gap: 0;
          column-gap: 0;
-    row-gap: 20px;
+    row-gap: 0;
   }
-  section .product-skincare .product__section--contain .section__product--cards,
-  section .product-firniture .product__section--contain .section__product--cards {
-    width: 100%;
-    margin: 0 auto;
+  .info__about--us .about__mission--section {
+    display: block;
   }
-  footer {
-    height: auto;
+  .info__about--us .about__mission--section .about__ambient--earth,
+  .info__about--us .about__mission--section .about__innovation--focus {
+    display: inline;
+  }
+  .info__about--us .about__mission--section .about__ambient--earth img,
+  .info__about--us .about__mission--section .about__innovation--focus img {
     padding: 10px;
+    width: 40vw;
+    margin: 20px auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .info__about--us .about__mission--section .about__ambient--earth,
+  .info__about--us .about__mission--section .about__innovation--focus {
+    font-size: 0.8rem;
+  }
+  section .info__about--us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  section .info__about--us h2 {
+    padding: 20px 0;
+    margin-left: 0;
     text-align: center;
+  }
+  section .info-gallery h2 {
+    margin-left: 1px;
+  }
+  .info-gallery .gallery__section--img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-gallery .gallery__section--img img {
+    display: block;
+    width: 80vw;
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    margin-bottom: 20px;
+    overflow: none !important;
+  }
+  .section .info-location {
+    margin-top: -100px;
+    margin-bottom: 20px;
+  }
+  section .info-location h2 {
+    margin-left: 1px;
+  }
+  .info-location .location__google--img img {
+    width: 250px;
+    height: 250px;
+    /* Para posicionar con `top` y `left` */
+    left: 30px;
+    border-radius: 3.85px 0px 0px 0px;
+    /* Ajustes para la imagen */
+    -o-object-fit: cover;
+       object-fit: cover;
+    /* Mantiene la proporción sin distorsión */
+    background-size: cover;
+    /* Si usas fondo, esto asegura que la imagen cubra el área */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Mejora de calidad */
+    image-rendering: -webkit-optimize-contrast;
+    /* Mejora nitidez en Webkit (Chrome, Safari) */
+    image-rendering: crisp-edges;
+    /* Mejora la calidad de la imagen sin suavizarla */
+    /* Acercar la imagen sin cambiar width/height */
+    transform: scale(1.1);
+    /* Escala la imagen un 10% */
+    transition: transform 0.3s ease-in-out;
+    /* Suaviza la transición de escala si es dinámica */
+    /* Si la imagen se muestra como fondo, estos ajustes son útiles */
+    background-attachment: fixed;
+  }
+  .info-location p,
+  .info-location h3 {
+    font-size: 1rem;
+  }
+  body footer .footer-container .social-media {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  body footer .footer-container .social-media img {
+    width: 8vw;
+  }
+  body footer {
+    padding: 5px;
   }
 }/*# sourceMappingURL=main.css.map */

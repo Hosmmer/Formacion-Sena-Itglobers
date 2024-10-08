@@ -1,0 +1,40 @@
+header {
+    nav {
+        width: auto;
+        @include flexCenter(row, space-between);
+        color: $primary-text-color;
+        padding: 30px 50px;
+
+        .navbar__logo {
+            @include flexCenter(row, space-between);
+
+            a {
+                position: absolute;
+                justify-content: flex-end;
+                color: $primary-text-color;
+                padding: 2rem;
+                font-size: $paragraph-size;
+                text-decoration: none;
+                @include hover-scale(1.1, 0.3s);
+                cursor: pointer;
+            }
+        }
+
+        .navbar__container--icon {
+            @include flexCenter(row, space-between);
+            width: 10vw;
+            gap: 35px;
+
+            li {
+                list-style: none;
+            }
+
+            img {
+                @include hover-scale(1.1, 0.3s);
+                width: 1.5vw;
+            }
+
+            @include buttonStyle;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    gap:15px;
+    grid-template-rows: 150px 150px 150px;
+    grid-auto-columns: 150px;
+    height: 600px;
+}
+
+.item{
+    border: 5px  solid #00bcd4;
+    font-size: 4rem;
+}
+
