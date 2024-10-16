@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Personal</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./scss/font/flaticon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="mobile-nav">
+            <div class="logo">
+                <img src="./assets/img/logo-itglobers.svg" alt="Logo de IT Globers" />
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links" aria-hidden="true">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Profile.html">Profile</a></li>
+                <li><a href="./Contact us.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="card">
+            <div class="ds-top"></div>
+            <div class="avatar-holder">
+                <img src="./assets/img/profile-img.jpg" alt="Hosmmer">
+            </div>
+            <div class="name">
+                <a target="_blank">Hosmmer Pinto Rojas</a>
+                <h6 title="Followers"><i class="fas fa-users"></i> <span class="followers">90</span></h6>
+            </div>
+            <div class="button">
+                <a href="#" class="btn" onmousedown="follow();">Follow <i class="fas fa-user-plus"></i></a>
+            </div>
+            <div class="ds-info">
+                <div class="ds pens">
+                    <h6 title="Number of pens created by the user">Pens <i class="fas fa-edit"></i></h6>
+                    <p>29</p>
+                </div>
+                <div class="ds projects">
+                    <h6 title="Number of projects created by the user">Projects <i class="fas fa-project-diagram"></i>
+                    </h6>
+                    <p>0</p>
+                </div>
+                <div class="ds posts">
+                    <h6 title="Number of posts">Posts <i class="fas fa-comments"></i></h6>
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="ds-skill">
+                <h6>Skill <i class="fa fa-code" aria-hidden="true"></i></h6>
+                <div class="skill html">
+                    <h6><i class="fab fa-html5"></i> HTML5 </h6>
+                    <div class="bar bar-html">
+                        <p>95%</p>
+                    </div>
+                </div>
+                <div class="skill css">
+                    <h6><i class="fab fa-css3-alt"></i> CSS </h6>
+                    <div class="bar bar-css">
+                        <p>90%</p>
+                    </div>
+                </div>
+                <div class="skill javascript">
+                    <h6><i class="fab fa-js"></i> JavaScript </h6>
+                    <div class="bar bar-js">
+                        <p>75%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <h3 class="footer__title">Contact Us</h3>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__social-media">
+                        <a class="flaticon-011-instagram" href="https://instagram.com" target="_blank"
+                            rel="noopener noreferrer"></a>
+                        <a class="flaticon-001-facebook" href="https://facebook.com" target="_blank"
+                            rel="noopener noreferrer"></a>
+                        <a class="flaticon-013-twitter-1" href="https://twitter.com" target="_blank"
+                            rel="noopener noreferrer"></a>
+                    </li>
+                    <li><a href="#">Copyright © 2023, ITGlobers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        const readMoreButtons = document.querySelectorAll('.read-more');
+        const follow = () => {
+            target.clicked += 1;
+            target.btn.innerHTML = 'Following <i class="fas fa-user-times"></i>';
+
+            if (target.clicked % 2 === 0) {
+                target.currentFollowers -= 1;
+                target.btn.innerHTML = 'Follow <i class="fas fa-user-plus"></i>';
+            }
+            else {
+                target.currentFollowers += 1;
+            }
+
+            target.fw.textContent = target.currentFollowers;
+            target.btn.classList.toggle("following");
+        }
+        const target = {
+            clicked: 0,
+            currentFollowers: 90,
+            btn: document.querySelector("a.btn"),
+            fw: document.querySelector("span.followers")
+        };
+
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('show-menu');
+            menuToggle.classList.toggle('menu-open');
+        });
+
+
+        readMoreButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                const moreContent = button.previousElementSibling;
+
+                if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+                    moreContent.style.display = 'inline';
+                    button.textContent = 'Leer menos';
+                } else {
+                    moreContent.style.display = 'none';
+                    button.textContent = 'Leer más';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Personal</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./scss/font/flaticon.css">
+</head>
+
+<body class="home-body">
+    <header>
+        <nav class="mobile-nav">
+            <div class="logo">
+                <img src="./assets/img/logo-itglobers.svg" alt="Logo de IT Globers" />
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links" aria-hidden="true">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Profile.html">Profile</a></li>
+                <li><a href="./Contact us.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="home-main">
+        <section>
+            <h1 class="home__main--title">Blog</h1>
+            <P class="home__main--descri">Success stories, customer stories, news and trends.</P>
+            <button class="home__main--button">
+                <a href="./blogs.html">Come in now!</a>
+            </button>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <h3 class="footer__title">Contact Us</h3>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__social-media">
+                        <a class="flaticon-011-instagram" href="https://instagram.com" target="_blank"
+                            rel="noopener noreferrer">
+
+                        </a>
+                        <a class="flaticon-001-facebook" href="https://facebook.com" target="_blank"
+                            rel="noopener noreferrer">
+                        </a>
+                        <a class="flaticon-013-twitter-1" href="https://twitter.com" target="_blank"
+                            rel="noopener noreferrer">
+                        </a>
+                    </li>
+                    <li><a href="#">Copyright © 2023, ITGlobers</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+</body>
+
+
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show-menu');
+        menuToggle.classList.toggle('menu-open');
+    });
+
+</script>
+
+</html>
