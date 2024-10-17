@@ -354,7 +354,7 @@ header {
 
 .blogs-main {
     display: grid;
-    gap: 20px; // Añade espacio entre secciones
+    gap: 10px; // Añade espacio entre secciones
 
 
     .blogs-info--button {
@@ -375,7 +375,7 @@ header {
 .blogs-main--new {
     display: grid;
     grid-template-columns: 1fr; // Por defecto una sola columna
-    gap: 20px; // Espaciado entre elementos
+    gap: 10px; // Espaciado entre elementos
 
     @media (min-width: 768px) {
         grid-template-columns: 2fr 1fr; // Dos columnas en pantallas más grandes
@@ -411,17 +411,17 @@ header {
     padding: 10px;
 
     h3 {
-        border-bottom: 2px solid #cdd2da;
+        border-bottom: 2px solid #181514;
         padding-bottom: 5px;
         font-size: 1.5rem; // Tamaño del encabezado
     }
 
     .post-container {
         margin: 15px 0; // Espaciado entre publicaciones
-        background-color: #ffffff; // Fondo blanco para los artículos
+        background-color: #e6e9ed; // Fondo blanco para los artículos
         padding: 15px;
         border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Sombra sutil
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Sombra sutil
 
         img {
             width: 100%; // Adaptar imagen al contenedor
