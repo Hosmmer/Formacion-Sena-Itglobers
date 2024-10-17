@@ -5,6 +5,7 @@
 @media (max-width: $mobile-breakpoint) {
 
 
+
     body header nav {
         flex-direction: row; // Cambia la dirección del flex
         padding: 30px 1px 40px; // Ajusta el padding
@@ -55,16 +56,14 @@
     }
 
     section .skincare__container h2 {
-        margin-left: -970px;
-        text-align: center;
         align-content: center;
-
         font-size: 28px;
         line-height: 40px;
+        margin: 10px;
     }
 
     section .firniture__container h2 {
-        margin-left: 10px;
+        margin-left: 12px;
     }
 
     // Elimina el box-shadow en dispositivos móviles
@@ -129,11 +128,10 @@
         }
     }
 
-
     .skincare {
-        display: flex;
-        flex-direction: row;
+
         align-content: center;
+
     }
 
     section .firniture__container .firniture__products article.product-card h3 {
@@ -185,6 +183,7 @@
         flex-wrap: nowrap;
         column-gap: 0;
         row-gap: 0;
+        overflow-y: auto;
     }
 
     .info__about--us .about__mission--section {
@@ -226,7 +225,7 @@
 
 
     section .info-gallery h2 {
-        margin-left: 1px;
+        margin-left: 50px;
     }
 
     .info-gallery .gallery__section--img {
@@ -253,7 +252,7 @@
     }
 
     section .info-location h2 {
-        margin-left: 1px;
+        margin-left: 50px;
     }
 
     .info-location .location__google--img {
@@ -295,7 +294,6 @@
         margin-top: 20px;
         display: flex;
         align-items: flex-start;
-        justify-content: flex-start
     }
 
     body footer .footer-container .social-media img {

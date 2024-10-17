@@ -32,12 +32,10 @@ $gap: 6px;
 
     &:active {
         transform: scale(0.9);
-        //box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     }
 
     &:focus {
         outline: none;
-        // box-shadow: 0 0 0 2px $bg-color;
     }
 }
 
@@ -119,6 +117,8 @@ body {
     font-family: Verdana, Geneva, sans-serif;
     overflow-y: auto;
 }
+
+
 
 .home-body {
     position: fixed;
@@ -287,6 +287,7 @@ header {
 
 .home__main--button {
     @include btn-grow-box();
+
     margin-left: 60px;
     margin-bottom: 100px;
     text-align: center;
@@ -678,317 +679,95 @@ header {
 
 
 .card {
-
-    position: relative;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 250px;
-    height: 500px;
-    border-radius: 10px;
-    box-shadow: 0 1px 5px 3px rgba(9, 4, 12, 0.568);
-    background: $bg-color;
     overflow: hidden;
-    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
 
-    .ds-top {
-        margin: auto;
-        top: 0;
-        right: 0;
-        left: 0;
-        width: 300px;
-        height: 10 0px;
-        background: crimson;
-        animation: dsTop 1.5s;
-    }
+.card .card-header {
+    height: 150px;
+    position: relative;
+}
 
-    .avatar-holder {
-        position: absolute;
-        margin: auto;
-        top: 40px;
-        right: 0;
-        left: 0;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        box-shadow: 0 0 0 5px #151515,
-            inset 0 0 0 5px #000000,
-            inset 0 0 0 5px #000000,
-            inset 0 0 0 5px #000000,
-            inset 0 0 0 5px #000000, ;
-        background: white;
-        overflow: hidden;
-        animation: mvTop 1.5s;
+.card .card-header .waves-container {
+    height: 100%;
+}
 
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
+.card .card-header .waves-container .wave {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    background-image: linear-gradient(to bottom left, #711396da, $bg-color);
+    transform: translateX(-50%);
+}
 
-    .name {
-        position: absolute;
-        margin: auto;
-        top: -60px;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        width: inherit;
-        height: 40px;
-        text-align: center;
-        animation: fadeIn 2s ease-in;
+.card .card-header .waves-container .wave1 {
+    border-radius: 50%;
+    top: -330%;
+    left: 50%;
+    animation: spin 12s linear infinite;
+}
 
-        a {
-            color: white;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 18px;
+.card .card-header .waves-container .wave2 {
+    border-radius: 46%;
+    top: -332%;
+    left: 48%;
+    opacity: 0.5;
+    animation: spin 16s linear infinite;
+}
 
-            &:hover {
-                text-decoration: underline;
-                color: $bg-color-base;
-            }
-        }
+.card .card-header .waves-container .wave3 {
+    border-radius: 40%;
+    top: -328%;
+    left: 52%;
+    opacity: 0.2;
+    animation: spin 16s linear infinite;
+}
 
-        h6 {
-            position: absolute;
-            margin: auto;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            color: white;
-            width: 40px;
-        }
-    }
-
-    .button {
-        position: absolute;
-        margin: auto;
-        padding: 8px;
-        top: 20px;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        width: inherit;
-        height: 40px;
-        text-align: center;
-        animation: fadeIn 2s ease-in;
-        outline: none;
-
-        a {
-            padding: 5px 20px;
-            border-radius: 10px;
-            color: white;
-            letter-spacing: 0.05em;
-            text-decoration: none;
-            font-size: 10px;
-            transition: all 1s;
-
-            &:hover {
-                color: white;
-                background: $bg-color-base;
-            }
-        }
-    }
-
-    .ds-info {
-        position: absolute;
-        margin: auto;
-        top: 120px;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        width: inherit;
-        height: 40px;
-        display: flex;
-
-        .pens,
-        .projects,
-        .posts {
-            position: relative;
-            width: calc(250px / 3);
-            text-align: center;
-            color: white;
-            animation: fadeInMove 2s;
-            animation-fill-mode: forwards;
-
-            h6 {
-                text-transform: uppercase;
-                color: white;
-            }
-
-            p {
-                font-size: 12px;
-            }
-        }
-
-        .ds {
-            &:nth-of-type(2) {
-                animation-delay: .5s;
-            }
-
-            &:nth-of-type(1) {
-                animation-delay: 1s;
-            }
-        }
-    }
-
-    .ds-skill {
-        position: absolute;
-        margin: auto;
-        bottom: 10px;
-        right: 0;
-        left: 0;
-        width: 200px;
-        height: 140px;
-        animation: mvBottom 1.5s;
-
-
-        h6 {
-            margin-bottom: 5px;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: white;
-        }
-
-        .skill {
-            h6 {
-                font-weight: 400;
-                font-size: 8px;
-                letter-spacing: 0.05em;
-                margin: 4px 0;
-                color: white;
-            }
-
-            .fab {
-                color: $bg-color-base;
-                font-size: 14px;
-            }
-
-            .bar {
-                height: 5px;
-                background: $bg-color-base;
-                text-align: right;
-
-                p {
-                    color: white;
-                    font-size: 8px;
-                    padding-top: 5px;
-                    animation: fadeIn 5s;
-                }
-
-                &:hover {
-                    background: white;
-                }
-            }
-
-            .bar-html {
-                width: 95%;
-                animation: htmlSkill 1s;
-                animation-delay: .4s;
-            }
-
-            .bar-css {
-                width: 90%;
-                animation: cssSkill 2s;
-                animation-delay: .4s;
-            }
-
-            .bar-js {
-                width: 75%;
-                animation: jsSkill 3s;
-                animation-delay: .4s;
-            }
-        }
+@keyframes spin {
+    to {
+        transform: translateX(-50%) rotate(360deg);
     }
 }
 
-@keyframes fadeInMove {
-    0% {
-        opacity: 0;
-        left: -300px;
-    }
-
-    100% {
-        opacity: 1;
-        left: 0;
-    }
+.card .card-header .profile-img {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    /* to maintain the aspect ratio of the image */
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+.card .card-body {
+    margin-top: 100px;
+    text-align: center;
+    padding: 0 20px;
 }
 
-@keyframes htmlSkill {
-    0% {
-        width: 0;
-    }
+.card .card-body h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1rem;
 
-    100% {
-        width: 95%;
-    }
+    color: rgb(0, 0, 0);
 }
 
-@keyframes cssSkill {
-    0% {
-        width: 0;
-    }
+.card .card-body h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.8rem;
+    color: rgb(9, 2, 10);
 
-    100% {
-        width: 90%;
-    }
 }
 
-@keyframes jsSkill {
-    0% {
-        width: 0;
-    }
-
-    100% {
-        width: 75%;
-    }
-}
-
-@keyframes mvBottom {
-    0% {
-        bottom: -150px;
-    }
-
-    100% {
-        bottom: 10px;
-    }
-}
-
-@keyframes mvTop {
-    0% {
-        top: -150px;
-    }
-
-    100% {
-        top: 40px;
-    }
-}
-
-@keyframes dsTop {
-    0% {
-        top: -150px;
-    }
-
-    100% {
-        top: 0;
-    }
-}
-
-.following {
-    color: white;
-    background: crimson;
+.card .card-body p {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 20px 2px 0;
+    text-align: justify;
+    font-size: 0.7rem;
+    line-height: 1.8;
+    color: rgba(92, 90, 90, 0.712);
+    margin: 20px 0;
 }

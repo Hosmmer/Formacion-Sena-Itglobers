@@ -41,4 +41,4 @@
   grid-column-gap: var(--column-gap);
   grid-template-columns: repeat(var(--columns), minmax(0, 1fr));
   position: relative;
-}/*# sourceMappingURL=layout.css.map */
+}
