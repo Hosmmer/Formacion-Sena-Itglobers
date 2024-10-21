@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.parent {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.child {
+  flex: 0 1 300px;
+  display: grid;
+  place-items: center;
+  margin: 15px;
+  background-color: aqua;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
