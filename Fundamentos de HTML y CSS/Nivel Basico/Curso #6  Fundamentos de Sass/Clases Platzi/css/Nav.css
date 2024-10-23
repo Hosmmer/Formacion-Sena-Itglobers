@@ -139,7 +139,7 @@ body {
     display: none;
   }
 }
-.Nav-list {
+.navbar__list {
   display: none;
   grid-column: 1/-1;
   justify-content: center;
@@ -147,7 +147,7 @@ body {
   padding: 0;
 }
 @media (min-width: 1280px) {
-  .Nav-list {
+  .navbar__list {
     display: flex;
   }
 }

@@ -25,16 +25,16 @@
     <main>
         <section class="cards__album">
             <article>
-                <img src="./img/album-2.jpg" alt="">
+                <img class="cards__album--img" src="./img/album-2.jpg" alt="Imagen1">
             </article>
 
             <article>
-                <img src="./img/album-1.jpg" alt="">
+                <img class="cards__album--img" src="./img/album-1.jpg" alt="Imagen2">
 
             </article>
 
             <article>
-                <img src="./img/album-3.jpg" alt="">
+                <img class="cards__album--img" src="./img/album-3.jpg" alt="Imagen3">
 
             </article>
         </section>
@@ -78,7 +78,16 @@
         </a>
 
     </footer>
+    <script>
+        const album = document.querySelector('.cards__album');
+        const numCards = album.children.length;
+        const middleCard = album.children[Math.floor(numCards / 2)];
 
+        middleCard.scrollIntoView({
+            behavior: 'smooth',
+            inline: 'center'
+        });                                                             
+    </script>
 </body>
 
 </html>

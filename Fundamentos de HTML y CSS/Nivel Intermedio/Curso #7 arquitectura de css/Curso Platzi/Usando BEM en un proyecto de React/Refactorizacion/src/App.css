@@ -1,0 +1,187 @@
+:root {
+    --normal: #a8a77a;
+    --fire: #ee8130;
+    --water: #6390f0;
+    --electric: #f7d02c;
+    --grass: #7ac74c;
+    --ice: #96d9d6;
+    --fighting: #c22e28;
+    --poison: #a33ea1;
+    --ground: #e2bf65;
+    --flying: #a98ff3;
+    --psychic: #f95587;
+    --bug: #a6b91a;
+    --rock: #b6a136;
+    --ghost: #735797;
+    --dragon: #6f35fc;
+    --dark: #705746;
+    --steel: #b7b7ce;
+    --fairy: #d685ad;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.global-container {
+    width: 900px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 250px;
+}
+
+h1 {
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1b356f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container i {
+    position: absolute;
+    right: 62px;
+    top: 3px;
+    padding: 9px 8px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.filter-container input {
+    height: 40px;
+    width: 255px;
+    border-radius: 8px;
+    padding-left: 15px;
+    margin-right: 56px;
+    border: unset;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    appearance: none;
+}
+
+.filter-container label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.filter-container select {
+    height: 40px;
+    width: 170px;
+    border-radius: 8px;
+    padding-left: 15px;
+    margin-right: 20px;
+    border: unset;
+    appearance: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem top 50%;
+    background-size: 0.5rem auto;
+    background-color: white;
+    color: rgb(78, 78, 78);
+}
+
+@media (max-width: 1200px) {
+    .global-container {
+        width: 700px;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .filter-container {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 710px) {
+    .card {
+        margin: -10px;
+        margin-bottom: -25px;
+        scale: 0.85;
+    }
+
+    .card:hover {
+        scale: 0.88;
+    }
+
+    .global-container {
+        width: 425px;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+    
+    .filter-container {
+        flex-direction: column;
+    }
+
+    .filter-container input {
+        width: 320px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .input-container i {
+        right: 10px;
+    }
+
+    .filter-container label {
+        display: none;
+    }
+
+    .filter-container select {
+        width: 320px;
+        margin-right: 0px;
+        font-size: 14px;
+    }
+}

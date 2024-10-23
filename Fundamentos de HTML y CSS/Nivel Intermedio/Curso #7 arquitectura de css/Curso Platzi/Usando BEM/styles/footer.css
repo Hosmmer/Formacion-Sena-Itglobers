@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gunmetal);
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: white;
+}
+
+footer p:first-child{
+    width: 40vw;
+}

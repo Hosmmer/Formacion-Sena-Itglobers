@@ -1,0 +1,92 @@
+.placeDetailsHero { 
+    
+    width: 100%;
+    margin: 1rem auto 3rem;
+    // border: 1px solid orange;
+    
+    .generalInfo {
+
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        span {
+            //border: 1px solid yellow;
+            margin: 1.5rem 2rem 1rem 0;
+            display: inline-block;    
+        }
+    }
+
+    .carousel {
+        display: none;     
+    }
+
+    .photosContainer {
+        //border: 1px solid yellow;
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        border-radius: 15px;
+        overflow: hidden;
+        height: 50vh;
+
+        .mainImage {
+
+            width: 50%;
+            
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                object-position: bottom;
+                overflow: hidden;
+            }
+        }
+
+        .secondaryImages {
+        
+            width: 50%;
+            height: 100%;
+            display: grid;
+            gap: 0.5rem;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                overflow: hidden;
+                object-position: bottom;
+            }
+        }
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .placeDetailsHero {
+        
+        .photosContainer {
+            display: none;
+        }
+
+        .carousel {
+            display: block;
+            width: 100%;
+            height: 30%;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+            
+        }
+    }
+   
+}

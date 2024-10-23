@@ -1,0 +1,44 @@
+:root {
+    --dark-jungle-green: #002029;
+    --dark-jungle-green-transparency:#3D002029;
+    --gunmetal: #00303D;
+    --midnight-green: #004052;
+    --eagle-green: #005066;
+    --blue-sapphire: #00607A;
+    --xlg: 3.2rem;
+    --medium: 2rem;
+    --short-transition-time: 0.2s;
+    --normal-transition-time: 0.5s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior:smooth;
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Silkscreen', cursive;
+}
+
+body {
+    width: 100%; /* SUPER IMPORTANTE ESPECFICAR HEIGHT Y WIDTH */
+    font-family: "Open Sans";
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

@@ -1,0 +1,9 @@
+<section class="pokemonTeam">
+  <h3 *ngIf="pokemonTeam.length > 0">My pokemon team</h3>
+  <ul *ngIf="pokemonTeam.length > 0">
+    <li *ngFor="let pokemon of pokemonTeam" class="teamItem">
+      <h4>{{ pokemon.name }}</h4>
+      <img [src]="pokemon.sprites.front_default" [alt]="pokemon.name">
+    </li>
+  </ul>
+</section>

@@ -1,0 +1,23 @@
+<section
+  *ngIf="pokemonName"
+  class="pokemon-card pokemon-card-size">
+  <h3>{{ pokemonName }}</h3>
+  <img
+    *ngIf="pokemonSprite"
+    [src]="pokemonSprite"
+    [alt]="pokemonName">
+  <ul
+    *ngIf="pokemonTypes.length > 0">
+    <li
+      *ngFor="let type of pokemonTypes"
+      [class]="type"
+      class="pokemon-tag">
+      {{ type }}
+    </li>
+  </ul>
+</section>
+
+<app-capture-pokemon-button
+  *ngIf="pokemonName"
+  [myNewPokemon]="myNewPokemon"
+  class="pokemon-capture-button" />

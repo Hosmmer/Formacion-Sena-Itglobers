@@ -1,0 +1,17 @@
+.nav-body-hider {
+    transition: background-color var(--normal-transition-time);
+}
+
+.nav-body-hider--show {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-body-hider--show {
+        display: none;
+    }
+}
