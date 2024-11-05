@@ -1,0 +1,108 @@
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  background-color: var(--light-yellow);
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.l-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.l-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-full-width {
+  width: 100%;
+}
+
+.date-picker {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.date-picker--button {
+  margin: 0px 5px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list--item {
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: calc(14.2857142857% - 2px);
+  text-align: center;
+  cursor: pointer;
+}
+.list--item--days {
+  font-weight: bold;
+  padding: 10px 0px;
+  background-color: #78c4d4;
+  color: white;
+}
+.list--item:hover {
+  background-color: #ccc;
+}
+
+.reminder {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 10px;
+  line-height: 125%;
+}
+.reminder--actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.field-reminder {
+  align-items: center;
+  display: flex;
+  padding: 5px 2px;
+  justify-content: space-between;
+}
+
+.parameter {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  margin: 1px 3px;
+}
+.parameter:nth-child(2) {
+  font-size: 12px;
+  width: 70%;
+}
+
+::ng-deep mat-expansion-panel div {
+  padding: 0 2px !important;
+}
+
+::ng-deep mat-expansion-panel-header {
+  flex-direction: column !important;
+}
+::ng-deep mat-expansion-panel-header .grey {
+  color: #ccc;
+}
+
+::ng-deep .fitPanel.mat-expanded {
+  height: 9vh !important;
+}

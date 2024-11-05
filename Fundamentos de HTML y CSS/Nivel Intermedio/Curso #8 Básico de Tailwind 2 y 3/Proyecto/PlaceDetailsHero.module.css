@@ -1,0 +1,71 @@
+.placeDetailsHero {
+  width: 100%;
+  margin: 1rem auto 3rem;
+}
+.placeDetailsHero .generalInfo div {
+  display: flex;
+  justify-content: space-between;
+}
+.placeDetailsHero .generalInfo span {
+  margin: 1.5rem 2rem 1rem 0;
+  display: inline-block;
+}
+.placeDetailsHero .carousel {
+  display: none;
+}
+.placeDetailsHero .photosContainer {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 50vh;
+}
+.placeDetailsHero .photosContainer .mainImage {
+  width: 50%;
+}
+.placeDetailsHero .photosContainer .mainImage img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  overflow: hidden;
+}
+.placeDetailsHero .photosContainer .secondaryImages {
+  width: 50%;
+  height: 100%;
+  display: grid;
+  gap: 0.5rem;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.placeDetailsHero .photosContainer .secondaryImages img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+@media screen and (max-width: 768px) {
+  .placeDetailsHero .photosContainer {
+    display: none;
+  }
+  .placeDetailsHero .carousel {
+    display: block;
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+  }
+  .placeDetailsHero .carousel img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}

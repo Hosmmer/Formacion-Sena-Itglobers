@@ -1,0 +1,21 @@
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+.rating .mark {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+.rating .mark .outer {
+  border: 1px solid black;
+  width: 60%;
+  height: 0.5rem;
+  border-radius: 5px;
+  overflow: hidden;
+}

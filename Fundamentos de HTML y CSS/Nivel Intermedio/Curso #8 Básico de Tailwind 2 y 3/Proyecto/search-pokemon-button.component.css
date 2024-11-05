@@ -1,0 +1,21 @@
+.searchPokemonButton {
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-family: "IBM Plex Mono";
+  border: none;
+  background-color: #ede549;
+}
+.searchPokemonButton:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  background-color: #1bdf94;
+}
+.searchPokemonButton:not(:hover) {
+  transform: scale(1);
+  transition: all 0.5s;
+}
+.searchPokemonButton:active {
+  transform: scale(0.98);
+  transition: all 0.5s;
+}

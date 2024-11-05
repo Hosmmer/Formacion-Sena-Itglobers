@@ -1,0 +1,44 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.place:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+.place .placeLink {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  height: 100%;
+}
+.place .placeLink .imgContainer {
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+.place .placeLink .imgContainer img {
+  width: 100%;
+  height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+.place .placeLink .info {
+  margin-top: 0.6rem;
+}
+.place .placeLink .info h3, .place .placeLink .info p {
+  font-size: 0.9rem;
+}
+.place .placeLink .info span {
+  font-size: small;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>will changel</title>
+
+    <style>
+        button {
+            background: palegoldenrod;
+            width: 100px;
+            height: 30px;
+        }
+
+        .better {
+            will-change: transform;
+            transition: transform 0.5s;
+        }
+
+        .better:hover {
+            transform: translateY(5px);
+        }
+
+        .worst {
+            will-change: margin-top;
+            transition: margin-top 0.5s;
+        }
+
+        .worst:hover {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button class="better"></button>
+        <button class="worst"></button>
+    </div>
+</body>
+
+</html>
