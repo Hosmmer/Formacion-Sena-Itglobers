@@ -35,7 +35,19 @@ const updateImages = (data) => {
     });
 };
 
+// Function to remove all event listeners (to prevent duplication of events)
+const clearFavoriteEventListeners = () => {
+    const favoriteButtons = document.querySelectorAll(".button-fav");
+    favoriteButtons.forEach((button) => {
+        const newButton = button.cloneNode(true); // Clone the button to reset events
+        button.parentNode.replaceChild(newButton, button);
+    });
+};
+
+// Function to assign favorite buttons
 const assignFavoriteButtons = () => {
+    clearFavoriteEventListeners(); // Clear old event listeners
+
     const favoriteButtons = document.querySelectorAll(".button-fav");
 
     Array.from(favoriteButtons).forEach((button, index) => {
@@ -49,8 +61,7 @@ const assignFavoriteButtons = () => {
     });
 };
 
-
-
+// Function to load random cats
 const loadRandomCats = async () => {
     document.getElementById("errorContainer").style.display = "none";
 
@@ -64,6 +75,7 @@ const loadRandomCats = async () => {
             updateImages(data);
             console.log("Random images loaded successfully", data);
 
+            // Assign favorite buttons after loading the images
             assignFavoriteButtons();
         }
     } catch (error) {
@@ -71,7 +83,10 @@ const loadRandomCats = async () => {
     }
 };
 
-// Load Favorite Cat Images
+// Array to store favorite IDs
+const savedFavorites = []; // Stores the IDs of saved favorites
+
+// Function to load favorites
 const loadFavoritesCats = async () => {
     try {
         const res = await fetch(ENDPOINTS.FAVOURITE);
@@ -83,8 +98,10 @@ const loadFavoritesCats = async () => {
         const data = await res.json();
         console.log('Favoritos:', data);
 
-        const section = document.getElementById('favoriteMichis');
+        // Clear savedFavorites array
+        savedFavorites.length = 0;
 
+        const section = document.getElementById('favoriteMichis');
         if (!section) {
             console.error('El contenedor "favoriteMichis" no existe');
             return;
@@ -101,6 +118,7 @@ const loadFavoritesCats = async () => {
             const firstThreeFavorites = validFavorites.slice(0, 3);
 
             firstThreeFavorites.forEach(michi => {
+                savedFavorites.push(michi.image.id); // Add ID to savedFavorites
                 const article = document.createElement('article');
                 const img = document.createElement('img');
                 const btn = document.createElement('button');
@@ -129,18 +147,18 @@ const loadFavoritesCats = async () => {
     }
 };
 
-const savedFavorites = []; // Almacena los IDs de los favoritos guardados
-
+// Function to save favorite cat
 const saveFavoritesCat = async (imageId) => {
-    // Verificar si la imagen ya está en favoritos
+    // Check if the image is already a favorite (in the savedFavorites array)
     if (savedFavorites.includes(imageId)) {
         console.log("Esta imagen ya está en favoritos.");
-        return; // No agregar la imagen si ya está en favoritos
+        return; // Do nothing if already a favorite
     }
 
     document.getElementById("errorContainer").style.display = "none";
 
     try {
+        // POST request only if not in favorites
         const res = await fetch(ENDPOINTS.FAVOURITE, {
             method: "POST",
             headers: {
@@ -158,9 +176,10 @@ const saveFavoritesCat = async (imageId) => {
         const data = await res.json();
         console.log('Favorito agregado exitosamente:', data);
 
-        // Almacenar el ID de la imagen en el array de favoritos guardados
+        // Store the image ID in the savedFavorites array
         savedFavorites.push(imageId);
 
+        // Get the image URL and add it to the DOM
         const imageResponse = await fetch(`${API_BASE_URL}/images/${imageId}?api_key=${API_KEY}`);
         const imageData = await imageResponse.json();
 
@@ -174,6 +193,14 @@ const saveFavoritesCat = async (imageId) => {
             return;
         }
 
+        // Check if the image already exists in the container
+        const existingImage = section.querySelector(`img[src="${imageData.url}"]`);
+        if (existingImage) {
+            console.log("Esta imagen ya está en favoritos.");
+            return; // If already exists, do not add again
+        }
+
+        // Create and add the new image to the DOM if it doesn't exist
         const article = document.createElement('article');
         const img = document.createElement('img');
         const btn = document.createElement('button');
@@ -200,7 +227,6 @@ const saveFavoritesCat = async (imageId) => {
     }
 };
 
-
 const removeFavoriteCat = async (favoriteId, articleElement) => {
     try {
         const res = await fetch(`${API_BASE_URL}/favourites/${favoriteId}`, {
@@ -222,6 +248,4 @@ const removeFavoriteCat = async (favoriteId, articleElement) => {
     }
 };
 
-// Initial Load
-loadRandomCats();
 loadFavoritesCats();
