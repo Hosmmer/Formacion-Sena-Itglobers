@@ -12,10 +12,25 @@
     <h1>Galeria de Gatitos 😺</h1>
 
     <!-- Error Container -->
-    <div id="errorContainer">
-        <img id="errorImage" src="" alt="Error Image">
-        <span id="errorRes"></span>
+    <div id="errorContainer" class="error-popup">
+        <div class="error-content">
+            <img id="errorImage" alt="Error Image">
+            <span id="errorRes">Oops! Algo salió mal</span>
+            <button id="closeError" onclick="closeErrorPopup()">Cerrar</button>
+        </div>
     </div>
+
+    <section class="uploadingMichi">
+        <h2>Subir la foto de un michi</h2>
+        <form id="uploadingForm" onsubmit="uploadMichiPhoto(event)">
+            <input id="file" type="file" name="file" required onchange="previewThumbnail(event)">
+            <button type="submit">Subir foto de michi</button>
+        </form>
+        <div class="thumbnail-container" id="thumbnailContainer">
+            <!-- Thumbnails will be dynamically added here -->
+        </div>
+    </section>
+
 
     <!-- Galería de Gatos Aleatorios -->
     <section class="gallery-container" id="randomMinchis">
@@ -36,13 +51,20 @@
         </div>
         <button onclick="loadRandomCats()" class="button-random">Recargar Imágenes</button>
     </section>
+
     <h2>Gatos Favoritos 😻</h2>
     <section class="favoritos" id="favoriteMichis">
         <article>
         </article>
     </section>
+
+
     <!-- Archivos JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./main.js"></script>
+
+
 </body>
 
 </html>

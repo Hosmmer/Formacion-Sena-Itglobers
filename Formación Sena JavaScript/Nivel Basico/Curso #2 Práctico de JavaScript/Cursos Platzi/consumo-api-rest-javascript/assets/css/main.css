@@ -27,7 +27,7 @@
         font-size: 2rem;
         margin: 20px 0;
     }
-
+  
     h1 {
         font-size: 2.5rem;
     }
@@ -41,7 +41,7 @@
         background-color: #e9e9e9;
         /* Fondo suave */
         padding: 20px;
-        border-radius: 5px;
+        border-radius: 10px;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         /* Sombra sutil */
     }
@@ -195,22 +195,81 @@
         transform: scale(1.05);
     }
 
-    /* Error Container */
-    #errorContainer {
-        display: none;
-        background-color: var(--error-color);
-        color: #fff;
-        padding: 10px;
-        border-radius: 8px;
-        margin-top: 20px;
-        text-align: center;
-    }
+/* Error Container Popup */
+.error-popup {
+    display: none; /* Se mostrará sólo cuando haya un error */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 76%;
+    height: auto;
+    max-width: 320px;
+    background-color: var(--error-color);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+    z-index: 1;
+}
 
-    #errorImage {
-        width: 80px;
-        display: block;
-        margin: 10px auto;
+
+
+/* Contenedor Interno */
+.error-content {
+    padding: 20px 15px;
+    position: relative;
+}
+
+#errorImage {
+    background-image: url('../img/gatoAguacate.jpg');
+    width: 60px;
+    height: 60px; /* Añade una altura para asegurar que sea un círculo */
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Escala la imagen sin deformarla */
+    background-color: #f3f3f3; /* Fondo en caso de que no cargue la imagen */
+    border: 2px solid #ff6b6b; /* Borde para hacerla destacada */
+}
+
+
+/* Texto del Mensaje de Error */
+#errorRes {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Botón de Cerrar */
+#closeError {
+    background-color: #fff;
+    color: var(--error-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#closeError:hover {
+    background-color: #f2f2f2;
+}
+
+/* Animación de Popup */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
     }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
 
     .favoritos {
         display: grid;
@@ -294,3 +353,67 @@
         width: 180px;
         display: inline-block;
     }
+
+
+
+
+
+
+.uploadingMichi {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.uploadingMichi h2 {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.uploadingMichi form {
+    margin-bottom: 1rem;
+}
+
+.uploadingMichi #file {
+    margin: 0.5rem 0;
+}
+
+.uploadingMichi button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.uploadingMichi button:hover {
+    background-color: #0056b3;
+}
+
+/* Thumbnail container */
+.thumbnail-container {
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.thumbnail-item {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.thumbnail-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thumbnail-item:hover {
+    transform: scale(0.8);
+}

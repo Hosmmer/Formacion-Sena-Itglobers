@@ -1,27 +1,23 @@
-// API Configuration
 const API_KEY = "live_CstxJOGFFgI3OM9sszMAqm3GxKye3UgQMNBAstyJPbmDCpeZiRwvs3YOj30diY8f";
-const API_BASE_URL = "https://api.thecatapi.com/V1";
+const API_BASE_URL = "https://api.thecatapi.com/v1";
 const API_LIMIT = 3;
 const spanError = document.getElementById("errorRes");
 
-// API Endpoints
+// API Endpoints    
 const ENDPOINTS = {
-    RANDOM: `${API_BASE_URL}/images/search?limit=${API_LIMIT}&api_key=${API_KEY}`,
-    FAVOURITE: `${API_BASE_URL}/favourites?limit=${API_LIMIT}&api_key=${API_KEY}`
+    RANDOM: `${API_BASE_URL}/images/search?limit=${API_LIMIT}`,
+    FAVOURITE: `${API_BASE_URL}/favourites`,
+    UPLOAD: `${API_BASE_URL}/images/upload`,
 };
 
 // Error Handling
 const handleError = (message, error) => {
     console.error(`${message}: ${error}`);
 
-    // Configurar mensaje de error en el span
-    spanError.textContent = `Oops! Something went wrong: ${error.message || error}. Please try again later.`;
-
-    // Configurar imagen de error si está definida en assets
+    spanError.textContent = `Oops! Esta teniendo Problemas API CATS: ${error.message || error}. Por Favor Espere Un Momento.`;
     const errorImage = document.getElementById("errorImage");
-    errorImage.src = "./assets/img/error.png"; // Cambia la ruta si tienes una imagen de error específica
+    errorImage.src = "./assets/img/gatoAguacate.jpg";
 
-    // Mostrar el contenedor de error
     const errorContainer = document.getElementById("errorContainer");
     errorContainer.style.display = "block";
 };
@@ -29,9 +25,8 @@ const handleError = (message, error) => {
 // Function to update images in the DOM
 const updateImages = (data) => {
     const images = document.querySelectorAll(".cat-img");
-
     images.forEach((img, index) => {
-        img.src = data[index]?.url || "./assets/img/loading.jpg"; // Default to loading image if no data
+        img.src = data[index]?.url || "./assets/img/loading.jpg";
     });
 };
 
@@ -39,18 +34,17 @@ const updateImages = (data) => {
 const clearFavoriteEventListeners = () => {
     const favoriteButtons = document.querySelectorAll(".button-fav");
     favoriteButtons.forEach((button) => {
-        const newButton = button.cloneNode(true); // Clone the button to reset events
+        const newButton = button.cloneNode(true);
         button.parentNode.replaceChild(newButton, button);
     });
 };
 
 // Function to assign favorite buttons
 const assignFavoriteButtons = () => {
-    clearFavoriteEventListeners(); // Clear old event listeners
+    clearFavoriteEventListeners();
 
     const favoriteButtons = document.querySelectorAll(".button-fav");
-
-    Array.from(favoriteButtons).forEach((button, index) => {
+    favoriteButtons.forEach((button, index) => {
         const imageId = document.querySelectorAll(".cat-img")[index].getAttribute("src").split('/').pop().split('.')[0];
         button.setAttribute("data-id", imageId);
 
@@ -73,9 +67,6 @@ const loadRandomCats = async () => {
         } else {
             const data = await response.json();
             updateImages(data);
-            console.log("Random images loaded successfully", data);
-
-            // Assign favorite buttons after loading the images
             assignFavoriteButtons();
         }
     } catch (error) {
@@ -84,41 +75,40 @@ const loadRandomCats = async () => {
 };
 
 // Array to store favorite IDs
-const savedFavorites = []; // Stores the IDs of saved favorites
+const savedFavorites = [];
 
 // Function to load favorites
 const loadFavoritesCats = async () => {
     try {
-        const res = await fetch(ENDPOINTS.FAVOURITE);
+        const res = await fetch(ENDPOINTS.FAVOURITE, {
+            method: "GET",
+            headers: {
+                'X-API-KEY': API_KEY,
+            },
+        });
 
         if (!res.ok) {
             throw new Error(`Error ${res.status}: ${res.statusText}`);
         }
 
         const data = await res.json();
-        console.log('Favoritos:', data);
-
-        // Clear savedFavorites array
         savedFavorites.length = 0;
-
         const section = document.getElementById('favoriteMichis');
+
         if (!section) {
             console.error('El contenedor "favoriteMichis" no existe');
             return;
         }
 
         section.innerHTML = '';
-
         const validFavorites = data.filter(michi => michi.image && michi.image.url);
 
         if (validFavorites.length === 0) {
             spanError.textContent = "No tienes gatos favoritos con imágenes válidas.";
             document.getElementById("errorContainer").style.display = "block";
         } else {
-            const firstThreeFavorites = validFavorites.slice(0, 3);
-
-            firstThreeFavorites.forEach(michi => {
-                savedFavorites.push(michi.image.id); // Add ID to savedFavorites
+            validFavorites.forEach(michi => {
+                savedFavorites.push(michi.image.id);
                 const article = document.createElement('article');
                 const img = document.createElement('img');
                 const btn = document.createElement('button');
@@ -132,7 +122,6 @@ const loadFavoritesCats = async () => {
                 btn.classList.add('remove-fav-btn');
 
                 article.classList.add('cat-item');
-
                 article.appendChild(img);
                 article.appendChild(btn);
                 section.appendChild(article);
@@ -149,16 +138,14 @@ const loadFavoritesCats = async () => {
 
 // Function to save favorite cat
 const saveFavoritesCat = async (imageId) => {
-    // Check if the image is already a favorite (in the savedFavorites array)
     if (savedFavorites.includes(imageId)) {
         console.log("Esta imagen ya está en favoritos.");
-        return; // Do nothing if already a favorite
+        return;
     }
 
     document.getElementById("errorContainer").style.display = "none";
 
     try {
-        // POST request only if not in favorites
         const res = await fetch(ENDPOINTS.FAVOURITE, {
             method: "POST",
             headers: {
@@ -174,54 +161,8 @@ const saveFavoritesCat = async (imageId) => {
         }
 
         const data = await res.json();
-        console.log('Favorito agregado exitosamente:', data);
-
-        // Store the image ID in the savedFavorites array
         savedFavorites.push(imageId);
-
-        // Get the image URL and add it to the DOM
-        const imageResponse = await fetch(`${API_BASE_URL}/images/${imageId}?api_key=${API_KEY}`);
-        const imageData = await imageResponse.json();
-
-        if (!imageData || !imageData.url) {
-            throw new Error("No se pudo obtener la URL de la imagen.");
-        }
-
-        const section = document.getElementById('favoriteMichis');
-        if (!section) {
-            console.error('Contenedor "favoriteMichis" no encontrado');
-            return;
-        }
-
-        // Check if the image already exists in the container
-        const existingImage = section.querySelector(`img[src="${imageData.url}"]`);
-        if (existingImage) {
-            console.log("Esta imagen ya está en favoritos.");
-            return; // If already exists, do not add again
-        }
-
-        // Create and add the new image to the DOM if it doesn't exist
-        const article = document.createElement('article');
-        const img = document.createElement('img');
-        const btn = document.createElement('button');
-        const btnText = document.createTextNode('Eliminar😿');
-
-        img.src = imageData.url;
-        img.width = 150;
-        img.classList.add('cat-image');
-
-        btn.appendChild(btnText);
-        btn.classList.add('remove-fav-btn');
-
-        article.classList.add('cat-item');
-
-        article.appendChild(img);
-        article.appendChild(btn);
-        section.appendChild(article);
-
-        btn.addEventListener('click', () => {
-            removeFavoriteCat(data.id, article);
-        });
+        await loadFavoritesCats(); // Reload favorites to display the new favorite
     } catch (error) {
         handleError("Error al agregar a favoritos", error);
     }
@@ -248,4 +189,80 @@ const removeFavoriteCat = async (favoriteId, articleElement) => {
     }
 };
 
+const uploadMichiPhoto = async (event) => {
+    event.preventDefault();
+
+    const form = document.getElementById('uploadingForm');
+    const formData = new FormData(form);
+
+    try {
+        const uploadResponse = await fetch(ENDPOINTS.UPLOAD, {
+            method: 'POST',
+            headers: {
+                'X-API-KEY': API_KEY,
+            },
+            body: formData,
+        });
+
+        if (!uploadResponse.ok) {
+            throw new Error(`Error ${uploadResponse.status}: ${uploadResponse.statusText}`);
+        }
+
+        const uploadData = await uploadResponse.json();
+        console.log("Foto subida con éxito:", uploadData);
+
+        const imageId = uploadData.id;
+        const favoriteResponse = await fetch(ENDPOINTS.FAVOURITE, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'x-api-key': API_KEY
+            },
+            body: JSON.stringify({ image_id: imageId }),
+        });
+
+        if (!favoriteResponse.ok) {
+            const errorData = await favoriteResponse.json();
+            throw new Error(errorData.message || 'Error al agregar a favoritos');
+        }
+
+        alert("La foto del michi se ha subido y agregado a favoritos con éxito!");
+        await loadFavoritesCats();
+    } catch (error) {
+        handleError("Error al subir la foto del michi o agregar a favoritos", error);
+    }
+};
+
+function previewThumbnail(event) {
+    const file = event.target.files[0];
+    const container = document.getElementById('thumbnailContainer');
+
+    // Clear any existing previews
+    container.innerHTML = '';
+
+    if (file) {
+        const reader = new FileReader();
+
+        reader.onload = function (e) {
+            const thumbnail = document.createElement('div');
+            thumbnail.classList.add('thumbnail-item');
+
+            const img = document.createElement('img');
+            img.src = e.target.result;
+            img.alt = 'Vista previa del michi';
+
+            thumbnail.appendChild(img);
+            container.appendChild(thumbnail);
+        };
+
+        reader.readAsDataURL(file);
+    }
+}
+function closeErrorPopup() {
+    document.getElementById("errorContainer").style.display = "none";
+}
+
+
+// Initialize loading functions
 loadFavoritesCats();
+loadRandomCats();
