@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Slots</title>
+</head>
+<style>
+    h2 {
+        color: blueviolet;
+    }
+</style>
+
+<body>
+    <h2>Host styles</h2>
+
+
+    <my-host class="yellow">
+        <img slot="image" src="./src/img-1.jpg" alt="Tarjeta Amarilla" />
+        <span slot="title">Alemania</span>
+        <span slot="description">El Parque Nacional de Jasmund</span>
+        <button slot="footer">Más información</button>
+    </my-host>
+
+    <my-host class="blue">
+        <img slot="image" src="./src/img-2.jpg" alt="Tarjeta Azul" />
+        <span slot="title">Alemania</span>
+        <span slot="description">El Parque Nacional de Kellerwald-Edersee. ...
+        </span>
+        <button slot="footer">Ver detalles</button>
+    </my-host>
+
+    <my-host class="pink">
+        <img slot="image" src="./src/img-3.jpg" alt="Tarjeta Rosa" />
+        <span slot="title">Alemania</span>
+        <span slot="description">Parque Nacional de Harz.</span>
+        <button slot="footer">Descubre más</button>
+    </my-host>
+
+
+    <script type="module" src="./my-host.js"></script>
+</body>
+
+</html>
