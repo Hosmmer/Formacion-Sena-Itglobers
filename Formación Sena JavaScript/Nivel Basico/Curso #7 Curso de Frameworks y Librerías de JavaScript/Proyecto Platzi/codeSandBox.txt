@@ -1,5 +1,0 @@
-https://codesandbox.io/p/sandbox/react-app-9v4jcd
-
-https://codesandbox.io/p/devbox/vue-app-2nnn7k?file=%2Fsrc%2Fcomponents%2FForm.vue%3A45%2C33
-
-https://codesandbox.io/p/devbox/angular-app-hrtzcp?file=%2Fsrc%2Fapp%2Fapp.component.css
