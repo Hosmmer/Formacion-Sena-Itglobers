@@ -1,0 +1,1177 @@
+{
+  "menu-item#global__third-level-esika--paraQuien-one": {
+    "props": {
+      "id": "menu-face-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/maquillaje/rostro",
+        "noFollow": true,
+        "text": "Para ella"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--paraQuien-one": {
+    "props": {
+      "id": "menu-face-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Para él"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--categorys-one": {
+    "props": {
+      "id": "menu-face-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Maquillaje"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--categorys-one": {
+    "props": {
+      "id": "menu-face-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Fragancias"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--categorys-one": {
+    "props": {
+      "id": "menu-face-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Skincare"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--categorys-one": {
+    "props": {
+      "id": "menu-face-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Cuidado Personal"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--face-one": {
+    "props": {
+      "id": "menu-face-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/maquillaje/rostro",
+        "noFollow": true,
+        "text": "Polvos"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--face-two": {
+    "props": {
+      "id": "menu-face-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Primer"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--face-three": {
+    "props": {
+      "id": "menu-face-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Base"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--face-four": {
+    "props": {
+      "id": "menu-face-four",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Contour e iluminadores"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--face-five": {
+    "props": {
+      "id": "menu-face-five",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Corrector"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--face-six": {
+    "props": {
+      "id": "menu-face-six",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Rubor"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--eyes-one": {
+    "props": {
+      "id": "menu-eyes-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Delineador"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--eyes-two": {
+    "props": {
+      "id": "menu-eyes-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Máscaras"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--eyes-three": {
+    "props": {
+      "id": "menu-eyes-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Cejas"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--eyes-four": {
+    "props": {
+      "id": "menu-eyes-four",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/s",
+        "noFollow": true,
+        "text": "Sombras"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--lips-one": {
+    "props": {
+      "id": "menu-lips-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Delineador"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--lips-two": {
+    "props": {
+      "id": "menu-lips-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Brillo"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--lips-three": {
+    "props": {
+      "id": "menu-lips-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Labiales"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--nails-one": {
+    "props": {
+      "id": "menu-nails-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Esmalte"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--nails-two": {
+    "props": {
+      "id": "menu-nails-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Base"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--makeup-accessories-one": {
+    "props": {
+      "id": "menu-makeup-accessories-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Tajador"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--makeup-accessories-two": {
+    "props": {
+      "id": "menu-makeup-accessories-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Brochas"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--makeup-accessories-three": {
+    "props": {
+      "id": "menu-makeup-accessories-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Otros"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--makeup-accessories-four": {
+    "props": {
+      "id": "menu-makeup-accessories-four",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Set de Brochas"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--makeup-accessories-five": {
+    "props": {
+      "id": "menu-makeup-accessories-five",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Rizador de Pestañas"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--sub-brand-one": {
+    "props": {
+      "id": "menu-sub-brand-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Colorfix"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--sub-brand-two": {
+    "props": {
+      "id": "menu-sub-brand-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "ésika Pro"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--woman-one": {
+    "props": {
+      "id": "menu-woman-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Floral"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--woman-two": {
+    "props": {
+      "id": "menu-woman-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Maderosa"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--woman-three": {
+    "props": {
+      "id": "menu-woman-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Oriental Dulce"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--woman-four": {
+    "props": {
+      "id": "menu-woman-four",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Frutal"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--woman-five": {
+    "props": {
+      "id": "menu-woman-five",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Concentración Muy Alta"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--woman-six": {
+    "props": {
+      "id": "menu-woman-six",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/r",
+        "noFollow": true,
+        "text": "Concentración Alta"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--woman-seven": {
+    "props": {
+      "id": "menu-woman-seven",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Concentración Media"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--man-one": {
+    "props": {
+      "id": "menu-man-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Maderosa"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--man-two": {
+    "props": {
+      "id": "menu-man-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Cítrico"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--man-three": {
+    "props": {
+      "id": "menu-man-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Herbal"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--man-four": {
+    "props": {
+      "id": "menu-man-four",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Oriental Especiada"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--man-five": {
+    "props": {
+      "id": "menu-man-five",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Concentración Muy Alta"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--man-six": {
+    "props": {
+      "id": "menu-man-six",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Concentración Alta"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--man-seven": {
+    "props": {
+      "id": "menu-man-seven",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Concentración Media"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--body-one": {
+    "props": {
+      "id": "menu-body-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Crema Hidratante"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--body-two": {
+    "props": {
+      "id": "menu-body-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Desodorante"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--body-three": {
+    "props": {
+      "id": "menu-body-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Talco"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--body-four": {
+    "props": {
+      "id": "menu-body-four",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Cuidado de Pies"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--body-five": {
+    "props": {
+      "id": "menu-body-five",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Protector Solar"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--hair-one": {
+    "props": {
+      "id": "menu-body-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Gel"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--hair-two": {
+    "props": {
+      "id": "menu-body-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "3 en 1"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--hair-three": {
+    "props": {
+      "id": "menu-body-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Crema de Peinar"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--hair-four": {
+    "props": {
+      "id": "menu-body-four",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Desenredante"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--hair-five": {
+    "props": {
+      "id": "menu-body-five",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Tratamiento Capilar y Óleo"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--hair-six": {
+    "props": {
+      "id": "menu-body-six",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Shampoo y Acondicionador"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--hair-seven": {
+    "props": {
+      "id": "menu-body-seven",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "2 en 1"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--kids-babys-one": {
+    "props": {
+      "id": "menu-kids-babys-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Talco Bebés"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--kids-babys-two": {
+    "props": {
+      "id": "menu-kids-babys-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Colonia Bebés"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--kids-babys-three": {
+    "props": {
+      "id": "menu-kids-babys-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Shampoo Bebés"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--kids-babys-four": {
+    "props": {
+      "id": "menu-kids-babys-four",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Colonias Niños"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--kids-babys-five": {
+    "props": {
+      "id": "menu-kids-babys-five",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Loción Bebés"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--kids-babys-six": {
+    "props": {
+      "id": "menu-kids-babys-six",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Desenredante"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--kids-babys-seven": {
+    "props": {
+      "id": "menu-kids-babys-seven",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Shampoo 2 en 1 Niños"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--kids-babys-eight": {
+    "props": {
+      "id": "menu-kids-babys-eight",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Gel Para Peinar"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--oxygen-one": {
+    "props": {
+      "id": "menu-oxygen-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Linea 30+"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--oxygen-two": {
+    "props": {
+      "id": "menu-oxygen-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Linea 45+"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--cleaners-one": {
+    "props": {
+      "id": "menu-cleaners-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Oxigen Supreme"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--cleaners-two": {
+    "props": {
+      "id": "menu-cleaners-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Triple Acción"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--moisturizers-one": {
+    "props": {
+      "id": "menu-moisturizers-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Oxygen Supreme"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--moisturizers-two": {
+    "props": {
+      "id": "menu-moisturizers-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Triple Acción"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--nourishing-one": {
+    "props": {
+      "id": "menu-nourishing-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Oxygen Supreme"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--nourishing-two": {
+    "props": {
+      "id": "menu-nourishing-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Triple Acción"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--eye-care-one": {
+    "props": {
+      "id": "menu-eye-care-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Oxygen Supreme"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--eye-care-two": {
+    "props": {
+      "id": "menu-eye-care-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Triple Acción"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--anti-spot-one": {
+    "props": {
+      "id": "menu-anti-spot-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Triple Acción"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--protectors-one": {
+    "props": {
+      "id": "menu-protectors-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Perfect Block"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--new-one": {
+    "props": {
+      "id": "menu-new-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Joyería"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--new-two": {
+    "props": {
+      "id": "menu-new-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Relojes"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--new-three": {
+    "props": {
+      "id": "menu-new-three",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Lentes"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-woman-one": {
+    "props": {
+      "id": "menu-acc-woman-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Joyería"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-woman-two": {
+    "props": {
+      "id": "menu-acc-woman-two",
+      "type": "custom",
+      "blockClass": [
+        "global__link-level-third",
+        "global__sublink-level-third"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Collares"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-woman-three": {
+    "props": {
+      "id": "menu-acc-woman-three",
+      "type": "custom",
+      "blockClass": [
+        "global__link-level-third",
+        "global__sublink-level-third"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Aretes"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-woman-four": {
+    "props": {
+      "id": "menu-acc-woman-four",
+      "type": "custom",
+      "blockClass": [
+        "global__link-level-third",
+        "global__sublink-level-third"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Estuche de Aretes"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-woman-five": {
+    "props": {
+      "id": "menu-acc-woman-five",
+      "type": "custom",
+      "blockClass": [
+        "global__link-level-third",
+        "global__sublink-level-third"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Pulseras"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-woman-six": {
+    "props": {
+      "id": "menu-acc-woman-six",
+      "type": "custom",
+      "blockClass": [
+        "global__link-level-third",
+        "global__sublink-level-third"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Anillos"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-woman-seven": {
+    "props": {
+      "id": "menu-acc-woman-seven",
+      "type": "custom",
+      "blockClass": [
+        "global__link-level-third",
+        "global__sublink-level-third"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Sets"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-woman-eight": {
+    "props": {
+      "id": "menu-acc-woman-eight",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Relojes"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-woman-nine": {
+    "props": {
+      "id": "menu-acc-woman-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Lentes"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-man-one": {
+    "props": {
+      "id": "menu-acc-man-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Relojes"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-kids-one": {
+    "props": {
+      "id": "menu-kids-one",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Joyería"
+      }
+    }
+  },
+  "menu-item#global__third-level-esika--acc-kids-two": {
+    "props": {
+      "id": "menu-kids-two",
+      "type": "custom",
+      "blockClass": "global__link-level-third",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Carteras & Mochilas"
+      }
+    }
+  }
+}

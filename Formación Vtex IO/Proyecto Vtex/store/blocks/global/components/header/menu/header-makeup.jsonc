@@ -1,0 +1,168 @@
+{
+  "flex-layout.row#second-level-esika-three__items": {
+    "title": "Items Second Level",
+    "children": [
+      "flex-layout.col#second-level-three__items--links-esika-makeup",
+      "flex-layout.row#second-level-three__items--images-esika-makeup"
+    ],
+    "props": {
+      "blockClass": "second-level-container",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#second-level-three__items--links-esika-makeup": {
+    "title": "Container Links",
+    "children": [
+      "flex-layout.row#items__links-esika-makeup--content-top",
+      "flex-layout.row#items__links-esika-makeup--content-bottom"
+    ]
+  },
+  "flex-layout.row#items__links-esika-makeup--content-top": {
+    "title": "Container Links Top",
+    "children": [
+      "vtex.menu@2.x:menu#links-esika-makeup__content-top--one",
+      "vtex.menu@2.x:menu#links-esika-makeup__content-top--two",
+      "vtex.menu@2.x:menu#links-esika-makeup__content-top--three"
+    ],
+    "props": {
+      "blockClass": "items__links--content"
+    }
+  },
+  "flex-layout.row#items__links-esika-makeup--content-bottom": {
+    "title": "Container Links Bottom",
+    "children": [
+      "vtex.menu@2.x:menu#links-esika-makeup__content-bottom--one",
+      "vtex.menu@2.x:menu#links-esika-makeup__content-bottom--two",
+      "vtex.menu@2.x:menu#links-esika-makeup__content-bottom--three"
+    ],
+    "props": {
+      "blockClass": "items__links--content"
+    }
+  },
+  "vtex.menu@2.x:menu#links-esika-makeup__content-top--one": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--makeup-one",
+      "menu-item#global__third-level-esika--face-one",
+      "menu-item#global__third-level-esika--face-two",
+      "menu-item#global__third-level-esika--face-three",
+      "menu-item#global__third-level-esika--face-four",
+      "menu-item#global__third-level-esika--face-five",
+      "menu-item#global__third-level-esika--face-six"
+    ]
+  },
+  "vtex.menu@2.x:menu#links-esika-makeup__content-top--two": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--makeup-three",
+      "menu-item#global__third-level-esika--eyes-one",
+      "menu-item#global__third-level-esika--eyes-two",
+      "menu-item#global__third-level-esika--eyes-three",
+      "menu-item#global__third-level-esika--eyes-four"
+    ]
+  },
+  "vtex.menu@2.x:menu#links-esika-makeup__content-top--three": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--makeup-five",
+      "menu-item#global__third-level-esika--lips-one",
+      "menu-item#global__third-level-esika--lips-two",
+      "menu-item#global__third-level-esika--lips-three"
+    ]
+  },
+  "vtex.menu@2.x:menu#links-esika-makeup__content-bottom--one": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--makeup-two",
+      "menu-item#global__third-level-esika--nails-one",
+      "menu-item#global__third-level-esika--nails-two"
+    ]
+  },
+  "vtex.menu@2.x:menu#links-esika-makeup__content-bottom--two": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--makeup-four",
+      "menu-item#global__third-level-esika--makeup-accessories-one",
+      "menu-item#global__third-level-esika--makeup-accessories-two",
+      "menu-item#global__third-level-esika--makeup-accessories-three",
+      "menu-item#global__third-level-esika--makeup-accessories-four",
+      "menu-item#global__third-level-esika--makeup-accessories-five"
+    ]
+  },
+  "vtex.menu@2.x:menu#links-esika-makeup__content-bottom--three": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--makeup-six",
+      "menu-item#global__third-level-esika--sub-brand-one",
+      "menu-item#global__third-level-esika--sub-brand-two"
+    ]
+  },
+  "flex-layout.row#second-level-three__items--images-esika-makeup": {
+    "title": "Container Images",
+    "children": [
+      "flex-layout.col#items__images-esika-makeup--first",
+      "flex-layout.col#items__images-esika-makeup--second"
+    ],
+    "props": {
+      "blockClass": "items__images"
+    }
+  },
+  "flex-layout.col#items__images-esika-makeup--first": {
+    "title": "Container Images and Text",
+    "children": [
+      "image#images-esika-makeup__first--image",
+      "rich-text#images-esika-makeup__first--text"
+    ]
+  },
+  "image#images-esika-makeup__first--image": {
+    "props": {
+      "src": "assets/img/header/banner-colorfix-dk-pe-mto.jpg"
+    }
+  },
+  "rich-text#images-esika-makeup__first--text": {
+    "props": {
+      "text": "##### Maquillaje Colorfix \n De larga duración a prueba de todo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "images--text"
+    }
+  },
+  "flex-layout.col#items__images-esika-makeup--second": {
+    "title": "Container Images and Text",
+    "children": [
+      "image#images-esika-makeup__second--image",
+      "rich-text#images-esika-makeup__second--text"
+    ]
+  },
+  "image#images-esika-makeup__second--image": {
+    "props": {
+      "src": "assets/img/header/banner-esikapro-dk-pe-mto.jpg"
+    }
+  },
+  "rich-text#images-esika-makeup__second--text": {
+    "props": {
+      "text": "##### Maquillaje ésika Pro \n Descubre todo sobre la línea de maquillaje profesional",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "images--text"
+    }
+  }
+}

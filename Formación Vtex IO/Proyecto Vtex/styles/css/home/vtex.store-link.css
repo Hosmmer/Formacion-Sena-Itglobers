@@ -1,0 +1,111 @@
+.link--home-choose-category-banners-link{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0 8px;
+  text-align: center;
+  width: 272px;
+}
+
+.link--home-choose-category-banners-link-2, .link--home-choose-category-banners-link-4{
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* HOME BLOG Y CATALOGO  */
+
+.link--dualBanner{
+  background-color: #000;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'BrownStd';
+  justify-content: center;
+  display: flex;
+  width: 85%;
+  padding: 17px 0;
+  transition: .3s;
+}
+
+.link--dualBanner--vibranza{
+  background-color: #000;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'BrownStd';
+  justify-content: center;
+  display: flex;
+  width: 78%;
+  padding: 17px 0;
+  transition: .3s;
+}
+.link--dualBanner--vibranza:hover{
+  text-decoration: none;
+  background-color: #282828;
+}
+
+.link--dualBanner:hover{
+  text-decoration: none;
+  background-color: #282828;
+}
+
+/* FUNDACION BELCORP */
+
+.link--fund-belcorp-link{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto!important;
+  padding: 16px 26px;
+  font-size: 16px;
+  border: 1px solid #000;
+  color: #000;
+  text-decoration: none;
+  font-family: 'BrownStd', Helvetica, Arial, sans-serif;
+  transition: .4s;
+  font-weight: 700;
+}
+.link--fund-belcorp-link:hover{
+  color: #FFF;
+  background-color: #000;
+}
+
+@media screen and (max-width: 1042px){
+  .link--fund-belcorp-link{
+    position: initial; 
+    width: 100%!important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px){
+  .link--home-choose-category-banners-link{
+    margin: 0 4px;
+  }
+}
+
+/* MAQUILLADOR VIRTUAL */
+.link--makeup-bg-image-text{
+  color: #FFF;
+  background-color: #000;
+  font-family: BrownStd;
+  padding: 16px 100px;
+  text-decoration: none;
+  width: auto!important;
+  font-weight: 400;
+  transition: .3s
+}
+
+.link--makeup-bg-image-text:hover{
+  background-color: #282828;
+}
+
+@media screen and (max-width: 768px) {
+  .link--makeup-bg-image-text{
+    padding: 16px 80px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .link--makeup-bg-image-text{
+    padding: 16px 50px;
+  }
+}

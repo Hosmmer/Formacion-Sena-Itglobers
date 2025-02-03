@@ -1,0 +1,11 @@
+{
+    "sticky-layout#1-desktop": {
+        "title": "sticky header desktop",
+        "props": {
+            "fullWidth": true
+        },
+        "children": [
+            "slider-layout#slider__container--text"
+        ]
+    }
+}

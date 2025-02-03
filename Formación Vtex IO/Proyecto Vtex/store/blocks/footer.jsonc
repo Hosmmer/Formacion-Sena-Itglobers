@@ -1,0 +1,29 @@
+{
+  "footer": {
+    "title": "Footer Container",
+    "blocks": [
+      "footer-layout.desktop"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#desktop__footer-content--one",
+      "flex-layout.row#desktop__footer-content--two"
+    ]
+  },
+  "flex-layout.row#global__footer--image": {
+    "children": [
+      "image#img__img__footer-banner"
+    ],
+    "props": {
+      "blockClass": "footer-banner-somoLibres"
+    }
+  },
+  "image#img__img__footer-banner": {
+    "props": {
+      "src": "assets/img/footer/banner-soloLibre-footer.webp",
+      "blockClass": "img-footer-banner",
+      "maxWidth": 1980
+    }
+  }
+}

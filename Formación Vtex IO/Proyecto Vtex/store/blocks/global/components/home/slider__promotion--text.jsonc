@@ -1,0 +1,52 @@
+{
+    "slider-layout#slider__container--text": {
+        "title": "Slider Texts",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 8000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always",
+            "blockClass": "text__carousel"
+        },
+        "children": [
+            "rich-text#text__one",
+            "rich-text#text__two",
+            "rich-text#text__three"
+        ]
+    },
+    "rich-text#text__one": {
+        "title": "Text Slide One",
+        "props": {
+            "text": "Elige 2 fragancias por solo $159.000",
+            "textPosition": "LEFT",
+            "textAlignment": "LEFT",
+            "blockClass": "text__slide--one"
+        }
+    },
+    "rich-text#text__two": {
+        "title": "Text Slide Two",
+        "props": {
+            "text": "Descubre nuestras ofertas exclusivas",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "text__slide--two"
+        }
+    },
+    "rich-text#text__three": {
+        "title": "Text Slide Three",
+        "props": {
+            "text": "Aprovecha el envío gratis por tiempo limitado",
+            "textPosition": "RIGHT",
+            "textAlignment": "RIGHT",
+            "blockClass": "text__slide--three"
+        }
+    }
+}

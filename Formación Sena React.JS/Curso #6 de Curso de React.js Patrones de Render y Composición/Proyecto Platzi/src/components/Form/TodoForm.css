@@ -1,0 +1,105 @@
+.todo-form {
+    width: 60%;
+    max-width: 360px;
+    height: 50%;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 10px 4px rgba(97, 218, 250, 0.5);
+  }
+  
+  .todo-form__label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1E1E1F;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+  }
+  
+  .todo-form__textarea {
+    background-color: #F9FBFC;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: #1E1E1F;
+    font-size: 18px;
+    padding: 15px;
+    height:100%;
+    width: 80%;
+    resize: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    
+  }
+  
+  .todo-form__textarea::placeholder {
+    color: #A5A5A5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  
+  .todo-form__textarea:focus {
+    outline: none;
+    border-color: #61DAFA;
+    box-shadow: 0px 0px 8px rgba(97, 218, 250, 0.5);
+  }
+  
+  .todo-form__button-container {
+    margin: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  
+  .todo-form__button {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    width: 40px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .todo-form__button--add {
+    border-style: none;
+    width: 80px;
+    height: 40px;
+    background-color: #61DAFA;
+    color: black;
+    box-shadow: 0px 4px 15px rgba(97, 218, 250, 0.5);
+  }
+  
+  .todo-form__button--add:hover {
+    transform: translateY(-0.1px) ;
+    box-shadow: 0px 2px 5px rgba(97, 218, 250, 0.6), 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-form__button--add:active {
+    transform: translateY(1px) scale(1) rotate(0deg);
+    box-shadow: 0px 4px 10px rgba(97, 218, 250, 0.4), 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .todo-form__button--cancel {
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    color: #202329;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .todo-form__button--cancel:hover {
+    background-color: #f4f4f4;
+    border-color: #c6c6c6;
+  }
+  
+  .todo-form__button--cancel:active {
+    background-color: #eaeaea;
+    border-color: #bdbdbd;
+  }
+  

@@ -1,0 +1,155 @@
+.paragraph--global__footer--text {
+  font-size: 23px;
+  margin: 0;
+}
+
+.italic--global__footer--text {
+  font-size: 12px;
+  color: #9b9b9b;
+}
+
+.wrapper--global__footer--text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link--global__footer--text {
+  text-decoration: unset;
+  color: #000;
+  font-weight: bold;
+}
+
+.paragraph--group-our-brands--title,
+.paragraph--group-legal--title,
+.paragraph--paragraph--group-contact-us--title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
+}
+
+.wrapper--group-our-brands--title,
+.wrapper--group-legal--title,
+.wrapper--paragraph--group-contact-us--title {
+  width: 100% !important;
+}
+
+.paragraph--payment-info--secure-payments,
+.paragraph--payment-info--secure-payments,
+.paragraph--payment-info--quality-products,
+.paragraph--payment-info--complaints-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+.container--footer-payment-methods--title {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.paragraph--footer-payment-methods--title {
+  font-size: 12px;
+  color: #fff;
+}
+
+.image--payment-info--secure-payments,
+.image--payment-info--secure-payments,
+.image--payment-info--quality-products,
+.image--payment-info--complaints-book {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 639px) {
+  .paragraph--group-our-brands--title,
+  .paragraph--group-legal--title,
+  .paragraph--paragraph--group-contact-us--title {
+    font-weight: 600;
+    text-transform: unset;
+  }
+
+  .paragraph--footer-payment-methods--title,
+  .paragraph--footer-payment-methods--img {
+    margin: 0;
+  }
+
+  .paragraph--payment-info--secure-payments,
+  .paragraph--payment-info--secure-payments,
+  .paragraph--payment-info--quality-products,
+  .paragraph--payment-info--complaints-book {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .image--group-our-brands--title,
+  .image--group-legal--title,
+  .image--paragraph--group-contact-us--title {
+    display: none;
+  }
+
+  .container--footer-payment-methods--title {
+    align-items: baseline;
+    margin-right: 10px;
+  }
+}
+
+:global(.vtex-rich-text-0-x-paragraph--payment-info--quality-products){
+  font-family: Mulish,Arial,sans-serif !important;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: .1px;
+  padding: 0;
+  margin: 0;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--group-legal--title),
+:global(.vtex-rich-text-0-x-paragraph--group-our-brands--title),
+:global(.vtex-rich-text-0-x-paragraph--paragraph--group-contact-us--title){
+  font-family: Mulish,Arial,sans-serif !important;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: .1px;
+  cursor: pointer;
+ 
+}
+:global(.vtex-rich-text-0-x-paragraph--payment-info--secure-payments){
+  font-family: Mulish,Arial,sans-serif !important;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: .1px;
+  padding: 0;
+  margin: 0;
+  width: 140px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--payment-info--cteo){
+  color: #fff;
+  font-family: Mulish,Arial,sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: .1px;
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  margin-left: 338px;
+}
+:global(.vtex-rich-text-0-x-paragraph--payment-info--quality-products){
+  width: 150px;
+}

@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#home__text-dreams": {
+    "title": "Los sueños se hacen realidad",
+    "children": [
+      "rich-text#text-dreams",
+      "flex-layout.row#text-dreams__line"
+    ],
+    "props": {
+      "blockClass": "home-text-dreams"
+    }
+  },
+  "rich-text#text-dreams": {
+    "props": {
+      "text": "# “ \n ## Confianza es belleza, belleza es confianza. ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-dreams"
+    }
+  },
+  "flex-layout.row#text-dreams__line": {
+    "props": {
+      "blockClass": "text-dreams-line"
+    }
+  }
+}

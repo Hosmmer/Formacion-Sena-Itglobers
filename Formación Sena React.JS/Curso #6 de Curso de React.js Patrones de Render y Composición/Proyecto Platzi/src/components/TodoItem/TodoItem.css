@@ -1,0 +1,79 @@
+.TodoItem {
+  background-color: #FAFAFA;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+}
+
+.TodoItem-p {
+  margin: 24px 0 24px 24px;
+  width: calc(100% - 120px);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.TodoItem-p--complete {
+  text-decoration: line-through;
+}
+
+
+/* Skeleton Loader Styles */
+.TodoItem.skeleton {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.skeleton-item {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: skeleton-animation 1.5s infinite ease-in-out;
+}
+
+/* Skeleton loader for the complete icon */
+.skeleton-complete {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+/* Skeleton loader for the todo text */
+.skeleton-text {
+  width: 150px;
+  height: 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+/* Skeleton loader for the delete icon */
+.skeleton-delete {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+/* Skeleton loading animation */
+@keyframes skeleton-animation {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #c0c0c0;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}
+
+/* Todo item styles (for completed state) */
+.TodoItem-p--complete {
+  text-decoration: line-through;
+  color: #aaa;
+}

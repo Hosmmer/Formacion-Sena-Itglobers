@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#global__product-slider--content-3": {
+    "title": "Slider Product Home 2",
+    "children": [
+      "flex-layout.row#global__top-banner-esik-3",
+      "list-context.product-list#product-slider__content--context-3"
+    ],
+    "props": {
+      "blockClass": "global__product-slider-2"
+    }
+  },
+  "list-context.product-list#product-slider__content--context-3": {
+    "blocks": [
+      "product-summary.shelf#global__product-summary-3"
+    ],
+    "children": [
+      "slider-layout#content__context--slider-3"
+    ],
+    "props": {
+      "maxItems": 10,
+      "collection": "213"
+    }
+  },
+  "slider-layout#content__context--slider-3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "fullWidth": true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "centerMode": {
+        "desktop": "disabled"
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "content__context--slider"
+    }
+  },
+  "product-summary.shelf#global__product-summary-3": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-rating-inline",
+      "product-price-suspense#global__product-summary--price-3",
+      "add-to-cart-button#global__product-summary--button-3"
+    ],
+    "props": {
+      "priceBehavior": "async",
+      "blockClass": "global__product-summary"
+    }
+  },
+  "product-price-suspense#global__product-summary--price-3": {
+    "children": [
+      "product-list-price",
+      "product-selling-price"
+    ]
+  },
+  "add-to-cart-button#global__product-summary--button-3": {
+    "props": {
+      "text": "Ver detalle"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+:global(.vtex-minicart-2-x-openIconContainer){
+    padding: 0;
+}
+
+.minicartIconContainer::after{
+    font-family: 'icomoon';
+    content: "\e903";
+    color: #000;
+    font-size: 24px;
+  }
+
+  .minicartIconContainer :global(.vtex-store-icons-0-x-cartIcon) {
+    display: none;
+  }
+  .cartIcon{
+    display: none;
+  }

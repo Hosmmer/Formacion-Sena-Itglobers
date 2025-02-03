@@ -1,0 +1,15 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "flex-layout.row#global__product-slider--content",
+      "flex-layout.row#global__home-choose-category",
+      "flex-layout.row#global__product-slider--content-2",
+      "flex-layout.row#home__brand-choosed",
+      "flex-layout.row#global__product-slider--content-3",
+      "flex-layout.row#home__text-dreams",
+      "flex-layout.row#home__blog-catalog",
+      "flex-layout.row#global__footer--image"
+    ]
+  }
+}

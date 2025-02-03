@@ -1,0 +1,41 @@
+{
+  "flex-layout.row#global__top-banner-esika": {
+    "title": "Global Banner Top",
+    "children": [
+      "flex-layout.col#global__top-banner--content-esika"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container__product--promotionEsika"
+    }
+  },
+  "flex-layout.col#global__top-banner--content-esika": {
+    "title": "Top Banner Content",
+    "children": [
+      "rich-text#top-banner__content--text-promotion--a",
+      "rich-text#top-banner__content--text-promotion--b"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "main__product--promotionEsika"
+    }
+  },
+  "rich-text#top-banner__content--text-promotion--a": {
+    "title": "Text Promotion",
+    "props": {
+      "text": "Tus productos favoritos con hasta 35% OFF",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich__text_promotionProduct--a"
+    }
+  },
+  "rich-text#top-banner__content--text-promotion--b": {
+    "title": "Text Promotion",
+    "props": {
+      "text": "Aromas más duraderos, pestañas más largas y colores más intensos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich__text_promotionProduct--b"
+    }
+  }
+}

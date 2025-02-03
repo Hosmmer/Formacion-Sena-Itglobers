@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#__3--1": {
+        "props": {
+            "blockClass": "container__3--1"
+        },
+        "children": [
+            "flex-layout.col#__3--col1",
+            "flex-layout.col#__3--col2",
+            "flex-layout.col#__3--col3"
+        ]
+    },
+    "flex-layout.col#__3--col1": {
+        "props": {
+            "blockClass": "consultantselectedimg"
+        },
+        "children": [
+            "image#logo__img--3"
+        ]
+    },
+    "flex-layout.col#__3--col2": {
+        "children": [
+            "rich-text#col__3--col2"
+        ]
+    },
+    "flex-layout.col#__3--col3": {
+        "children": [
+            "rich-text#col__3--col3"
+        ]
+    },
+    "rich-text#col__3--col2": {
+        "title": "Text Tienda Online header layout",
+        "props": {
+            "text": "Estás en la tienda online de:",
+            "blockClass": "consultant"
+        }
+    },
+    "rich-text#col__3--col3": {
+        "title": "TextStrong header layout",
+        "props": {
+            "text": "Esika",
+            "blockClass": "consultantTextStrong",
+            "link": {
+                "url": "/",
+                "openNewTab": false,
+                "title": "Pagina Principal"
+            }
+        }
+    },
+    "image#logo__img--3": {
+        "title": "main logo",
+        "props": {
+            "src": "assets/img/logo/logo-layout-header.png",
+            "alt": "Esika Header",
+            "width": "30px"
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "menu-item#shop": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/shop",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Shop"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#shop"
+        ]
+    },
+    "vtex.menu@2.x:submenu#shop": {
+        "children": [
+            "vtex.menu@2.x:menu#submenushop"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenushop": {
+        "children": [
+            "menu-item#clothing",
+            "menu-item#accessories"
+        ]
+    },
+    "menu-item#clothing": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/clothing",
+                "noFollow": false,
+                "tagTitle": "Clothing",
+                "text": "Clothing"
+            }
+        }
+    },
+    "menu-item#accessories": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/accessories",
+                "noFollow": false,
+                "tagTitle": "Accessories",
+                "text": "Accessories"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#accessories"
+        ]
+    },
+    "vtex.menu@2.x:submenu#accessories": {
+        "children": [
+            "vtex.menu@2.x:menu#submenuaccessories"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenuaccessories": {
+        "children": [
+            "menu-item#watches",
+            "menu-item#bags"
+        ]
+    },
+    "menu-item#watches": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/accessories/watches",
+                "noFollow": false,
+                "tagTitle": "Watches",
+                "text": "Watches"
+            }
+        }
+    },
+    "menu-item#bags": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/accessories/bags",
+                "noFollow": false,
+                "tagTitle": "Bags",
+                "text": "Bags"
+            }
+        }
+    }
+}

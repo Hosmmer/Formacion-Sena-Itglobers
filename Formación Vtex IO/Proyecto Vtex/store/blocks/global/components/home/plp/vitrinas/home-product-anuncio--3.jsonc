@@ -1,0 +1,41 @@
+{
+  "flex-layout.row#global__top-banner-esik-3": {
+    "title": "Global Banner Top",
+    "children": [
+      "flex-layout.col#global__top-banner--content-esika-3"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container__product--promotionEsika"
+    }
+  },
+  "flex-layout.col#global__top-banner--content-esika-3": {
+    "title": "Top Banner Content",
+    "children": [
+      "rich-text#top-banner__content--text-promotion--a-3",
+      "rich-text#top-banner__content--text-promotion--b-3"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "main__product--promotionEsika"
+    }
+  },
+  "rich-text#top-banner__content--text-promotion--a-3": {
+    "title": "Text Promotion",
+    "props": {
+      "text": "Conoce lo nuevo de ésika",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich__text_promotionProduct--a"
+    }
+  },
+  "rich-text#top-banner__content--text-promotion--b-3": {
+    "title": "Text Promotion",
+    "props": {
+      "text": "Lo último en maquillaje y perfumería encuéntralo aquí",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich__text_promotionProduct--b"
+    }
+  }
+}

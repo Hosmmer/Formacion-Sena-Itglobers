@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#global__footer-payment-methods": {
+    "title": "Global Footer Social Methodos",
+    "props": {
+      "blockClass": "footer-methodosPagos",
+      "preserveLayoutOnMobile": "true"
+      // "colGap": 1
+    },
+    "children": [
+      "rich-text#footer-metodo--operamos",
+      "rich-text#footer-metodo--visa",
+      "rich-text#footer-metodo--mastercard",
+      "rich-text#footer-metodo--pse",
+      "rich-text#footer-metodo--efecty",
+      "rich-text#footer-metodo--credit"
+    ]
+  },
+  "rich-text#footer-metodo--operamos": {
+    "title": "Footer metodo visa",
+    "props": {
+      "blockClass": "metodo-operamos",
+      "text": "Operamos con",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#footer-metodo--visa": {
+    "title": "Footer metodo visa",
+    "props": {
+      "blockClass": "metodo-networks-visa",
+      "text": "[![visa](assets/img/footer/icons/visa.webp)](https://www.instagram.com/esika.oficial)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#footer-metodo--mastercard": {
+    "title": "Footer metodo mastercard",
+    "props": {
+      "blockClass": "metodo-networks-mastercard",
+      "text": "[![mastercard](assets/img/footer/icons/mastercard.webp)](https://www.instagram.com/esika.oficial)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#footer-metodo--pse": {
+    "title": "Footer metodo pse",
+    "props": {
+      "blockClass": "metodo-networks-pse",
+      "text": "[![pse](assets/img/footer/icons/pse.webp)](https://www.facebook.com/esika.oficial)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#footer-metodo--efecty": {
+    "title": "Footer metodo efecty",
+    "props": {
+      "blockClass": "metodo-networks-efecty",
+      "text": "[![efecty](assets/img/footer/icons/efecty.webp)](https://www.youtube.com/c/EsikaBelcorp)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#footer-metodo--credit": {
+    "title": "Footer metodo credit",
+    "props": {
+      "blockClass": "metodo-networks-credit",
+      "text": "[![credit](assets/img/footer/icons/creditCard.webp)](https://www.youtube.com/c/EsikaBelcorp)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "disclosure-layout-group#phone__footer-group": {
+    "title": "Mobile Footer group content",
+    "children": [
+      "disclosure-layout#phone__footer-group--our-brands",
+      "disclosure-layout#phone__footer-group--legal",
+      "disclosure-layout#phone__footer-group--contact-us"
+    ]
+  },
+  "disclosure-layout#phone__footer-group--our-brands": {
+    "title": "Container Disclosure Layout Our brands",
+    "children": [
+      "disclosure-trigger#phone__footer-group--our-brands",
+      "disclosure-content#phone__footer-group--our-brands"
+    ]
+  },
+  "disclosure-trigger#phone__footer-group--our-brands": {
+    "title": "Container Trigger",
+    "props": {
+      "blockClass": "footer-mobile",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#group-our-brands--title"
+    ]
+  },
+  "disclosure-content#phone__footer-group--our-brands": {
+    "props": {
+      "blockClass": "footer-group__content"
+    },
+    "children": [
+      "menu-item#global__esika"
+    ]
+  },
+  "rich-text#group-our-brands--title": {
+    "props": {
+      "blockClass": "group-our-brands--title",
+      "text": "Nuestras marcas ![arrow](/arquivos/arrowDown.svg)"
+    }
+  },
+  "disclosure-layout#phone__footer-group--legal": {
+    "title": "Container Disclosure Layout Legal",
+    "children": [
+      "disclosure-trigger#phone__footer-group--legal",
+      "disclosure-content#phone__footer-group--legal"
+    ]
+  },
+  "disclosure-trigger#phone__footer-group--legal": {
+    "title": "Container Trigger",
+    "props": {
+      "blockClass": "footer-mobile",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#group-legal--title"
+    ]
+  },
+  "rich-text#group-legal--title": {
+    "props": {
+      "blockClass": "group-legal--title",
+      "text": "Legal ![arrow](/arquivos/arrowDown.svg)"
+    }
+  },
+  "disclosure-content#phone__footer-group--legal": {
+    "props": {
+      "blockClass": "footer-group__content"
+    },
+    "children": [
+      "menu-item#global__web-use-conditions",
+      "menu-item#global__policy-privacy",
+      "menu-item#global__terms-and-conditions",
+      "menu-item#global__bow-rights",
+      "menu-item#global__authorization-to-send-advertising",
+      "menu-item#global__authorization-to-send-testAnimal",
+      "menu-item#global__exchange-and-return-policy",
+      "menu-item#global__superInrtedencia-industria-sic",
+      "menu-item#global__antiSoborno-politica-negocio",
+      "menu-item#global__cookies-policy"
+    ]
+  },
+  "disclosure-layout#phone__footer-group--contact-us": {
+    "title": "Container Disclosure Layout Contact Us",
+    "children": [
+      "disclosure-trigger#phone__footer-group--contac-us",
+      "disclosure-content#phone__footer-group--contact-us"
+    ]
+  },
+  "disclosure-trigger#phone__footer-group--contac-us": {
+    "title": "Container Trigger",
+    "props": {
+      "blockClass": "footer-mobile",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#paragraph--group-contact-us--title"
+    ]
+  },
+  "rich-text#paragraph--group-contact-us--title": {
+    "props": {
+      "blockClass": "paragraph--group-contact-us--title",
+      "text": "Contáctanos ![arrow](/arquivos/arrowDown.svg)"
+    }
+  },
+  "disclosure-content#phone__footer-group--contact-us": {
+    "props": {
+      "blockClass": "footer-group__content"
+    },
+    "children": [
+      "menu-item#global__how-to-buy",
+      "menu-item#global__frequent-questions",
+      "menu-item#global__contac-us",
+      "menu-item#global__QuieroSer-consultora",
+      "menu-item#global__nuestrasTiendas-esika"
+    ]
+  }
+  // "disclosure-state-indicator": {
+  //   "props": {
+  //     "blockClass" :"icon-props",
+  //     "Show": "rich-text#answer5",
+  //     "Hide": "rich-text#answer6"
+  //   }
+  // },
+  // "rich-text#answer5": {
+  //   "props": {
+  //     "text": "+"
+  //   }
+  // },
+  // "rich-text#answer6": {
+  //   "props": {
+  //     "text": "-"
+  //   }
+  // }
+}

@@ -1,0 +1,119 @@
+{
+    "menu-item#menu__sets": {
+        "title": "menu item sets",
+        "props": {
+            "id": "menu-item-custom-sale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menuPrincipalItem",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Sets",
+                "text": "Sets"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#Sets"
+        ]
+    },
+    "vtex.menu@2.x:submenu#Sets": {
+        "title": "submenu item sets",
+        "props": {
+            "blockClass": "submenuSets",
+            "fullWidth": false,
+            "width": "auto"
+        },
+        "children": [
+            "flex-layout.row#SetsGC"
+        ]
+    },
+    "flex-layout.row#SetsGC": {
+        "title": "menu item container sets",
+        "children": [
+            "flex-layout.row#SetsLinks"
+        ],
+        "props": {
+            "blockClass": "flexjcc",
+            "fullwidth": false,
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 4,
+            "paddingBottom": 4
+        }
+    },
+    "flex-layout.row#SetsLinks": {
+        "title": "menu item inner container sets",
+        "children": [
+            "vtex.menu@2.x:menu#VinculosSets1"
+        ],
+        "props": {
+            "blockClass": "block",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "paddingTop": 0,
+            "paddingBottom": 0
+        }
+    },
+    "vtex.menu@2.x:menu#VinculosSets1": {
+        "title": "menu item container sets",
+        "props": {
+            "blockClass": "subMenuItems",
+            "items": [
+                {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "submenuItem",
+                    "children": [
+                        "vtex.menu@2.x:menu#VinculosSets1"
+                    ],
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/",
+                        "noFollow": false,
+                        "tagTitle": "VerTodoSets",
+                        "text": "Ver todo sets"
+                    }
+                },
+                {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "submenuItem",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/",
+                        "noFollow": false,
+                        "tagTitle": "ParaQUien",
+                        "text": "¿PARA QUIÉN?"
+                    }
+                },
+                {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "blockClass": "submenuItem",
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/",
+                        "noFollow": false,
+                        "tagTitle": "PorCategoria",
+                        "text": "POR CATEGORÍA"
+                    }
+                }
+            ]
+        }
+    }
+}

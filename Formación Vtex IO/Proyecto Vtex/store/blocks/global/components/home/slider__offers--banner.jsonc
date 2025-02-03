@@ -1,0 +1,70 @@
+{
+    "list-context.image-list#demo": {
+        "children": [
+            "slider-layout#slider__container--header"
+        ],
+        "props": {
+            "preload": true,
+            "height": 650,
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "assets/img/banner-01.webp",
+                    "description": "something something"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "assets/img/banner-02.webp",
+                    "description": "something something"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "assets/img/banner-02.webp",
+                    "description": "something something"
+                }
+            ]
+        }
+    },
+    "slider-layout#slider__container--header": {
+        "title": "Slider home text full",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always",
+            "blockClass": "carousel"
+        }
+    }
+}
+// "image#slider__image--one": {
+//     "title": "Image one",
+//     "props": {
+//         "src": "assets/img/banner-01.webp",
+//         "maxWidth": "100%",
+//         "blockClass": "slider__img--01"
+//     }
+// },
+// "image#slider__image--two": {
+//     "title": "Image two",
+//     "props": {
+//         "src": "assets/img/banner-02.webp",
+//         "maxWidth": "100%",
+//         "blockClass": "slider__img--02"
+//     }
+// },
+// "image#slider__image--three": {
+//     "title": "Image two",
+//     "props": {
+//         "src": "assets/img/banner-03.webp",
+//         "maxWidth": "100%",
+//         "blockClass": "slider__img--03"
+//     }
+// 

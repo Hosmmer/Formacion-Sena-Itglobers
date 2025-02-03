@@ -1,0 +1,120 @@
+{
+  "flex-layout.row#second-level-esika-seven__items": {
+    "title": "Items Second Level",
+    "children": [
+      "flex-layout.col#second-level-seven__items--links-accessories",
+      "flex-layout.row#second-level-seven__items--images-accessories"
+    ],
+    "props": {
+      "blockClass": "second-level-container",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#second-level-seven__items--links-accessories": {
+    "title": "Container Links",
+    "children": [
+      "flex-layout.row#items__links-accessories--content--top",
+      "flex-layout.row#items__links-accessories--content--bottom"
+    ]
+  },
+  "flex-layout.row#items__links-accessories--content--top": {
+    "title": "Container Links Top",
+    "children": [
+      "vtex.menu@2.x:menu#links-accessories__content-top--one",
+      "vtex.menu@2.x:menu#links-accessories__content-top--two",
+      "vtex.menu@2.x:menu#links-accessories__content-top--three"
+    ],
+    "props": {
+      "blockClass": "items__links--content"
+    }
+  },
+  "vtex.menu@2.x:menu#links-accessories__content-top--one": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--accessories-one",
+      "menu-item#global__third-level-esika--new-one",
+      "menu-item#global__third-level-esika--new-two",
+      "menu-item#global__third-level-esika--new-three"
+    ]
+  },
+  "vtex.menu@2.x:menu#links-accessories__content-top--two": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--accessories-two",
+      "menu-item#global__third-level-esika--acc-woman-one",
+      "menu-item#global__third-level-esika--acc-woman-two",
+      "menu-item#global__third-level-esika--acc-woman-three",
+      "menu-item#global__third-level-esika--acc-woman-four",
+      "menu-item#global__third-level-esika--acc-woman-five",
+      "menu-item#global__third-level-esika--acc-woman-six",
+      "menu-item#global__third-level-esika--acc-woman-seven",
+      "menu-item#global__third-level-esika--acc-woman-eight",
+      "menu-item#global__third-level-esika--acc-woman-nine"
+    ]
+  },
+  "vtex.menu@2.x:menu#links-accessories__content-top--three": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--accessories-three",
+      "menu-item#global__third-level-esika--acc-man-one"
+    ]
+  },
+  "flex-layout.row#items__links-accessories--content--bottom": {
+    "title": "Container Links Bottom",
+    "children": [
+      "vtex.menu@2.x:menu#links-accessories__content-bottom--one"
+    ],
+    "props": {
+      "blockClass": "items__links--content"
+    }
+  },
+  "vtex.menu@2.x:menu#links-accessories__content-bottom--one": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--accessories-four",
+      "menu-item#global__third-level-esika--acc-kids-one",
+      "menu-item#global__third-level-esika--acc-kids-two"
+    ]
+  },
+  "flex-layout.row#second-level-seven__items--images-accessories": {
+    "title": "Container Images",
+    "children": [
+      "flex-layout.col#items__images-accessories--first"
+    ],
+    "props": {
+      "blockClass": "items__images"
+    }
+  },
+  "flex-layout.col#items__images-accessories--first": {
+    "title": "Container Images and Text",
+    "children": [
+      "image#images-accessories__first--image",
+      "rich-text#images-accessories__first--text"
+    ]
+  },
+  "image#images-accessories__first--image": {
+    "props": {
+      "src": "assets/img/header/img-joyeria-menu-pe-dk.jpg"
+    }
+  },
+  "rich-text#images-accessories__first--text": {
+    "props": {
+      "text": "##### Joyería \n Conoce más de la Joyería Finart de ésika",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "images--text-one"
+    }
+  }
+}

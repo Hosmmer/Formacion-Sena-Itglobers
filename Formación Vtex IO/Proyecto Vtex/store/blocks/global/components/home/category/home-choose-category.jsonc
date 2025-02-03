@@ -1,0 +1,166 @@
+{
+  "flex-layout.row#global__home-choose-category": {
+    "title": "Home - Elige tu Categoría",
+    "props": {
+      "blockClass": "home-choose-category"
+    },
+    "children": [
+      "flex-layout.col#global__home-choose-category"
+    ]
+  },
+  "flex-layout.col#global__home-choose-category": {
+    "props": {
+      "blockClass": "home-choose-category"
+    },
+    "children": [
+      "flex-layout.row#home-choose-category__title",
+      "flex-layout.row#home-choose-category__banners"
+    ]
+  },
+  // Title
+  "flex-layout.row#home-choose-category__title": {
+    "title": "Elige tu Categoría - Heading",
+    "props": {
+      "blockClass": "home-choose-category-title"
+    },
+    "children": [
+      "rich-text#home-choose-category__title"
+    ]
+  },
+  "rich-text#home-choose-category__title": {
+    "title": "Elige tu Categoría - Text",
+    "props": {
+      "text": "## Elige tu categoría",
+      "blockClass": "home-choose-category-text"
+    }
+  },
+  // Banners
+  "flex-layout.row#home-choose-category__banners": {
+    "title": "Elige tu Categoría - Banners Container",
+    "props": {
+      "blockClass": "home-choose-category-banners"
+    },
+    "children": [
+      "link#home-choose-category-home__banners--item1",
+      "link#home-choose-category-home__banners--item2",
+      "link#home-choose-category-home__banners--item3",
+      "link#home-choose-category-home__banners--item4",
+      "link#home-choose-category-home__banners--item5"
+    ]
+  },
+  "link#home-choose-category-home__banners--item1": {
+    "title": "Elige tu Categoría - Banner 1",
+    "props": {
+      "href": "#",
+      "blockClass": [
+        "home-choose-category-banners-link",
+        "home-choose-category-banners-link-1"
+      ]
+    },
+    "children": [
+      "rich-text#home-choose-category-home__banners--item1"
+    ]
+  },
+  "rich-text#home-choose-category-home__banners--item1": {
+    "props": {
+      "text": "![Maquillaje](assets/img/home/choose-category/categoria-maquillaje-esika-v01-pa.jpg)\n\n### Maquillaje",
+      "blockClass": [
+        "home-choose-category-banners-text",
+        "home-choose-category-banners-text-1"
+      ],
+      "textAlignment": "CENTER"
+    }
+  },
+  "link#home-choose-category-home__banners--item2": {
+    "title": "Elige tu Categoría - Banner 2",
+    "props": {
+      "href": "#",
+      "blockClass": [
+        "home-choose-category-banners-link",
+        "home-choose-category-banners-link-2"
+      ]
+    },
+    "children": [
+      "rich-text#home-choose-category-home__banners--item2"
+    ]
+  },
+  "rich-text#home-choose-category-home__banners--item2": {
+    "props": {
+      "text": "![Fragancias](assets/img/home/choose-category/categoria-fragancias-esika-v02-pa.jpg)\n\n### Perfumes",
+      "blockClass": [
+        "home-choose-category-banners-text",
+        "home-choose-category-banners-text-2"
+      ],
+      "textAlignment": "CENTER"
+    }
+  },
+  "link#home-choose-category-home__banners--item3": {
+    "title": "Elige tu Categoría - Banner 3",
+    "props": {
+      "href": "#",
+      "blockClass": [
+        "home-choose-category-banners-link",
+        "home-choose-category-banners-link-3"
+      ]
+    },
+    "children": [
+      "rich-text#home-choose-category-home__banners--item3"
+    ]
+  },
+  "rich-text#home-choose-category-home__banners--item3": {
+    "props": {
+      "text": "![Tratamiento facial](assets/img/home/choose-category/categoria-tratamiento-facial-esika-v01-pa.jpg)\n\n### Skincare",
+      "blockClass": [
+        "home-choose-category-banners-text",
+        "home-choose-category-banners-text-3"
+      ],
+      "textAlignment": "CENTER"
+    }
+  },
+  "link#home-choose-category-home__banners--item4": {
+    "title": "Elige tu Categoría - Banner 4",
+    "props": {
+      "href": "#",
+      "blockClass": [
+        "home-choose-category-banners-link",
+        "home-choose-category-banners-link-4"
+      ]
+    },
+    "children": [
+      "rich-text#home-choose-category-home__banners--item4"
+    ]
+  },
+  "rich-text#home-choose-category-home__banners--item4": {
+    "props": {
+      "text": "![Cuidado personal](assets/img/home/choose-category/categoria-cuidadopersonal-esika-v02-pa.jpg)\n\n### Cuidado personal",
+      "blockClass": [
+        "home-choose-category-banners-text",
+        "home-choose-category-banners-text-4"
+      ],
+      "textAlignment": "CENTER"
+    }
+  },
+  "link#home-choose-category-home__banners--item5": {
+    "title": "Elige tu Categoría - Banner 5",
+    "props": {
+      "href": "#",
+      "blockClass": [
+        "home-choose-category-banners-link",
+        "home-choose-category-banners-link-5"
+      ]
+    },
+    "children": [
+      "rich-text#home-choose-category-home__banners--item5"
+    ]
+  },
+  "rich-text#home-choose-category-home__banners--item5": {
+    "props": {
+      "text": "![Joyería](assets/img/home/choose-category/categoria-joyeria-esika-pa-v02-pe.jpg)\n\n### Joyería",
+      "blockClass": [
+        "home-choose-category-banners-text",
+        "home-choose-category-banners-text-5"
+      ],
+      "textAlignment": "CENTER"
+    }
+  }
+}

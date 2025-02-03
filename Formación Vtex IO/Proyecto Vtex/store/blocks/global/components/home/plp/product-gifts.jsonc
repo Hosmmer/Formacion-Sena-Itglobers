@@ -1,0 +1,99 @@
+{
+  "product-gifts#global__product--gifts": {
+    "props": {
+      "maxVisibleItems": {
+        "desktop": 1,
+        "mobile": 1
+      }
+    },
+    "children": ["flex-layout.row#global__product-gifts-text", "product-gift-list#global__product-gift-list"]
+  },
+
+  "flex-layout.row#global__product-gifts-text": {
+    "props": {
+      "blockClass": "product-gifts-text",
+      "verticalAlign": "middle",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "rich-text#global__product-gifts",
+      "flex-layout.col#global__product-gifts-text"
+    ]
+  },
+  "flex-layout.col#global__product-gifts-text": {
+    "children": ["modal-trigger#global__product-gifts"],
+    "props": {
+      "blockClass": "product-gifts-text",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#global__product-gifts": {
+    "props": {
+      "blockClass": "product-gifts",
+      "text": "**+ GIFT**"
+    }
+  },
+  "gift-text#global__product-gift-text": {
+    "props": {
+      "blockClass": "product-gift-text",
+      "text": "{exceedingItems, plural, =0{} one {+ # Gift} other {+ # Gifts}}"
+    }
+  },
+  "product-gift-list#global__product-gift-list": {
+    "props": {
+      "blockClass": "product-gift-list"
+    },
+    "children": ["flex-layout.row#global__product-gift"]
+  },
+  "flex-layout.row#global__product-gift": {
+    "props": {
+      "blockClass": "product-gift",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#global__product--gift-name-description", "gift-image"]
+  },
+  "flex-layout.col#global__product--gift-name-description": {
+    "props": {
+      "blockClass": "product--gift-name-description",
+      "verticalAlign": "middle",
+      "rowGap": 3
+    },
+    "children": ["gift-name", "gift-description"]
+  },
+
+  "gift-name": {
+    "props": {
+      "linkToProductPage": true
+    }
+  },
+
+  "modal-trigger#global__product-gifts": {
+    "children": ["modal-layout#product-gifts", "gift-text#global__product-gift-text"],
+    "props": {
+      "blockClass": "product-gifts"
+    }
+  },
+  "modal-layout#product-gifts": {
+    "props": {
+      "blockClass": "product-gifts",
+      "fullScreen": {
+        "phone": true,
+        "desktop": false,
+        "tablet": false
+      }
+    },
+    "children": ["modal-header#product-gifts","product-gifts#modal"]
+  },
+
+  "modal-header#product-gifts": {
+    "props": {
+      "showCloseButton": true,
+      "blockClass": "header-product-gifts"
+    }
+  },
+
+  "product-gifts#modal": {
+    "children": ["product-gift-list#global__product-gift-list"]
+  }
+}

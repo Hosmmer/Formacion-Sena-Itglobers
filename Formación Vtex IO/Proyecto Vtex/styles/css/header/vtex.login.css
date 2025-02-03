@@ -1,0 +1,38 @@
+
+
+.profileIcon {
+   
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+
+}
+
+:global(.vtex-login-2-x-label) {
+    padding: 0;
+    margin: 0;
+    font-family: BrownStd, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    text-decoration: none;
+    text-transform: lowercase !important;
+    width: 75px;
+    padding: 0 5px;
+    }
+    .container :global(.vtex-button__label){
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 5px 0 5px;
+      }
+    .container :global(.vtex-button__label)::after{
+        font-family: 'icomoon';
+        content: "\e904";
+        color: #000;
+        font-size: 24px;
+      }
+      .profileIcon{
+        display: none;
+      }
+      

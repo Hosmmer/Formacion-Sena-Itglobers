@@ -1,0 +1,9 @@
+.hover-bg-action-secondary{
+    background-color: red !important;
+}
+
+ 
+:global(.hover-bg-action-secondary:focus,.hover-bg-action-secondary:hover) :global(.vtex-button){
+    background-color: transparent !important;
+    border: none !important;
+}

@@ -1,0 +1,65 @@
+.productAssemblyGroupName {
+  font-family: 'brownstd';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.textInputValue :global(.vtex-input__label) {
+  font-family: 'brownstd';
+}
+
+
+.productAssemblyGroupNameRow :global(.vtex-button):hover {
+    background-color: unset;
+    color: #db3b30;
+}
+
+.productAssemblyGroupNameRow :global(.vtex-button) {
+  border-radius: 0;
+  border-color: #db3b30;
+  height: 40px;
+  color: #db3b30;
+  background-color: unset;
+}
+
+.textInputValue :global(.vtex-input-prefix__group) {
+  border: 1px solid #efefef;
+}
+
+.frameAround {
+  border-radius: 0;
+  border-color: #000;
+}
+
+.optionsInputValueLabel {
+  font-family: "brownstd",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.optionsInputValueOptionBoxContainer {
+  justify-content: center;
+}
+
+.inputValueOptionBox {
+  margin-top: 8px;
+}
+
+.optionsInputValueDropdown :global(.vtex-dropdown__container) {
+  border-radius: 0;
+}
+
+.optionsInputValueDropdown :global(.vtex-dropdown__label) {
+  font-family: "brownstd",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1;
+  color: #000;
+  text-transform: uppercase;
+}

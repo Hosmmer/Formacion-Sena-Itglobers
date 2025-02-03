@@ -1,0 +1,17 @@
+{
+    "flex-layout.col#text__quieroSer": {
+        "title": "text col two home",
+        "children": [
+            "rich-text"
+        ],
+        "props": {
+            "blockClass": "layout__quieroSer--top"
+        }
+    },
+    "rich-text": {
+        "props": {
+            "blockClass": "layout__quieroSer--top",
+            "text": "Quiero ser consultora"
+        }
+    }
+}

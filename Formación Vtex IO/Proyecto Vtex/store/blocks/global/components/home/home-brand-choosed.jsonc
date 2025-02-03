@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#home__brand-choosed": {
+    "children": [
+      "image#img__single-banner",
+      "rich-text#text__brand",
+      "image#logo__logo-esika-home"
+    ],
+    "props": {
+      "blockClass": "home-brand-choosed"
+    }
+  },
+  "image#img__single-banner": {
+    "props": {
+      "src": "assets/img/home/singlebanner.webp",
+      "blockClass": "img-single-banner"
+    }
+  },
+  "rich-text#text__brand": {
+    "props": {
+      "text": "#### La marca que eligen millones de mujeres. \n  &#35;YoElijoésika",
+      "blockClass": "home-text-brand"
+    }
+  },
+  "image#logo__logo-esika-home": {
+    "props": {
+      "src": "assets/img/home/logo-esika-home.png",
+      "blockClass": "logo-esika-home"
+    }
+  }
+}

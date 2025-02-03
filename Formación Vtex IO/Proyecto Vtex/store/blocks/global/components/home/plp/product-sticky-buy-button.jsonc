@@ -1,0 +1,75 @@
+{
+  "sticky-layout#global__product--sticky-buy-button-container": {
+    "props": {
+      "blockClass": "product--sticky-buy-button-container",
+      "position": "bottom"
+    },
+    "children": [
+      "flex-layout.row#global__product--sticky-buy-button-container"
+    ]
+  },
+  "flex-layout.row#global__product--sticky-buy-button-container": {
+    "props": {
+      "blockClass": "product--sticky-buy-button-container"
+    },
+    "children": [
+      "flex-layout.col#product--sticky-buy-button-container1",
+      "flex-layout.col#product--sticky-buy-button-container2"
+    ]
+  },
+  "flex-layout.col#product--sticky-buy-button-container1": {
+    "props": {
+      "blockClass": "sticky-buy-button-container1"
+    },
+    "children": [
+      "flex-layout.row#global__product--buy-button-container1"
+    ]
+  },
+  "flex-layout.row#global__product--buy-button-container1": {
+    "props": {
+      "blockClass": "product--buy-button-container1",
+      "preventHorizontalStretch": "true",
+      "preserveLayoutOnMobile": "true"
+    },
+    "children": [
+      "flex-layout.col#sticky-buy-button-container1-image",
+      "flex-layout.col#sticky-buy-button-container1-price"
+    ]
+  },
+  "flex-layout.col#sticky-buy-button-container1-image": {
+    "props": {
+      "blockClass": "sticky-buy-button-container1-image"
+    },
+    "children": [
+      "product-images#global__product-sticky--image"
+    ]
+  },
+  "product-images#global__product-sticky--image": {
+    "props": {
+      "displayMode": "first-image",
+      "aspectRatio": "16:9",
+      "zoomMode": "disabled",
+      "maxHeight": "64px",
+      "maxWidth": "64px"
+    }
+  },
+  "flex-layout.col#sticky-buy-button-container1-price": {
+    "props": {
+      "blockClass": "sticky-buy-button-container1-price",
+      "preventHorizontalStretch": "true",
+      "preserveLayoutOnMobile": "true"
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "flex-layout.row#glogal__product--price-container"
+    ]
+  },
+  "flex-layout.col#product--sticky-buy-button-container2": {
+    "props": {
+      "blockClass": "sticky-buy-button-container2"
+    },
+    "children": [
+      "flex-layout.row#global__product--buy-button"
+    ]
+  }
+}

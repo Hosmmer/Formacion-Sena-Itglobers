@@ -1,0 +1,34 @@
+.styledLinkContent--link-footer{
+  font-size: 12px;
+  line-height: 1.42857143;
+  white-space: unset;
+  font-family: Mulish,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.styledLinkContent--link-footer:hover{
+  text-decoration: underline;
+}
+:global(.vtex-menu-2-x-menuContainerNav--footer-content__col-2){
+  width: 60% !important;
+}
+
+@media screen and (min-width: 768px) {
+  .styledLinkContainer--link-footer {
+    margin: 0;
+    font-size: 12px;
+  }
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--footer-content__col-2){
+  margin-left: -220px;
+}
+:global(.vtex-menu-2-x-menuContainerNav--footer-content__col-3){
+  margin-left: -400px;
+width: 140px!important;
+}
+:global(.vtex-menu-2-x-menuContainerNav--footer-content__col-4){
+  margin-left: -40px !important;
+}

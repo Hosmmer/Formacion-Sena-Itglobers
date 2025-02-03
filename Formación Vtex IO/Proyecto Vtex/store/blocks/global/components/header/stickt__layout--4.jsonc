@@ -1,0 +1,8 @@
+{
+    "sticky-layout#4-desktop": {
+        "props": {},
+        "children": [
+            "flex-layout.row#desktop__container-first-level-esika"
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "sticky-layout#2-desktop": {
+        "props": {
+        },
+        "children": [
+            "flex-layout.row#desktop"
+        ]
+    },
+    "flex-layout.row#desktop": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#icons__tabs",
+            "flex-layout.col#spacer",
+            "flex-layout.row#__2"
+        ]
+    },
+    "flex-layout.col#spacer": {
+        "props": {
+            "width": "grow"
+        }
+    },
+    "flex-layout.col#barra": {
+        "props": {
+            "blockClass": "layout__barra"
+        },
+        "children": [
+            "rich-text#barra"
+        ]
+    },
+    "rich-text#barra": {
+        "props": {
+            "blockClass": "layout__barra--top",
+            "text": "|",
+            "width": "2%",
+            "textPosition": "RIGHT",
+            "font": "t-heading-5"
+        }
+    },
+    "flex-layout.col#icons__tabs": {
+        "props": {
+            "blockClass": "icons__tab"
+        },
+        "children": [
+            "tab-layout#icons__tabs"
+        ]
+    },
+    "flex-layout.row#__2": {
+        "props": {
+            "blockClass": "container__row-2"
+        },
+        "children": [
+            "flex-layout.col#text__quieroSer",
+            "flex-layout.col#barra",
+            "flex-layout.col#login",
+            "flex-layout.col#barra",
+            "flex-layout.col#minicart"
+        ]
+    },
+    "flex-layout.col#login": {
+        "props": {
+            "blockClass": "icons__col"
+        },
+        "children": [
+            "login"
+        ]
+    },
+    "flex-layout.col#minicart": {
+        "props": {
+            "blockClass": "icons__col"
+        },
+        "children": [
+            "minicart.v2"
+        ]
+    },
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "iconLabel": "Iniciar sesión",
+            "accessCodeTitle": "Access Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showIconProfile": true,
+            "showPasswordVerificationIntoTooltip": true
+        }
+    }
+}

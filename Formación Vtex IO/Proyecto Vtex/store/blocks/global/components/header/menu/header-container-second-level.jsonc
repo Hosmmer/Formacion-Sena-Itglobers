@@ -1,0 +1,62 @@
+{
+  "vtex.menu@2.x:submenu#first-level-esika-two__second-level-esika-two":{
+    "title":"Second Level Item",
+    "props":{
+      "width":"100%"
+    },
+    "children":[
+      "flex-layout.row#second-level-esika-two__items"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#first-level-esika-three__second-level-esika-three":{
+    "title":"Third Level Item",
+    "props":{
+      "width":"100%"
+    },
+    "children":[
+      "flex-layout.row#second-level-esika-three__items"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#first-level-esika-four__second-level-esika-four":{
+    "title":"Four Level Item",
+    "props":{
+      "width":"100%"
+    },
+    "children":[
+      "flex-layout.row#second-level-esika-four__items"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#first-level-esika-five__second-level-esika-five":{
+    "title":"Five Level Item",
+    "props":{
+      "width":"100%"
+    },
+    "children":[
+      "flex-layout.row#second-level-esika-five__items"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#first-level-esika-six__second-level-esika-six":{
+    "title":"Six Level Item",
+    "props":{
+      "width":"100%"
+    },
+    "children":[
+      "flex-layout.row#second-level-esika-six__items"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#first-level-esika-seven__second-level-esika-seven":{
+    "title":"Seven Level Item",
+    "props":{
+      "width":"100%"
+    },
+    "children":[
+      "flex-layout.row#second-level-esika-seven__items"
+    ]
+  }
+
+}

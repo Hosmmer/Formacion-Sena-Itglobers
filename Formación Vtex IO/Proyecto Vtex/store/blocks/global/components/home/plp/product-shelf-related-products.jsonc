@@ -1,0 +1,39 @@
+{
+  "shelf.relatedProducts#global__product-related": {
+    "blocks": [
+      "product-summary.shelf#global__product-shelf-most-viewed"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "recommendation": "view",
+      "paginationDotsVisibility": "desktopOnly",
+      "context": {
+        "skusFilter": "ALL_AVAILABLE"
+      },
+      "productList": {
+        "maxItems": 5,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "infinite": false,
+        "arrows": true,
+        "showTitle": true,
+        "titleText": "Recomendados para ti"
+      },
+      "blockClass": "shelf-product-suggestion"
+    }
+  },
+  "product-summary.shelf#global__product-shelf-most-viewed": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-rating-inline",
+      "product-price-suspense#global__product-summary--price"
+    ],
+    "props": {
+      "priceBehavior": "async",
+      "blockClass": "global__product-summary"
+    }
+  }
+}

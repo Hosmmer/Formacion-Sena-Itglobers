@@ -1,0 +1,23 @@
+.content {
+  transition: 0.1s all;
+}
+
+.trigger--footer-mobile {
+  width: 100%;
+  margin: 0;
+  padding: 1px 1.5rem;
+}
+
+.trigger--footer-mobile::after {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trigger--footer-mobile--visible {
+  border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+.content--footer-group__content{
+  padding: 15px;
+}

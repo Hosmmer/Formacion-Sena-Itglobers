@@ -1,0 +1,25 @@
+{
+  "flex-layout.col#main-logo-layout": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "main-logo-row"
+    },
+    "children": [
+      "image#main-logo"
+    ]
+  },
+  "image#main-logo": {
+    "title": "main logo",
+    "props": {
+      "src": "assets/img/logo/logo-principal.webp",
+      "alt": "Privilegios Esika Colombia",
+      "blockClass": "main-logo",
+      "link": {
+        "url": "/",
+        "openNewTab": false,
+        "title": "Página Principal"
+      }
+    }
+  }
+}

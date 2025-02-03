@@ -1,0 +1,210 @@
+{
+  "flex-layout.row#second-level-esika-six__items":{
+    "title":"Items Second Level",
+    "children":[
+      "flex-layout.col#second-level-six__items--links-esika-skin",
+      "flex-layout.row#second-level-six__items--images-esika-skin"
+    ],
+    "props":{
+      "blockClass":"second-level-container",
+      "colSizing":"auto"
+    }
+  },
+
+  "flex-layout.col#second-level-six__items--links-esika-skin":{
+    "title":"Container Links",
+    "children":[
+      "flex-layout.row#items__links-esika-skin--content--top",
+      "flex-layout.row#items__links-esika-skin--content--middle",
+      "flex-layout.row#items__links-esika-skin--content--bottom"
+    ]
+  },
+
+  "flex-layout.row#items__links-esika-skin--content--top":{
+    "title":"Container Links Top",
+    "children":[
+      "vtex.menu@2.x:menu#links-esika-skin__content-top--one",
+      "vtex.menu@2.x:menu#links-esika-skin__content-top--two",
+      "vtex.menu@2.x:menu#links-esika-skin__content-top--three"
+    ],
+    "props":{
+      "blockClass":"items__links--content"
+    }
+  },
+
+  "vtex.menu@2.x:menu#links-esika-skin__content-top--one":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--skin-one",
+      "menu-item#global__third-level-esika--oxygen-one",
+      "menu-item#global__third-level-esika--oxygen-two"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#links-esika-skin__content-top--two":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--skin-two",
+      "menu-item#global__third-level-esika--cleaners-one",
+      "menu-item#global__third-level-esika--cleaners-two"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#links-esika-skin__content-top--three":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--skin-three",
+      "menu-item#global__third-level-esika--moisturizers-one",
+      "menu-item#global__third-level-esika--moisturizers-two"
+    ]
+  },
+
+  "flex-layout.row#items__links-esika-skin--content--middle":{
+    "title":"Container Links Middle",
+    "children":[
+      "vtex.menu@2.x:menu#links-esika-skin__content-top--four",
+      "vtex.menu@2.x:menu#links-esika-skin__content-top--five",
+      "vtex.menu@2.x:menu#links-esika-skin__content-top--six"
+    ],
+    "props":{
+      "blockClass":"items__links--content"
+    }
+  },
+
+  "vtex.menu@2.x:menu#links-esika-skin__content-top--four":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--skin-four",
+      "menu-item#global__third-level-esika--nourishing-one",
+      "menu-item#global__third-level-esika--nourishing-two"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#links-esika-skin__content-top--five":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--skin-five",
+      "menu-item#global__third-level-esika--eye-care-one",
+      "menu-item#global__third-level-esika--eye-care-two"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#links-esika-skin__content-top--six":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--skin-six",
+      "menu-item#global__third-level-esika--anti-spot-one"
+    ]
+  },
+
+  "flex-layout.row#items__links-esika-skin--content--bottom":{
+    "title":"Container Links Bottom",
+    "children":[
+      "vtex.menu@2.x:menu#links-esika-skin__content-top--seven",
+      "vtex.menu@2.x:menu#links-esika-skin__content-top--eight"
+    ],
+    "props":{
+      "blockClass":[
+        "items__links--content",
+        "items__links--content-special"
+      ],
+      "colSizing":"auto"
+    }
+  },
+
+  "vtex.menu@2.x:menu#links-esika-skin__content-top--seven":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--skin-seven",
+      "menu-item#global__third-level-esika--protectors-one"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#links-esika-skin__content-top--eight":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--skin-eight"
+    ]
+  },
+
+  "flex-layout.row#second-level-six__items--images-esika-skin":{
+    "title":"Container Images",
+    "children":[
+      "flex-layout.col#items__images-esika-skin--first",
+      "flex-layout.col#items__images-esika-skin--second"
+    ],
+    "props":{
+      "blockClass":"items__images"
+    }
+  },
+
+  "flex-layout.col#items__images-esika-skin--first":{
+    "title":"Container Images and Text",
+    "children":[
+      "image#images-esika-skin__first--image",
+      "rich-text#images-esika-skin__first--text"
+    ]
+  },
+
+  "image#images-esika-skin__first--image":{
+    "props":{
+     "src":"assets/img/header/banner-os-menu-mto.jpg"
+    }
+  },
+
+  "rich-text#images-esika-skin__first--text":{
+    "props":{
+      "text":"##### Línea antiedad Oxygen Supreme \n 100% Oxígeno en tu piel* que aumenta la producción de ácido hialurónico y colágeno",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"images--text"
+    }
+  },
+
+  "flex-layout.col#items__images-esika-skin--second":{
+    "title":"Container Images and Text",
+    "children":[
+      "image#images-esika-skin__second--image",
+      "rich-text#images-esika-skin__second--text"
+    ]
+  },
+
+  "image#images-esika-skin__second--image":{
+    "props":{
+     "src":"assets/img/header/banner-skinadvisor-menu-mto.jpg"
+    }
+  },
+
+  "rich-text#images-esika-skin__second--text":{
+    "props":{
+      "text":"##### Diágnostico de Piel Online \n Descubre los mejores productos para tu rutina facial",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"images--text"
+    }
+  }
+}

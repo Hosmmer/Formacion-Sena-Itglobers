@@ -1,0 +1,63 @@
+.giftListItem--product-gift-list,
+.giftListItem {
+    border-radius: 0;
+}
+
+.giftNameText {
+  text-align: left;
+  font-family: "Flatline";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 0;
+  border: 0;
+  letter-spacing: normal;
+}
+
+.giftDescription {
+  font-family: "brownstd",sans-serif;
+  font-size: 10px;
+  line-height: 1;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.productGiftText--product-gift-text {
+  font-family: "brownstd",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1;
+  color: #000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.productGiftsContainer .productGiftListContainer--product-gift-list {
+  width: 100%;
+}
+
+:global(.vtex-modal-layout-0-x-paper--product-gifts) .productGiftListContainer--product-gift-list {
+  width: 100%;
+  margin: 0 auto;
+}
+
+:global(.vtex-render__container-id-global__product-slider--content){
+  width: 100%;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+
+
+:global(.vtex-render__container-id-global__product-slider--content-2){
+  width: 100%;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+}

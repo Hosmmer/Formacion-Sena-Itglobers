@@ -1,0 +1,116 @@
+{
+  "flex-layout.row#second-level-esika-five__items":{
+    "title":"Items Second Level",
+    "children":[
+      "flex-layout.col#second-level-five__items--links-esika-care",
+      "flex-layout.row#second-level-five__items--images-esika-care"
+    ],
+    "props":{
+      "blockClass":"second-level-container",
+      "colSizing":"auto"
+    }
+  },
+
+  "flex-layout.col#second-level-five__items--links-esika-care":{
+    "title":"Container Links",
+    "children":[
+      "flex-layout.row#items__links-esika-care--content-top"
+    ]
+  },
+
+  "flex-layout.row#items__links-esika-care--content-top":{
+    "title":"Container Links Top",
+    "children":[
+      "vtex.menu@2.x:menu#links-esika-care__content-top--one",
+      "vtex.menu@2.x:menu#links-esika-care__content-top--two",
+      "vtex.menu@2.x:menu#links-esika-care__content-top--three"
+    ],
+    "props":{
+      "blockClass":"items__links--content"
+    }
+  },
+
+  "vtex.menu@2.x:menu#links-esika-care__content-top--one":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--care-one",
+      "menu-item#global__third-level-esika--body-one",
+      "menu-item#global__third-level-esika--body-two",
+      "menu-item#global__third-level-esika--body-three",
+      "menu-item#global__third-level-esika--body-four",
+      "menu-item#global__third-level-esika--body-five"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#links-esika-care__content-top--two":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--care-two",
+      "menu-item#global__third-level-esika--hair-one",
+      "menu-item#global__third-level-esika--hair-two",
+      "menu-item#global__third-level-esika--hair-three",
+      "menu-item#global__third-level-esika--hair-four",
+      "menu-item#global__third-level-esika--hair-five",
+      "menu-item#global__third-level-esika--hair-six",
+      "menu-item#global__third-level-esika--hair-seven"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#links-esika-care__content-top--three":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--care-three",
+      "menu-item#global__third-level-esika--kids-babys-one",
+      "menu-item#global__third-level-esika--kids-babys-two",
+      "menu-item#global__third-level-esika--kids-babys-three",
+      "menu-item#global__third-level-esika--kids-babys-four",
+      "menu-item#global__third-level-esika--kids-babys-five",
+      "menu-item#global__third-level-esika--kids-babys-six",
+      "menu-item#global__third-level-esika--kids-babys-seven",
+      "menu-item#global__third-level-esika--kids-babys-eight"
+    ]
+  },
+
+  "flex-layout.row#second-level-five__items--images-esika-care":{
+    "title":"Container Images",
+    "children":[
+      "flex-layout.col#items__images-esika-care--first"
+    ],
+    "props":{
+      "blockClass":"items__images"
+    }
+  },
+
+  "flex-layout.col#items__images-esika-care--first":{
+    "title":"Container Images and Text",
+    "children":[
+      "image#images-esika-care__first--image",
+      "rich-text#images-esika-care__first--text"
+    ]
+  },
+
+  "image#images-esika-care__first--image":{
+    "props":{
+     "src":"assets/img/header/banner-cuidado-personal-ritualeza-dk-pe-mto.jpg"
+    }
+  },
+
+  "rich-text#images-esika-care__first--text":{
+    "props":{
+      "text":"##### Ritualeza avellana \n Limpieza y nutrición con ingredientes naturales para tu piel",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"images--text-one"
+    }
+  }
+
+}

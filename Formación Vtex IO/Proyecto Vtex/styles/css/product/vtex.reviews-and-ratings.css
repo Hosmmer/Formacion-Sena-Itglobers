@@ -1,0 +1,92 @@
+
+.reviewsHeading{
+  text-align: center;
+  font-family: Flatline, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 40px;
+  border:none;
+}
+
+.star--filled, .star--empty{
+  color: #DB3B30;
+}
+
+.formSection
+:global(.vtex-input__label),
+.formSection
+:global(.vtex-textarea__label),
+.formContainer
+:global(.vtex-card),
+.formSection 
+:global(.vtex-button),
+.formSection 
+:global(.vtex-styleguide-9-x-input),
+.formSection
+:global(.vtex-input-prefix__group),
+.formSection
+:global(.vtex-textarea__input),
+.writeReviewContainer{
+  font-family: BrownStd;
+}
+
+.formSection 
+:global(.vtex-button){
+  text-transform: capitalize;
+  background-color: #FFF;
+  color: #000;
+  border-width: 1px;
+  border-radius: 0;
+  border-color: #000;
+  transition: .4s;
+}
+
+.formSection 
+:global(.vtex-button):hover{
+  background-color: #000;
+  color: #FFF;
+
+}
+
+.formSection
+:global(.vtex-input-prefix__group),
+.formSection
+:global(.vtex-textarea__input){
+  border-radius: 0;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.writeReviewContainer
+:global(.vtex__icon-caret-down),
+.writeReviewContainer
+:global(.vtex__icon-caret-up),
+.writeReviewButton:hover,
+.writeReviewButton{
+  color: #000
+}
+
+.reviewsOrderBy
+:global(.vtex-styleguide-9-x-container){
+  border-width: 1px;
+  border-radius: 0;
+  font-family: BrownStd;
+}
+
+.reviewsOrderBy
+:global(.vtex-dropdown__arrow){
+  color: #000;
+}
+
+.reviewCommentUser,
+.reviewInfo,
+.reviewDate,
+.reviewAuthor,
+.reviewCommentMessage{
+  font-family: BrownStd;
+  color: #000;
+}
+
+.reviewDateValue{
+
+}

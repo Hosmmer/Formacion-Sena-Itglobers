@@ -1,0 +1,119 @@
+{
+  "flex-layout.row#home__blog-catalog": {
+    "children": [
+      "flex-layout.row#home__blog",
+      "flex-layout.row#home__catalog"
+    ],
+    "props": {
+      "blockClass": "home-blog-catalog",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#home__blog": {
+    "children": [
+      "flex-layout.col#home__text-button--blog",
+      "flex-layout.col#home__img--blog"
+    ],
+    "props": {
+      "blockClass": "home-blog"
+    }
+  },
+  "flex-layout.row#home__catalog": {
+    "children": [
+      "flex-layout.col#home__img--catalog",
+      "flex-layout.col#home__text-button--catalog"
+    ],
+    "props": {
+      "blockClass": "home-catalog"
+    }
+  },
+  //BLOG
+  "flex-layout.col#home__text-button--blog": {
+    "children": [
+      "rich-text#text-esika-colorFix",
+      "rich-text#text-esika-blog",
+      "link#link-to-blog"
+    ],
+    "props": {
+      "blockClass": "home-text-button-blog"
+    }
+  },
+  "rich-text#text-esika-colorFix": {
+    "props": {
+      "text": "## COLORFIX",
+      "blockClass": "home-text-catalog--colorFix"
+    }
+  },
+  "rich-text#text-esika-blog": {
+    "props": {
+      "text": "## Maquillaje ¡a prueba de todo!",
+      "blockClass": "home-text-blog"
+    }
+  },
+  "link#link-to-blog": {
+    "props": {
+      "href": "#",
+      "label": "Conocer más",
+      "blockClass": "dualBanner"
+    }
+  },
+  //IMG BLOG
+  "flex-layout.col#home__img--blog": {
+    "children": [
+      "image#home-img-blog"
+    ],
+    "props": {
+      "blockClass": "home-img-blog"
+    }
+  },
+  "image#home-img-blog": {
+    "props": {
+      "src": "assets/img/home/img-blog-home.jpg",
+      "blockClass": "image-blog"
+    }
+  },
+  //CATALOG
+  "flex-layout.col#home__img--catalog": {
+    "children": [
+      "image#home-img-catalog"
+    ],
+    "props": {
+      "blockClass": "home-img-catalog"
+    }
+  },
+  "image#home-img-catalog": {
+    "props": {
+      "src": "assets/img/home/img-catalog-home.jpg",
+      "blockClass": "image-catalog"
+    }
+  },
+  "flex-layout.col#home__text-button--catalog": {
+    "children": [
+      "rich-text#text-esika-Vibranza",
+      "rich-text#text-esika-catalog",
+      "link#link-to-catalog"
+    ],
+    "props": {
+      "blockClass": "home-text-button-catalog"
+    }
+  },
+  "rich-text#text-esika-Vibranza": {
+    "props": {
+      "text": "## Vibranza",
+      "blockClass": "home-text-catalog--vibranza"
+    }
+  },
+  "rich-text#text-esika-catalog": {
+    "props": {
+      "text": "## El perfume #1 de ésika",
+      "blockClass": "home-text-catalog"
+    }
+  },
+  "link#link-to-catalog": {
+    "props": {
+      "href": "#",
+      "label": "Conocer más",
+      "blockClass": "dualBanner--vibranza"
+    }
+  }
+}

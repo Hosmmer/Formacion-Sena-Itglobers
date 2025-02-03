@@ -1,0 +1,502 @@
+@font-face {
+  font-family: graphik;
+  src: local("Graphik");
+  src: url(assets/fonts/woff/Graphik-Light.woff) format("woff"),
+    url(assets/fonts/ttf/Graphik-Light.ttf) format("truetype"),
+    url(assets/fonts/eot/Graphik-Light.eot);
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: graphik;
+  src: local("Graphik");
+  src: url(assets/fonts/woff/Graphik-Regular.woff) format("woff"),
+    url(assets/fonts/ttf/Graphik-Regular.ttf) format("truetype"),
+    url(assets/fonts/eot/Graphik-Regular.eot);
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: graphik;
+  src: local("Graphik");
+  src: url(assets/fonts/woff/Graphik-Medium.woff) format("woff"),
+    url(assets/fonts/ttf/Graphik-Medium.ttf) format("truetype"),
+    url(assets/fonts/eot/Graphik-Medium.eot);
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: graphik;
+  src: local("Graphik");
+  src: url(assets/fonts/woff/Graphik-Bold.woff) format("woff"),
+    url(assets/fonts/ttf/Graphik-Bold.ttf) format("truetype"),
+    url(assets/fonts/eot/Graphik-Bold.eot);
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: brownstd;
+  src: local("BrownStd");
+  src: url(assets/fonts/woff2/BrownStd-Light.woff2) format("woff2"),
+    url(assets/fonts/woff/BrownStd-Light.woff) format("woff"),
+    url(assets/fonts/ttf/BrownStd-Light.ttf) format("truetype"),
+    url(assets/fonts/eot/BrownStd-Light.eot);
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: brownstd;
+  src: local("BrownStd");
+  src: url(assets/fonts/woff2/BrownStd-Regular.woff2) format("woff2"),
+    url(assets/fonts/woff/BrownStd-Regular.woff) format("woff"),
+    url(assets/fonts/ttf/BrownStd-Regular.ttf) format("truetype"),
+    url(assets/fonts/eot/BrownStd-Regular.eot);
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: brownstd;
+  src: local("BrownStd");
+  src: url(assets/fonts/woff2/BrownStd-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: brownstd;
+  src: local("BrownStd");
+  src: url(assets/fonts/woff2/BrownStd-Bold.woff2) format("woff2"),
+    url(assets/fonts/woff/BrownStd-Bold.woff) format("woff"),
+    url(assets/fonts/ttf/BrownStd-Bold.ttf) format("truetype"),
+    url(assets/fonts/eot/BrownStd-Bold.eot);
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: esikaflatline;
+  src: local("esikaFlatline");
+  src: url(assets/fonts/woff2/esikaFlatline-Bold.woff2) format("woff2"),
+    url(assets/fonts/woff/esikaFlatline-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: esikaflatline;
+  src: local("esikaFlatline");
+  src: url(assets/fonts/woff2/esikaFlatline-Regular.woff2)
+      format("woff2"),
+    url(assets/fonts/woff/esikaFlatline-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: esikaflatline;
+  src: local("esikaFlatline");
+  src: url(assets/fonts/woff2/esikaFlatline-SemiBold.woff2)
+      format("woff2"),
+    url(assets/fonts/woff/esikaFlatline-SemiBold.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver;
+  src: local("Lasiver");
+  src: url(assets/fonts/woff2/Lasiver-Light.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver-Light.woff) format("woff"),
+    url(assets/fonts/ttf/Lasiver-Light.ttf) format("truetype"),
+    url(assets/fonts/eot/Lasiver-Light.eot);
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver;
+  src: local("Lasiver");
+  src: url(assets/fonts/woff2/Lasiver.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver.woff) format("woff"),
+    url(assets/fonts/eot/Lasiver.eot);
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver;
+  src: local("Lasiver");
+  src: url(assets/fonts/woff2/Lasiver-Bold.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver-Bold.woff) format("woff"),
+    url(assets/fonts/ttf/Lasiver-Bold.ttf) format("truetype"),
+    url(assets/fonts/eot/Lasiver-Bold.eot);
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver-new;
+  src: local("Lasiver-new");
+  src: url(assets/fonts/woff2/Lasiver-Thin.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver-Thin.woff) format("woff"),
+    url(assets/fonts/ttf/Lasiver-Thin.ttf) format("truetype"),
+    url(assets/fonts/eot/Lasiver-Thin.eot);
+  font-weight: 100;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver-new;
+  src: local("Lasiver-new");
+  src: url(assets/fonts/woff2/Lasiver-Hairline.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver-Hairline.woff) format("woff"),
+    url(assets/fonts/ttf/Lasiver-Hairline.ttf) format("truetype"),
+    url(assets/fonts/eot/Lasiver-Hairline.eot);
+  font-weight: 200;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver-new;
+  src: local("Lasiver-new");
+  src: url(assets/fonts/woff2/Lasiver-Light.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver-Light.woff) format("woff"),
+    url(assets/fonts/ttf/Lasiver-Light.ttf) format("truetype"),
+    url(assets/fonts/eot/Lasiver-Light.eot);
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver-new;
+  src: local("Lasiver-new");
+  src: url(assets/fonts/woff2/Lasiver-Regular.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver-Regular.woff) format("woff"),
+    url(assets/fonts/ttf/Lasiver-Regular.ttf) format("truetype"),
+    url(assets/fonts/eot/Lasiver-Regular.eot);
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver-new;
+  src: local("Lasiver-new");
+  src: url(assets/fonts/woff2/Lasiver-Medium.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver-Medium.woff) format("woff"),
+    url(assets/fonts/ttf/Lasiver-Medium.ttf) format("truetype"),
+    url(assets/fonts/eot/Lasiver-Medium.eot);
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver-new;
+  src: local("Lasiver-new");
+  src: url(assets/fonts/woff2/Lasiver-Bold.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver-Bold.woff) format("woff"),
+    url(assets/fonts/ttf/Lasiver-Bold.ttf) format("truetype"),
+    url(assets/fonts/eot/Lasiver-Bold.eot);
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: lasiver-new;
+  src: local("Lasiver-new");
+  src: url(assets/fonts/woff2/Lasiver-Black.woff2) format("woff2"),
+    url(assets/fonts/woff/Lasiver-Black.woff) format("woff"),
+    url(assets/fonts/ttf/Lasiver-Black.ttf) format("truetype"),
+    url(assets/fonts/eot/Lasiver-Black.eot);
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: polaris;
+  src: local("Polaris");
+  src: url(assets/fonts/woff/Polaris-Light.woff) format("woff"),
+    url(assets/fonts/ttf/Polaris-Light.ttf) format("truetype"),
+    url(assets/fonts/eot/Polaris-Light.eot);
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: polaris;
+  src: local("Polaris");
+  src: url(assets/fonts/woff/Polaris-Regular.woff) format("woff"),
+    url(assets/fonts/ttf/Polaris-Regular.ttf) format("truetype"),
+    url(assets/fonts/eot/Polaris-Regular.eot);
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: polaris;
+  src: local("Polaris");
+  src: url(assets/fonts/woff/Polaris-Medium.woff) format("woff"),
+    url(assets/fonts/ttf/Polaris-Medium.ttf) format("truetype"),
+    url(assets/fonts/eot/Polaris-Medium.eot);
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: dalmatins lbel;
+  src: local("Dalmatins LBEL");
+  src: url(assets/fonts/woff2/DalmatinsLBEL.woff2) format("woff2"),
+    url(assets/fonts/woff/DalmatinsLBEL.woff) format("woff"),
+    url(assets/fonts/ttf/DalmatinsLBEL.ttf) format("truetype"),
+    url(assets/fonts/eot/DalmatinsLBEL.eot);
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: flatline;
+  src: local("Flatline");
+  src: url(assets/fonts/woff2/Flatline-Regular.woff2) format("woff2"),
+    url(assets/fonts/woff/Flatline-Regular.woff) format("woff"),
+    url(assets/fonts/ttf/Flatline-Regular.ttf) format("truetype"),
+    url(assets/fonts/eot/Flatline-Regular.eot);
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: flatline;
+  src: local("Flatline");
+  src: url(assets/fonts/woff2/Flatline-Bold.woff2) format("woff2"),
+    url(assets/fonts/woff/Flatline-Bold.woff) format("woff"),
+    url(assets/fonts/ttf/Flatline-Bold.ttf) format("truetype"),
+    url(assets/fonts/eot/Flatline-Bold.eot);
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: golden-youth;
+  src: local("Golden-Youth");
+  src: url(assets/fonts/woff2/Golden-Youth.woff2) format("woff2"),
+    url(assets/fonts/woff/Golden-Youth.woff) format("woff"),
+    url(assets/fonts/ttf/Golden-Youth.ttf) format("truetype"),
+    url(assets/fonts/eot/Golden-Youth.eot);
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: sorrenex-medium;
+  src: url(assets/fonts/otf/SorrenEx-Medium.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: giorgiosans-light;
+  src: url(assets/fonts/otf/GiorgioSans-Light.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: giorgiosans-regular;
+  src: url(assets/fonts/otf/GiorgioSans-Regular.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: giorgiosans-medium;
+  src: url(assets/fonts/otf/GiorgioSans-Medium.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: freigbigproboo;
+  src: url(assets/fonts/otf/FreigBigProBoo.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: freigbigprobooita;
+  src: url(assets/fonts/otf/FreigBigProBooIta.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: freigbigprobol;
+  src: url(assets/fonts/otf/FreigBigProBol.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: revicons;
+  src: url(assets/fonts/ttf/revicons.ttf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: gotham-light;
+  src: url(assets/fonts/otf/Gotham-Light.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: gotham-book;
+  src: url(assets/fonts/otf/Gotham-Book.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: gotham-medium;
+  src: url(assets/fonts/woff2/Gotham-Medium.woff2) format("woff2"),
+    url(assets/fonts/woff/Gotham-Medium.woff) format("woff"),
+    url(assets/fonts/ttf/Gotham-Medium.ttf) format("truetype"),
+    url(assets/fonts/eot/Gotham-Medium.eot)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: gotham-bold;
+  src: url(assets/fonts/otf/Gotham-Bold.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: gotham-ultra;
+  src: url(assets/fonts/otf/Gotham-Ultra.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: gotham;
+  src: url(assets/fonts/otf/Gotham-Book.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: icons-new-lbel;
+  src: url(assets/fonts/ttf/icons-new-lbel.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url(assets/fonts/icomoon/icomoon.eot);
+  src:  url(assets/fonts/icomoon/icomoon.eot) format('embedded-opentype'),
+    url(assets/fonts/icomoon/icomoon.ttf) format('truetype'),
+    url(assets/fonts/icomoon/icomoon.woff) format('woff'),
+    url(assets/fonts/icomoon/icomoon.svg) format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face{
+  font-family: glyphicons halflings;
+  src: url(assets/fonts/eot/glyphicons-halflings-regular.eot);
+  src: url(assets/fonts/woff2/glyphicons-halflings-regular.woff2) format('woff2'),
+  url(assets/fonts/woff/glyphicons-halflings-regular.woff) format('woff'),
+  url(assets/fonts/ttf/glyphicons-halflings-regular.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

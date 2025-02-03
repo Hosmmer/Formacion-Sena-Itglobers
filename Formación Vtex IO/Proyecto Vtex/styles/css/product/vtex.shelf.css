@@ -1,0 +1,19 @@
+
+.title--shelf-product-suggestion {
+  justify-content: left;
+  font-family: Flatline;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+
+ 
+
+.sliderContainer--shelf-product-suggestion :global(.vtex-slider-0-x-sliderFrame) {
+  justify-content: start;
+}
+
+.sliderContainer--shelf-product-suggestion :global(.vtex-slider-0-x-dotsContainer) {
+  display: none;
+}

@@ -1,0 +1,152 @@
+{
+  "menu-item#global__pdp--description": {
+    "props": {
+      "blockClass": "pdp--menu-container",
+      "id": "global__pdp--description-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Descrición",
+        "text": "Descripción"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#global__pdp--description"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#global__pdp--description": {
+    "children": ["vtex.menu@2.x:menu#global__pdp--description-content"]
+  },
+
+  "vtex.menu@2.x:menu#global__pdp--description-content": {
+    "props": {
+      "blockClass": "global__pdp--description-content",
+      "orientation": "vertical"
+    },
+    "children": [
+      // "flex-layout.row#global__product--description",
+      "product-description#global__product-description"
+    ]
+  },
+
+  /**/
+
+  "menu-item#global__pdp--includes": {
+    "props": {
+      "blockClass": "pdp--menu-container",
+      "id": "global__pdp--includes-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Incluye",
+        "text": "Incluye"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#global__pdp--includes"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#global__pdp--includes": {
+    "children": ["vtex.menu@2.x:menu#global__pdp--includes-content"]
+  },
+
+  "vtex.menu@2.x:menu#global__pdp--includes-content": {
+    "props": {
+      "blockClass": "global__pdp--includes-content",
+      "orientation": "vertical"
+    },
+    "children": [
+      // "flex-layout.row#includes",
+      "product-description#global__product-description"
+    ]
+  },
+
+  /**/
+
+  "menu-item#global__pdp--how-to-use": {
+    "props": {
+      "blockClass": "pdp--menu-container",
+      "id": "global__pdp--how-to-use-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "¿Cómo usarlo?",
+        "text": "¿Cómo usarlo?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#global__pdp--how-to-use"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#global__pdp--how-to-use": {
+    "children": ["vtex.menu@2.x:menu#global__pdp--how-to-use-content"]
+  },
+
+  "vtex.menu@2.x:menu#global__pdp--how-to-use-content": {
+    "props": {
+      "blockClass": "global__pdp--how-to-use-content",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#global__pdp--how-to-use-content"
+    ]
+  },
+
+  "flex-layout.row#global__pdp--how-to-use-content": {
+    "props": {
+      "blockClass": "pdp--how-to-use-content"
+    } ,
+    "children": ["product-specification-group#global__pdp--description-content"]
+  },
+
+  "flex-layout.row#global__product--description": {
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "product--description"
+    },
+    "children": ["product-description#global__product-description"]
+  },
+
+  "product-description#global__product-description": {
+    "props": {
+      "showTitle": false,
+      "collapseContent": false
+    }
+  },
+
+  "product-specification-group#global__pdp--description-content": {
+    "props": {
+      "blockClass": "pdp--description-content",
+      "filter": {
+        "specificationGroups": ["Especificaciones de producto"],
+        "type": "show"
+      }
+    },
+    "children": ["product-specification#pdp--description-content"]
+  },
+  "product-specification#pdp--description-content": {
+    "props": {
+      "blockClass": "pdp--description-content"
+    },
+    "children": ["product-specification-values"]
+  },
+
+  "product-specification-values": {
+    "children": ["product-specification-text#value"]
+  },
+
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}"
+    }
+  }
+}

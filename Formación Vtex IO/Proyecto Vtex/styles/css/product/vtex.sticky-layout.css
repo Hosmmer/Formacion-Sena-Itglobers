@@ -1,0 +1,10 @@
+.container--product--sticky-buy-button-container {
+  background: #fff;
+  border-top: 1px solid #efefef;
+}
+
+.wrapper--product--sticky-buy-button-container {
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
+}

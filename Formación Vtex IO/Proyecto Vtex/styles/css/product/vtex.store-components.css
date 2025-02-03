@@ -1,0 +1,103 @@
+.swiperBullet {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #fff;
+}
+
+.swiper-pagination.swiperPaginationClickable {
+  bottom: 1%;
+}
+
+.swiperBullet {
+  margin: 5px 7px !important;
+  background: #c4c4c4;
+}
+
+.swiperBullet.swiperBullet--active {
+  background: #db3b30 !important;
+}
+
+.productBrand {
+  font-family: "Flatline";
+  font-weight: 700;
+  font-style: normal;
+  background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .productBrand {
+    font-size: 25px;
+    line-height: 36px;
+  }
+}
+
+.shareContainer {
+  text-align: center;
+  width: 50%;
+}
+
+.skuSelectorName,
+.skuSelectorNameSeparator,
+.skuSelectorSelectorImageValue {
+  font-family: "brownstd", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.skuSelectorInternalBox {
+  border-radius: 0;
+}
+
+.frameAround {
+  border-radius: 0;
+  border-color: #000;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+  display: none;
+}
+
+.productImagesThumbActive--global__product-images {
+  border: 1px solid #e95862;
+}
+
+.shareContainer {
+  display: flex;
+  align-items: center;
+}
+
+.shareLabel {
+  color: #000;
+}
+
+.shareSocialButton--facebook::before {
+  content: "";
+  display: block !important;
+  background-image: url("assets/img/product/facebook-ico.svg");
+  width: 30px !important;
+  height: 32px !important;
+  background-repeat: no-repeat;
+}
+
+.shareSocialButton--whatsapp::before {
+  content: "";
+  display: block !important;
+  background-image: url("assets/img/product/whatsapp-ico.svg");
+  width: 30px !important;
+  height: 32px !important;
+  background-repeat: no-repeat;
+}
+
+.shareSocialIcon--facebook,
+.shareSocialIcon--whatsapp
+{
+  display: none;
+}
+
+.skuSelectorItemImageValue--global__product--sku-selector {
+  height: 100%;
+}

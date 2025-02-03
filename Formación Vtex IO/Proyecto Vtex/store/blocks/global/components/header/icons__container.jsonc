@@ -1,0 +1,66 @@
+{
+    "tab-layout#icons__tabs": {
+        "children": [
+            "flex-layout.row#icons__row"
+        ],
+        "props": {
+            "blockClass": "icons__container",
+            "defaultActiveTabId": "home1"
+        }
+    },
+    "flex-layout.row#icons__row": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "icons__row"
+        },
+        "children": [
+            "flex-layout.col#icon__cyzone",
+            "flex-layout.col#icon__eskika",
+            "flex-layout.col#icon__lbel"
+        ]
+    },
+    "flex-layout.col#icon__cyzone": {
+        "props": {
+            "blockClass": "icons__col",
+            "marginLeft": 20
+        },
+        "children": [
+            "tab-list.item#icon__cyzone--img"
+        ]
+    },
+    "flex-layout.col#icon__eskika": {
+        "children": [
+            "tab-list.item#icon__eskika--img"
+        ]
+    },
+    "flex-layout.col#icon__lbel": {
+        "props": {
+            "blockClass": "icons__col"
+        },
+        "children": [
+            "tab-list.item#icon__lbel--img"
+        ]
+    },
+    "tab-list.item#icon__cyzone--img": {
+        "props": {
+            "tabId": "logo3",
+            "label": " ",
+            "blockClass": "logo__header--cyz"
+        }
+    },
+    "tab-list.item#icon__eskika--img": {
+        "props": {
+            "tabId": "logo2",
+            "label": " ",
+            "blockClass": "logo__header--esk"
+        }
+    },
+    "tab-list.item#icon__lbel--img": {
+        "props": {
+            "tabId": "logo1",
+            "label": " ",
+            "blockClass": "logo__header--lbl"
+        }
+    }
+}

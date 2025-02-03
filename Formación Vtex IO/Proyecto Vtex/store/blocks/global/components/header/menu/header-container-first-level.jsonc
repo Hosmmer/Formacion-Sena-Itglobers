@@ -1,0 +1,37 @@
+{
+  "flex-layout.row#desktop__container-first-level-esika": {
+    "title": "Container Links Menu First Level",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": [
+        "global__container-first-level",
+        "global__container-first-level-esika"
+      ]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#first-level-esika__items"
+    ]
+  },
+  "vtex.menu@2.x:menu#first-level-esika__items": {
+    "title": "Links First Level",
+    "props": {
+      "blockClass": "first-level__items",
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#desktop__first-level-esika-one",
+      "menu-item#desktop__first-level-esika-two",
+      "menu-item#desktop__first-level-esika-three",
+      "menu-item#desktop__first-level-esika-four",
+      "menu-item#desktop__first-level-esika-six",
+      "menu-item#desktop__first-level-esika-five",
+      "menu-item#desktop__first-level-esika-seven",
+      "menu-item#desktop__first-level-esika-eight",
+      "menu-item#desktop__first-level-esika-nine"
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "menu-item#desktop__first-level-esika-one": {
+    "title": "Link First Level One",
+    "props": {
+      "id": "menu-item-favoritos",
+      "blockClass": [
+        "global__link-level-one",
+        "global__link-level-one-esika",
+        "global__link-level-one--arrow"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "ArmaTuRutina",
+        "text": "Arma tu Rutina"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 25,
+        "viewBox": "0 0 15 15",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "muted-1"
+      },
+      "iconPosition": "right"
+    }
+  },
+  "menu-item#desktop__first-level-esika-two": {
+    "title": "Link First Level Two",
+    "props": {
+      "id": "menu-item-regalos",
+      "blockClass": [
+        "global__link-level-one",
+        "global__link-level-one-esika"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "sets",
+        "text": "Sets"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 25,
+        "viewBox": "0 0 15 15",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "muted-1"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#first-level-esika-two__second-level-esika-two"
+    ]
+  },
+  "menu-item#desktop__first-level-esika-three": {
+    "title": "Link First Level Three",
+    "props": {
+      "id": "menu-item-maquillaje",
+      "blockClass": [
+        "global__link-level-one",
+        "global__link-level-one-esika"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Maquillaje",
+        "text": "Maquillaje"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 25,
+        "viewBox": "0 0 15 15",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "muted-1"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#first-level-esika-three__second-level-esika-three"
+    ]
+  },
+  "menu-item#desktop__first-level-esika-four": {
+    "title": "Link First Level Four",
+    "props": {
+      "id": "menu-item-perfumes",
+      "blockClass": [
+        "global__link-level-one",
+        "global__link-level-one-esika"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Perfumes",
+        "text": "Perfumes"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 25,
+        "viewBox": "0 0 15 15",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "muted-1"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#first-level-esika-four__second-level-esika-four"
+    ]
+  },
+  "menu-item#desktop__first-level-esika-five": {
+    "title": "Link First Level Five",
+    "props": {
+      "id": "menu-item-cuidado",
+      "blockClass": [
+        "global__link-level-one",
+        "global__link-level-one-esika"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cuidado",
+        "text": "Cuidado de la Piel"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 25,
+        "viewBox": "0 0 15 15",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "muted-1"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#first-level-esika-five__second-level-esika-five"
+    ]
+  },
+  "menu-item#desktop__first-level-esika-six": {
+    "title": "Link First Level Six",
+    "props": {
+      "id": "menu-item-piel",
+      "blockClass": [
+        "global__link-level-one",
+        "global__link-level-one-esika"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Piel",
+        "text": "Skincare"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 25,
+        "viewBox": "0 0 15 15",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "muted-1"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#first-level-esika-six__second-level-esika-six"
+    ]
+  },
+  "menu-item#desktop__first-level-esika-seven": {
+    "title": "Link First Level Seven",
+    "props": {
+      "id": "menu-item-accesorios",
+      "blockClass": [
+        "global__link-level-one",
+        "global__link-level-one-esika"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "joyeria",
+        "text": "Joyería"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 25,
+        "viewBox": "0 0 15 15",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "muted-1"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#first-level-esika-seven__second-level-esika-seven"
+    ]
+  },
+  "menu-item#desktop__first-level-esika-eight": {
+    "title": "Link First Level Eight",
+    "props": {
+      "id": "menu-item-blog",
+      "blockClass": [
+        "global__link-level-one",
+        "global__link-level-one-esika"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "promocion%",
+        "text": "HASTA 35% OFF"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 25,
+        "viewBox": "0 0 15 15",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "muted-1"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": []
+  },
+  "menu-item#desktop__first-level-esika-nine": {
+    "title": "Link First Level Nine",
+    "props": {
+      "id": "menu-item-favoritos",
+      "blockClass": [
+        "global__link-level-one",
+        "global__link-level-one-esika"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "favoritos",
+        "text": "Favoritos"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 25,
+        "viewBox": "0 0 15 15",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "muted-1"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": []
+  }
+}

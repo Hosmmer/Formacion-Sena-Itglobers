@@ -1,0 +1,479 @@
+.flexRow--container__row-2{
+    margin-right: 285px;
+}
+
+
+
+.flexRow--container__3--1{
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    text-decoration: none;
+    width: 250px !important;
+   
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container__3)  {
+    margin-left: 105px;
+}
+
+/* .flexRowContent--container__3--1{
+   padding-left: 20px; 
+} */
+
+.flexCol--main-logo-row{
+    width: 290px !important;
+}
+
+.flexCol--consultantselectedimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-flex-layout-0-x-flexCol--consultantselectedimg )  {
+    width: auto!important;    
+ }
+
+ .flexColChild--search__bar--container{
+    display: flex;
+    width: 48%;
+    max-width: 100%;
+    margin-left: 470px;
+ }
+
+ :global(.vtex-flex-layout-0-x-flexRow--global__product-slider){
+    background: #f2f2f2;
+    width: 100% !important;
+ }
+ :global(.vtex-flex-layout-0-x-flexRow--global__product-slider-2){
+    background: #f2f2f2;
+    width: 100% !important;
+ }
+
+ :global(.vtex-flex-layout-0-x-flexRowContent--global__product-slider){
+    display: flex;
+    justify-content: space-around;
+    max-width: 100% !important;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ :global(.vtex-flex-layout-0-x-flexRowContent--global__product-slider-2){
+    display: flex;
+    justify-content: space-around;
+    max-width: 100% !important;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+ }
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer) :global(.vtex-slider-layout-0-x-paginationDot--content__context--slider){
+background-color: #c4c4c4;
+border-radius: 50% !important;
+width: 12px !important;
+height: 12px !important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--content__context--slider--isActive) {
+    background-color: red !important;
+    width: 5px !important;
+    height: 5px !important;
+    margin: 0 8px;
+    position: relative; /* Necesario para posicionar el `::after` */
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--content__context--slider--isActive)::after {
+    content: ""; /* Crea el pseudo-elemento */
+    position: absolute;
+    top: -4.5px; /* Controla la posición vertical */
+    left: -4px; /* Controla la posición horizontal */
+    width: 20px; /* Tamaño del círculo (más grande que el elemento) */
+    height: 20px; /* Tamaño del círculo (más grande que el elemento) */
+    border: 0.01rem solid red; /* Borde rojo para el círculo */
+    border-radius: 50%; /* Asegura que sea redondo */
+    z-index: -1; /* Manda el círculo detrás del elemento */
+}
+
+
+.flexRowContent--container__product--promotionEsika{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* ESCOGE TU CATEGORIA */
+.flexCol--home-choose-category{
+    margin-bottom: 70px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--home-choose-category-title){
+display: flex;
+justify-content: space-around;
+}
+
+:global(.vtex-rich-text-0-x-container--home-choose-category-text){
+    background-color: red;
+    height: 0;
+}
+
+/* .flexRow--home-choose-category {
+    margin-top: 88px;
+  } */
+  
+  .flexRow--home-choose-category :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+  
+  .flexRow--home-choose-category-title {
+    display        : flex;
+    justify-content: flex-start;
+    margin         : 50px auto 0;
+  }
+  .flexColChild--home-choose-category{
+    display: flex !important;
+    justify-content: space-evenly !important;
+  }
+  .flexRow--home-choose-category-banners {
+    display        : flex;
+    justify-content: center;
+    margin         : 30px;
+    max-width: 70%;
+  }
+  
+  .flexRow--global__product-slider {
+    background-color: rgba(0, 0, 0, .03);
+    padding         : 47px 0 47px 47px;
+  }
+
+    
+  .flexRow--global__product-slider-2 {
+    background-color: rgba(0, 0, 0, .03);
+    padding: 40px 0 !important;
+  }
+  
+  .flexRowContent--global__product-slider {
+    max-width  : 1455px;
+    margin     : auto;
+    align-items: center;
+    gap        : 50px;
+  }
+
+  .flexRowContent--global__product-slider-2 {
+    max-width  : 1455px;
+    margin     : auto;
+    align-items: center;
+  }
+  
+  .flexRow--global__product-slider :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+  
+  .flexRow--global__product-slider-2 :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+
+  @media screen and (min-width: 1281px) {
+    .flexRow--home-choose-category-title {
+      width: 1220px;
+    }
+  }
+  
+  @media screen and (max-width: 1025px) {
+    .flexRow--global__product-slider {
+      padding: 10px;
+    }
+  
+    .flexRow--home-choose-category {
+      margin-top: 88px;
+    }
+  
+    .flexRow--home-choose-category :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+    }
+  
+    .flexRow--home-choose-category-title {
+      display        : flex;
+      justify-content: flex-start;
+      margin         : 50px auto 0;
+    }
+  
+    .flexRow--home-choose-category-banners {
+      display        : flex;
+      justify-content: center;
+      margin         : 24px 2vw 121px;
+    }
+  
+  
+    @media screen and (max-width: 800px) {
+      .flexRow--home-choose-category {
+        margin-top: 40px;
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      .flexRow--home-choose-category-banners {
+        overflow-y     : hidden;
+        flex-wrap      : wrap;
+        justify-content: center;
+        margin         : 0 2vw;
+      }
+  
+      .flexRowContent--home-choose-category-banners {
+        flex-wrap      : wrap;
+        justify-content: center;
+      }
+  
+      .flexRowContent--home-choose-category-banners .stretchChildrenWidth {
+        width  : 49% !important;
+        padding: 0 1.5%;
+      }
+    }
+  
+    @media screen and (max-width: 639px) {
+      .flexRowContent--home-choose-category-banners {
+        display: flex;
+      }
+  
+      .flexRowContent--home-choose-category-banners .stretchChildrenWidth {
+        width  : 49% !important;
+        padding: 0 1.25%;
+      }
+    }
+  
+    @media screen and (max-width:333px) {
+      .flexRowContent--home-choose-category-banners {
+        display: block;
+      }
+  
+      .flexRowContent--home-choose-category-banners .stretchChildrenWidth {
+        margin-left : auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+
+
+  /* MARCA QUE ELIGEN LAS MUJERES */
+.flexRowContent--home-brand-choosed {
+    justify-content: center;
+  }
+  
+  .flexRowContent--home-brand-choosed .stretchChildrenWidth {
+    width: auto !important;
+  }
+  
+  .flexRowContent--home-brand-choosed .stretchChildrenWidth:nth-child(2n) {
+    width: 30% !important;
+  }
+  
+  .flexRowContent--home-brand-choosed .stretchChildrenWidth:nth-child(3n) {
+    transform: translate(0, 70%);
+  }
+  
+  .flexRow--home-brand-choosed {
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+  }
+  
+
+
+  
+/* Confianza es belleza*/
+
+/* LOS SUEÑOS SE HACEN REALIDAD */
+.flexRowContent--home-text-dreams {
+    justify-content: center;
+    flex-direction : column;
+  }
+  
+  .flexRowContent--home-text-dreams .stretchChildrenWidth {
+    width: 100% !important;
+  }
+  
+  .flexRow--text-dreams-line {
+    display        : flex;
+    justify-content: center;
+  }
+  
+  .flexRowContent--text-dreams-line {
+    width        : 100px;
+    height       : 10px;
+    border-bottom: 1px solid #DB3B30;
+  }
+
+
+
+
+  /* CATALOGO Y BLOG */
+
+.flexCol--home-text-button-blog {
+  width       : 52% !important;
+  margin-left: -100px;
+  margin-top: 40px;
+  z-index     : 1;
+}
+
+.flexColChild--home-text-button-blog,
+.flexColChild--home-text-button-catalog {
+  height: auto !important;
+}
+
+/* .flexCol--home-img-blog{
+  height: 550px;
+} */
+
+.flexCol--home-text-button-catalog {
+  width          : 70% !important;
+  margin-left    : -45%;
+  height         : auto;
+  justify-content: flex-end;
+  margin-bottom  : 10%;
+}
+
+.flexRowContent--home-blog-catalog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+.flexCol--home-text-button-catalog{
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+
+.flex-layout-0-x-flexRow--home-blog {
+  margin-bottom: 10%;
+}
+.flexColChild--home-img-blog {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .flexRow--home-blog-catalog {
+    background-size: 88vw;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .flexRowContent--home-blog,
+  .flexRowContent--home-catalog {
+    display: flex;
+  }
+
+  .flexCol--home-img-blog {
+    height: auto;
+  }
+
+  .flexCol--home-img-blog,
+  .flexCol--home-img-catalog {
+    width: 48vw !important;
+  }
+
+  .flexCol--home-text-button-blog,
+  .flexCol--home-text-button-catalog {
+    width       : 98% !important;
+    margin-right: -40%;
+  }
+
+  .flexCol--home-text-button-catalog {
+    margin-bottom: 15%;
+
+  }
+
+  .flexColChild--home-text-button-catalog :global(.vtex-store-link-0-x-link--dualBanner) {
+    width    : 34vw;
+    font-size: 2.3vw;
+  }
+
+  .flexColChild--home-text-button-blog :global(.vtex-store-link-0-x-link--dualBanner) {
+    width    : 33.1vw;
+    font-size: 2.3vw;
+  }
+
+  .flexRowContent--home-blog-catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .flexColChild--home-img-blog {
+    transform: translate(-10%, 0);
+  }
+
+  .flexRow--home-blog {
+    margin-bottom: 10%;
+  }
+
+}
+
+@media screen and (max-width:480px) {
+
+  .flexCol--home-img-blog,
+  .flexCol--home-img-catalog {
+    width: 55vw !important;
+  }
+
+  .flexColChild--home-text-button-catalog :global(.vtex-store-link-0-x-link--dualBanner) {
+    width    : 44.5vw;
+    font-size: 4.5vw;
+  }
+
+  .flexColChild--home-text-button-blog :global(.vtex-store-link-0-x-link--dualBanner) {
+    width    : 36.5vw;
+    font-size: 4.5vw;
+  }
+
+  .flexCol--home-text-button-blog,
+  .flexCol--home-text-button-catalog {
+    width       : 98% !important;
+    margin-right: 0;
+  }
+
+  .flexRow--home-blog-catalog {
+    background-size: 100%;
+    overflow-x     : hidden;
+  }
+
+  .flexColChild--home-img-blog {
+    transform: translate(0, 0);
+  }
+
+  .flexCol--home-text-button-catalog {
+    margin-left: -40%;
+  }
+
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-blog){
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-catalog){
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+}
+.flexRow--footer-banner-somoLibres {
+  width: 1000px; 
+  height: auto; 
+  object-fit: cover;
+  max-height: 720px;
+}
+

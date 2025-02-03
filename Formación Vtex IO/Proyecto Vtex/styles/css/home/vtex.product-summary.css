@@ -1,0 +1,199 @@
+.container--global__product-summary {
+  max-width: 275px !important;
+}
+
+.container--global__product-summary .nameContainer {
+  text-align     : left;
+  padding-top    : 17px;
+  padding-bottom : 5px;
+  justify-content: center;
+}
+
+.container--global__product-summary .brandName {
+  color      : #000000;
+  font-size  : 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.container--global__product-summary :global(.vtex-reviews-and-ratings-2-x-inlineContainer) {
+  margin-left: 0;
+}
+
+.container--global__product-summary :global(.vtex-product-price-1-x-priceSuspenseContentWrapper) {
+  text-align : left;
+  display    : flex;
+  align-items: baseline;
+  justify-content: center;
+  gap        : 10px;
+  margin     : 15px 0;
+}
+
+.container--global__product-summary :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
+  font-size  : 12px;
+  color      : #000000;
+  opacity    : 0.7;
+  font-weight: 400;
+}
+
+.container--global__product-summary :global(.vtex-product-price-1-x-sellingPriceValue) :global(.vtex-product-price-1-x-currencyContainer) {
+  font-size  : 12px;
+  font-weight: 700;
+  color      : #000;
+}
+
+.container--global__product-summary :global(.vtex-reviews-and-ratings-2-x-star) {
+  position    : relative;
+  color       : transparent;
+  margin-right: 10px;
+}
+
+.container--global__product-summary :global(.vtex-reviews-and-ratings-2-x-star--filled)::before {
+  content          : "";
+  background-image : url(assets/img/home/star-fill.svg);
+  background-repeat: no-repeat;
+  background-size  : contain;
+  width            : 20px;
+  height           : 20px;
+  position         : absolute;
+}
+
+.container--global__product-summary :global(.vtex-reviews-and-ratings-2-x-star--empty)::before {
+  content          : "";
+  background-image : url(assets/img/home/star-empty.svg);
+  background-repeat: no-repeat;
+  background-size  : contain;
+  width            : 16px;
+  height           : 16px;
+  position         : absolute;
+  top              : 3px;
+}
+
+.container--global__product-summary :global(.vtex-button) {
+  border          : 0;
+  border-radius   : 0;
+  height          : 40px;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  text-align      : center;
+  background-color: #000000;
+  transition      : .3s all;
+  
+}
+
+.container--global__product-summary :global(.vtex-button):hover {
+  background-color: #282828;
+}
+
+.container--global__product-summary :global(.vtex-button__label) {
+  width         : fit-content;
+  height        : fit-content;
+  min-height    : fit-content;
+  text-transform: none;
+  font-weight: bold;
+}
+
+
+
+/* SHELF RECOMENDADOS PARA TI */
+.containerNormal--shelf-recommendation
+.brandName{
+  color: #000;
+  font-family: BrownStd;
+  font-weight: 700;
+  
+}
+
+.containerNormal--shelf-recommendation
+.nameContainer {
+  justify-content: flex-start;
+}
+
+.containerNormal--shelf-recommendation
+.productNameContainer{
+  text-align: center;
+}
+
+.clearLink--shelf-recommendation
+:global(.vtex-product-price-1-x-priceSuspense){
+  margin-bottom: 10px;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.clearLink--shelf-recommendation
+:global(.vtex-product-price-1-x-priceSuspenseContentWrapper){
+  font-family: BrownStd;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.clearLink--shelf-recommendation
+:global(.vtex-product-price-1-x-listPrice){
+  margin-right: 10px;
+  color: #939393;
+}
+
+.clearLink--shelf-recommendation
+:global(.vtex-product-price-1-x-sellingPriceValue){
+  color: #000;
+}
+
+.clearLink--shelf-recommendation
+:global(.vtex-add-to-cart-button-0-x-buttonText){
+  text-transform: none;
+  font-family: BrownStd;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.clearLink--shelf-recommendation
+:global(.vtex-button){
+  border: none;
+  border-radius: 0;
+  background-color: #000;
+  transition: .3s
+}
+
+.clearLink--shelf-recommendation
+:global(.vtex-button):hover{
+  border: none;
+  border-radius: 0;
+  background-color: #282828;
+  
+}
+
+
+:global(.vtex-product-summary-2-x-productBrand) {
+  font-family: BrownStd, Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: .1px !important;
+    text-align: center !important;
+    color: #000;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+:global(.vtex-product-summary-2-x-element--global__product-summary){
+  background-color: white !important;
+  padding:  0.2rem 0;
+  margin-top: 10px;
+  border: 0   !important;
+}
+
+:global(.vtex-product-summary-2-x-imageNormal) {
+  height: 200px !important;
+  border-radius: 0;
+  object-fit:contain;
+}
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--content__context--slider){
+  padding: 0 10px;
+}

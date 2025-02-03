@@ -1,0 +1,10 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "sticky-layout#1-desktop",
+            "sticky-layout#2-desktop",
+            "sticky-layout#3-desktop",
+            "sticky-layout#4-desktop"
+        ]
+    }
+}

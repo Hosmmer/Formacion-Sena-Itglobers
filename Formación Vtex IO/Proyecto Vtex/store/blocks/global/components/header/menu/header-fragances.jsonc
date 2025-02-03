@@ -1,0 +1,134 @@
+{
+  "flex-layout.row#second-level-esika-four__items":{
+    "title":"Items Second Level",
+    "children":[
+      "flex-layout.col#second-level-four__items--links-esika-fragances",
+      "flex-layout.row#second-level-four__items--images-esika-fragances"
+    ],
+    "props":{
+      "blockClass":"second-level-container",
+      "colSizing":"auto"
+    }
+  },
+
+  "flex-layout.col#second-level-four__items--links-esika-fragances":{
+    "title":"Container Links",
+    "children":[
+      "flex-layout.row#items__links-esika-fragances--content-top"
+    ]
+  },
+
+  "flex-layout.row#items__links-esika-fragances--content-top":{
+    "title":"Container Links Top",
+    "children":[
+      "vtex.menu@2.x:menu#links-esika-fragances__content-top--one",
+      "vtex.menu@2.x:menu#links-esika-fragances__content-top--two",
+      "vtex.menu@2.x:menu#links-esika-fragances__content-top--three"
+    ],
+    "props":{
+      "blockClass":"items__links--content"
+    }
+  },
+
+  "vtex.menu@2.x:menu#links-esika-fragances__content-top--one":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--fragrances-one",
+      "menu-item#global__third-level-esika--woman-one",
+      "menu-item#global__third-level-esika--woman-two",
+      "menu-item#global__third-level-esika--woman-three",
+      "menu-item#global__third-level-esika--woman-four",
+      "menu-item#global__third-level-esika--woman-five",
+      "menu-item#global__third-level-esika--woman-six",
+      "menu-item#global__third-level-esika--woman-seven"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#links-esika-fragances__content-top--two":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--fragrances-two",
+      "menu-item#global__third-level-esika--man-one",
+      "menu-item#global__third-level-esika--man-two",
+      "menu-item#global__third-level-esika--man-three",
+      "menu-item#global__third-level-esika--man-four",
+      "menu-item#global__third-level-esika--man-five",
+      "menu-item#global__third-level-esika--man-six",
+      "menu-item#global__third-level-esika--man-seven"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#links-esika-fragances__content-top--three":{
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "links__content"
+    },
+    "children": [
+      "menu-item#desktop__second-level-esika--fragrances-three"
+    ]
+  },
+
+  "flex-layout.row#second-level-four__items--images-esika-fragances":{
+    "title":"Container Images",
+    "children":[
+      "flex-layout.col#items__images-esika-fragances--first",
+      "flex-layout.col#items__images-esika-fragances--second"
+    ],
+    "props":{
+      "blockClass":"items__images"
+    }
+  },
+
+  "flex-layout.col#items__images-esika-fragances--first":{
+    "title":"Container Images and Text",
+    "children":[
+      "image#images-esika-fragances__first--image",
+      "rich-text#images-esika-fragances__first--text"
+    ]
+  },
+
+  "image#images-esika-fragances__first--image":{
+    "props":{
+     "src":"assets/img/header/banner-fragancias-dk-1.jpg"
+    }
+  },
+
+  "rich-text#images-esika-fragances__first--text":{
+    "props":{
+      "text":"##### Perfume Vibranza \n Aroma oriental dulce de muy larga duración",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"images--text"
+    }
+  },
+
+  "flex-layout.col#items__images-esika-fragances--second":{
+    "title":"Container Images and Text",
+    "children":[
+      "image#images-esika-fragances__second--image",
+      "rich-text#images-esika-fragances__second--text"
+    ]
+  },
+
+  "image#images-esika-fragances__second--image":{
+    "props":{
+     "src":"assets/img/header/banner-fragancias-dk-2.jpg"
+    }
+  },
+
+  "rich-text#images-esika-fragances__second--text":{
+    "props":{
+      "text":"##### Asesor de perfumes \n Encuentra el mejor perfume para ti",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"images--text"
+    }
+  }
+
+}

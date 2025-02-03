@@ -1,0 +1,58 @@
+.styledLinkContent--pdp--menu-container {
+  font-family: Flatline;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  width: 100%;
+  margin: 0;
+}
+
+.menuItem--pdp--menu-container {
+  padding: 20px 16px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+.styledLinkContainer--pdp--menu-container {
+  margin: 0;
+}
+
+.menuContainer--global__pdp--description-content,
+.menuContainer--global__pdp--includes-content,
+.menuContainer--global__pdp--how-to-use-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "brownstd";
+}
+
+.menuItem--pdp--menu-container .submenuAccordion {
+  padding: 0;
+}
+
+.menuContainerNav--global__pdp--description-content,
+.menuContainerNav--global__pdp--includes-content,
+.menuContainerNav--global__pdp--how-to-use-content {
+  padding-top: 16px;
+}
+
+.menuContainer--global__pdp--description-content
+  :global(.vtex-store-components-3-x-content),
+.menuContainer--global__pdp--includes-content
+  :global(.vtex-store-components-3-x-content),
+.menuContainer--global__pdp--how-to-use-content
+  :global(.vtex-store-components-3-x-content),
+:global(.vtex-store-components-3-x-productDescriptionText) {
+  color: #000;
+}
+
+.accordionIcon--pdp--menu-container--isClosed {
+  font-size: 70px;
+  color: #000;
+}
+
+.accordionIcon--pdp--menu-container--isOpen {
+  font-size: 70px;
+  color: #000;
+}

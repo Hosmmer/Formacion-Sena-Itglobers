@@ -1,0 +1,177 @@
+:global(.vtex-store__template){
+  overflow: hidden;
+}
+
+
+
+.imageElement--main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centra horizontalmente */
+    height: auto;
+    max-width: 100px; /* Tamaño máximo del logo */
+    width: 100%; /* Escala el logo según el contenedor */
+    margin-left: 250px;
+    padding-left: 180px;
+
+  }
+  
+
+:global(.vtex-store-components-3-x-searchBarIcon) :global(.vtex-store-components-3-x-searchIcon){
+  display: none;
+}
+
+.searchBarContainer {
+  padding: 0;
+
+}
+:global(.vtex-store-components-3-x-searchBarIcon){
+  padding-right: 0!important;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  margin: auto!important
+}
+
+
+
+.autoCompleteOuterContainer--global__search-bar :global(.vtex-input) {
+  display        : flex;
+  justify-content: center;
+}
+
+.autoCompleteOuterContainer--global__search-bar :global(.vtex-input-prefix__group) {
+  width: 100%;
+  max-width: 600px;
+  min-width    : 328px;
+  border       : none;
+  border-radius: 4px;
+  margin-right: 185px;
+}
+
+:global(.vtex-styleguide-9-x-input):hover {
+  background-color: red;
+}
+
+
+.autoCompleteOuterContainer--global__search-bar :global(.vtex-styleguide-9-x-input) {
+  font-family     : Lasiver;
+  background-color: #f6f6f6;
+  border-radius   : 0;
+  font-size       : 14px;
+  color           : #000000;
+}
+
+.autoCompleteOuterContainer--global__search-bar :global(.vtex-input-prefix__group):hover{
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.autoCompleteOuterContainer--global__search-bar :global(.vtex-input__suffix) {
+  background-color: #f6f6f6;
+  border-radius   : 0;
+}
+
+.searchBarIcon--global__search-bar::before {
+  /* display: none; */
+  content: url(assets/img/icon/esika-lupa-icon.svg);
+}
+
+.searchBarIcon--global__search-bar-esika::hover {
+  background-color: #000000;
+}
+
+  /* prueba css-vitrina productos */
+
+:global(.vtex-product-summary-2-x-imageContainer ){
+        overflow:auto;
+        width: auto!important;
+ }
+
+
+ .discountInsideContainer{
+	  background-color: #efd9d8;
+    color: #000;
+    width: 42px;
+    height: 16px;
+    padding: 4px 5px;
+    font-size: 10px!important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-transform: lowercase;
+    z-index: 1;
+    border-radius: 8px;
+    margin: 0 4px 
+ }
+ /* RENDER VTEX*/
+
+ :global(.vtex-render__container-id-demo){
+  margin-bottom: 30px !important; }
+
+  :global(.vtex-render__container-id-global__home-choose-category){
+    
+    height: 100%;
+    margin-bottom: 80px !important;
+  }
+  :global(.vtex-render__container-id-home__blog-catalog){
+    margin-bottom: 80px;
+  }
+:global(.vtex-render__container-id-home__text-dreams){
+  margin-bottom: 40px !important;
+    background-color: #e5e5e5;
+    padding: 100px;
+}
+
+:global(.vtex-render__container-id-global__footer--image)
+{
+  display: inline-block;
+  background-color: red;
+  position: relative;
+z-index: 2;
+}
+
+  .imageElement--logo-esika-home{
+    width: 45%;
+    height: 35%;
+    margin-bottom: 10px;
+  } 
+
+  :global(.vtex-store-components-3-x-imageElement--img-single-banner){
+    max-width: 536px;
+    margin-left: 40px;
+  }
+
+  /*ir Conocer mas */
+  
+  .imageElement--image-blog{
+    width: 268px;
+   
+  }
+  
+  .imageElement--image-catalog{
+    width: 300px;
+  }
+  
+  .imageElement--fund-belcorp-img{
+    position: relative;
+    right: -15%;
+  }
+  
+  @media only screen and ( max-width: 768px ){
+    .imageElement--img-single-banner{
+      width: 92%;
+    }
+  
+    .imageElement--image-blog,
+    .imageElement--image-catalog{
+      width: 100%;
+    }
+  }
+
+  :global(.vtex-store-components-3-x-imageElement--img-footer-banner){
+    width: 100vw !important;
+  }

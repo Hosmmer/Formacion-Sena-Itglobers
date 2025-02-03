@@ -1,0 +1,15 @@
+/* Estilos personalizados para el slider */
+.carousel {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.slider__image--02{
+  margin-bottom: 10px !important;
+  top: 10px;
+  background-color: red;
+}
+

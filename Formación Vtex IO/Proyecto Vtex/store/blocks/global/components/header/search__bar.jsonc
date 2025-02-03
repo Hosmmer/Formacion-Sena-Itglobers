@@ -1,0 +1,36 @@
+{
+    "flex-layout.col#search__bar": {
+        "props": {
+            "blockClass": "search__bar--container"
+        },
+        "children": [
+            "search-bar#global__search-bar-esika"
+        ]
+    },
+    "search-bar#global__search-bar-esika": {
+        "blocks": [
+            "autocomplete-result-list.v2#desktop__autocomplete"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "minSearchTermLength": 3,
+            "displayMode": "clear-button",
+            "placeholder": "Estoy buscando...",
+            "blockClass": [
+                "global__search-bar",
+                "global__search-bar-esika"
+            ]
+        }
+    },
+    "autocomplete-result-list.v2#desktop__autocomplete": {
+        "blocks": [
+            "product-summary"
+        ],
+        "props": {
+            "maxSuggestedProducts": 5,
+            "maxSuggestedTerms": 5,
+            "HorizontalProductSummary": "product-summary.shelf",
+            "blockClass": "desktop__autocomplete"
+        }
+    }
+}

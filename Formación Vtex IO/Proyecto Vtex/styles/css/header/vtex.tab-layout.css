@@ -1,0 +1,57 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--icons__row){
+  display: flex;
+  max-width: 100%;
+  margin-left: 85px;
+  padding-left: 160px;
+}
+  /* Estilos comunes para los íconos */
+  .listItem {
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Alinea los íconos hacia la izquierda */
+    text-decoration: none;
+    background-size: contain; /* Ajusta la imagen dentro del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: transparent; /* Oculta el texto visualmente */
+    height: 100%;
+    width: 80px;
+    padding: 0 auto;
+  }
+
+  /* Estilos específicos para cada ícono */
+  .listItem--logo__header--lbl {
+    background-image: url('assets/img/logo/logo-top-cyzone.webp') !important;
+  }
+
+  .listItem--logo__header--esk {
+    background-image: url('assets/img/logo/logo-top-esika.webp') !important;
+  }
+
+  .listItem--logo__header--cyz {
+    background-image: url('assets/img/logo/logo-top-lbel.webp') !important;
+  }
+
+
+
+  :global(.vtex-tab-layout-0-x-listItem--logo__header--cyz) :global(.vtex-button) {
+    background-color: transparent !important;
+    border: none !important;
+  }
+
+  :global(.vtex-tab-layout-0-x-listItem--logo__header--lbl) :global(.vtex-button) {
+    background-color: transparent !important;
+    border: none !important;
+  }
+
+  :global(.vtex-tab-layout-0-x-listItem--logo__header--esk) :global(.vtex-button) {
+    background-color: transparent !important;
+    border: none !important;
+  }
+
+ :global(.vtex-flex-layout-0-x-flexColChild) :global(.vtex-login-2-x-container) :global(.vtex-button):hover  {
+  background-color: transparent !important;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild) :global(.vtex-minicart-2-x-minicartWrapperContainer) :global(.vtex-button):hover{
+  background-color: transparent !important;
+}

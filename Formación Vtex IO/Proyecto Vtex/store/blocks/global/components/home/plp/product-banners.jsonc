@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#global__product--banners": {
+    "props": {
+      "blockClass": "product--banners"
+    },
+    "children": [
+      "flex-layout.col#global__product--banners-col"
+    ]
+  },
+  "flex-layout.col#global__product--banners-col": {
+    "children": [
+      "image#global__product--banner-info1",
+      "rich-text#global__product--title-video"
+    ]
+  },
+  "image#global__product--banner-info1": {
+    "props": {
+      "src": "assets/img/product/pdp-banner-info1.jpg"
+    }
+  },
+  "rich-text#global__product--title-video": {
+    "props": {
+      "blockClass": "product--title-video",
+      "text": "¡Mira el video para más!"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#second-level-esika-two__items": {
+        "title": "Items Second Level",
+        "children": [
+            "menu-item#desktop__second-level-esika--sets-one",
+            "menu-item#desktop__second-level-esika--sets-two",
+            "menu-item#desktop__second-level-esika--sets-three"
+        ],
+        "props": {
+            "blockClass": [
+                "second-level-container",
+                "second-level-sets"
+            ],
+            "colSizing": "auto"
+        }
+    }
+}

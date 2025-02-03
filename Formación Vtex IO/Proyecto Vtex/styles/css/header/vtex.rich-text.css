@@ -1,0 +1,190 @@
+.container--header-nanobar-text__esika,
+.wrapper--header-nanobar-text__esika{
+  width: 100%;
+}
+.paragraph--header-nanobar-text__esika{
+  color: #fff;
+  cursor: pointer;
+  margin: 8px;
+  font-family: brownstd,sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+.paragraph--header-brand{
+  padding: 0;
+  margin: 0;
+}
+.container--text-link-consultora{
+  margin-right: 2px;
+  border-right: 2px solid #000;
+  padding-right: 14px;
+}
+.link--text-link-consultora{
+  font-family: brownstd,sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: none;
+  color: inherit;
+  line-height: normal;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  margin: 0;
+}
+.paragraph--text-link-consultora{
+  margin: 0;
+  padding: 0;
+}
+
+/* start esika */
+.wrapper--esika__logo-esik{
+  height: 40px;
+  padding: 8px 12px;
+  margin: 0 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.wrapper--esika__logo-esika{
+  background-color: #DB3B30;
+}
+.wrapper--esika__logo-esika::before{
+  color: #fff;
+  font-family: 'icomoon';
+  content: "\e901";
+}
+
+
+
+
+
+/* end lbel */
+
+
+/* start cyzone */
+.wrapper--cyzone__logo-esika,
+.wrapper--cyzone__logo-lbel,
+.wrapper--cyzone__logo-cyzone{
+  height: 40px;
+  padding: 8px 12px;
+  margin: 0 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper--cyzone__logo-cyzone{
+  background-color: #a90061;
+}
+.wrapper--cyzone__logo-esika::before{
+  font-family: 'icomoon';
+  content: "\e901";
+}
+.wrapper--cyzone__logo-lbel::before{
+  font-family: 'icomoon';
+  content: "\e902";
+  font-size: 10px;
+  height: auto;
+  position: relative;
+  top: 1px;
+}
+.wrapper--cyzone__logo-cyzone::before{
+  color: #fff;
+  font-family: 'icomoon';
+  content: "\e900";
+  height: auto;
+  position: relative;
+  top: 3px;
+}
+/* end cyzone */
+
+/* MOBILE */
+
+/* start esika */
+.container--esika__logo-lbel-phone,
+.container--esika__logo-cyzone-phone,
+.container--esika__logo-esika-phone{
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  color: #000;
+}
+.container--esika__logo-esika-phone{
+  background-color: #DB3B30;
+}
+.container--esika__logo-esika-phone::after{
+  font-family: 'icomoon';
+  content: "\e901";
+  color: #fff;
+}
+.container--esika__logo-lbel-phone::after{
+  font-family: 'icomoon';
+  content: "\e902";
+  font-size: 10px;
+}
+.container--esika__logo-cyzone-phone::after{
+  font-family: 'icomoon';
+  content: "\e900";
+}
+/* end esika */
+
+/* start lebel */
+
+
+.container--lbel__logo-esika-phone::after{
+  font-family: 'icomoon';
+  content: "\e901";
+}
+
+
+.container--cyzone__logo-esika-phone{
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  color: #000;
+}
+
+
+/* MOBILE */
+.headingLevel5--images--text,
+.headingLevel5--images--text-one {
+  font-family: brownstd, sans-serif;
+  font-weight: bold;
+  font-size  : 14px;
+  line-height: 1.42857143;
+  color      : #000000;
+  margin     : 5px 0 0;
+}
+
+.paragraph--images--text {
+  color      : rgb(130, 130, 130);
+  font-family: Lasiver-new, Helvetica, Arial, sans-serif;
+  font-size  : 12px;
+  margin     : 0;
+  max-width  : 175px;
+}
+
+.paragraph--images--text-one {
+  color      : rgb(130, 130, 130);
+  font-family: Lasiver-new, Helvetica, Arial, sans-serif;
+  font-size  : 12px;
+  margin     : 0;
+}
+
+.paragraph--phone__title {
+  font-family: brownstd, sans-serif;
+  font-weight: bold;
+  font-size  : 16px;
+  color      : #000000;
+  height     : 45px;
+  margin     : 0;
+  display    : flex;
+  align-items: center;
+}

@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#global__product-slider--content": {
+    "title": "Slider Product Home",
+    "children": [
+      "flex-layout.row#global__top-banner-esika",
+      "list-context.product-list#product-slider__content--context"
+    ],
+    "props": {
+      "blockClass": "global__product-slider"
+    }
+  },
+  "list-context.product-list#product-slider__content--context": {
+    "blocks": [
+      "product-summary.shelf#global__product-summary"
+    ],
+    "children": [
+      "slider-layout#content__context--slider"
+    ],
+    "props": {
+      "maxItems": 15,
+      "category": "6"
+    }
+  },
+  "slider-layout#content__context--slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "fullWidth": true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "centerMode": {
+        "desktop": "disabled"
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "content__context--slider"
+    }
+  },
+  "product-summary.shelf#global__product-summary": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-rating-inline",
+      "product-price-suspense#global__product-summary--price",
+      "add-to-cart-button#global__product-summary--button"
+    ],
+    "props": {
+      "priceBehavior": "async",
+      "blockClass": "global__product-summary"
+    }
+  },
+  "product-price-suspense#global__product-summary--price": {
+    "children": [
+      "product-list-price",
+      "product-selling-price"
+    ]
+  },
+  "add-to-cart-button#global__product-summary--button": {
+    "props": {
+      "text": "Ver detalle"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+:global(.vtex-stack-layout-0-x-stackContainer--global__stack-layout) {
+  position: sticky;
+  top: 76px;
+}
+
+.flexRowContent--product--buy-button-container1 {
+  height: 100%;
+  align-items: center;
+}
+
+.flexRow--product--buy-button-container1 {
+  height: 100%;
+}
+
+.flexRow--global__product--buy-button {
+  height: 100%;
+}
+/* 
+.flexRowContent--global__product-slider{
+  width: auto !important;
+} */
+
+.flexRowContent--global__product--buy-button {
+  height: 100%;
+  align-items: center;
+  margin: 0;
+  justify-content: space-evenly;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  margin-bottom: 0;
+}
+
+.flexRowContent--product--sticky-buy-button-container {
+  padding: 8px 0;
+}
+
+.flexRowContent--product--buy-button-container1
+  :global(.vtex-store-components-3-x-productBrand) {
+  font-family: "brownstd";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.42857143;
+}
+
+.flexRowContent--product--list-price-savings
+  :global(.vtex-product-price-1-x-currencyContainer) {
+  margin-right: 16px;
+  font-family: BrownStd;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-decoration-line: line-through;
+  color: #777676;
+}
+
+.flexRow--product--selling-price
+  :global(.vtex-product-price-1-x-currencyContainer) {
+  font-family: BrownStd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+}
+
+.flexColChild--sticky-buy-button-container1-price
+  .flexRowContent--product--list-price-savings
+  :global(.vtex-product-price-1-x-currencyContainer),
+.flexColChild--sticky-buy-button-container1-price
+  .flexRow--product--selling-price
+  :global(.vtex-product-price-1-x-currencyContainer) {
+  font-size: 14px;
+  display: block;
+}

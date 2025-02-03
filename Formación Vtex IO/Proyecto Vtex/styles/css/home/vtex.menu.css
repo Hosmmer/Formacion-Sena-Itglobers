@@ -1,0 +1,156 @@
+.styledLinkContainer--global__link-level-one {
+  margin: 0 10px;
+}
+.styledLinkContent--global__link-level-one--notIcon{
+  margin-bottom: 20px;
+  font-family: brownstd, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: none;
+  color: #000000;
+  position: relative;
+
+}
+.styledLinkContent--global__link-level-one {
+  display: flex;
+  align-items: center;
+  font-family: brownstd, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: none;
+  color: #000000;
+  padding: 20px 15px 10px;
+  position: relative;
+}
+
+
+
+
+
+.styledLinkContent--global__link-level-one::after {
+  position: absolute;
+  content: " "; /* Para el indicador de la línea */
+  width: auto;
+  height: 3px;
+  bottom: 0;
+  left: 12px;
+  right: 12px;
+  margin: 0;
+  opacity: 1;
+  transition: 0.2s all;
+  border: none;
+}
+:global(.vtex-menu-2-x-styledLinkIcon--global__link-level-one){
+  color: #000000;
+transition: 0.01s;
+  line-height: 20px;
+}
+:global(.vtex-menu-2-x-styledLinkIcon--global__link-level-one):hover{
+  transform: rotate(180deg);
+}
+
+
+
+/* container menu  */
+.menuItem--global__link-level-one .submenuWrapper--isOpen::after {
+  border-top: 1px solid #b0b0b0;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%);
+  top       : 61px;
+  min-height: 300px;
+}
+
+/* second level style  */
+.styledLinkContent--global__link-level-second {
+  font-family  : brownstd, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .4px;
+  text-align: left;
+  font-size    : 16px;
+  color        : #000000;
+  white-space  : initial;
+  transition   : .2s all;
+  line-height  : 25px;
+  margin-bottom: 5px;
+  min-width    : 217px;
+}
+
+.styledLinkContent--global__link-level-second:hover {
+  color: #DB3B30;
+  text-decoration: underline;
+}
+
+.styledLinkContainer--global__link-level-second {
+  margin: 0;
+}
+
+/* css tercer nivel */
+.styledLinkContainer--global__link-level-third {
+  margin: 0;
+}
+
+.styledLinkContent--global__link-level-third {
+  font-family: brownstd, sans-serif;
+  color      : #000000;
+  font-size  : 12px;
+  transition : .2s all;
+  line-height: 15px;
+}
+
+.styledLinkContent--global__sublink-level-third {
+  padding-left: 10px;
+}
+
+.styledLinkContent--global__link-level-third:hover {
+  color: #DB3B30;
+  text-decoration: underline;
+}
+
+
+
+
+.menuContainer--content--items {
+  padding: 0 16px;
+}
+
+.menuContainerNav--content--items {
+  width: 100%;
+}
+
+.styledLinkContainer--content__items--link {
+  margin     : 0;
+  padding    : 0;
+  display    : flex;
+  align-items: center;
+  height     : 45px;
+}
+
+.menuItem--content__items--link {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.styledLinkContent--content__items--link {
+  font-family: brownstd, sans-serif;
+  font-weight: 400;
+  font-size  : 16px;
+  color      : #000000;
+}
+
+/* CSS DIFERENTES TIENDAS  */
+.menuItem--global__link-level-one-esika--isOpen .styledLinkContent--global__link-level-one-esika::after {
+  background-color: #db3b30;
+}
+
+.styledLinkContent--global__link-level-one-esika:hover::after {
+  background-color: #db3b30;
+  transform       : scale(1.3);
+}
+
+.menuItem--global__link-level-one-lbel--isOpen .styledLinkContent--global__link-level-one-lbel::after {
+  background-color: #ffffff;
+}
+
+.styledLinkContent--global__link-level-one-lbel:hover::after {
+  background-color: #ffffff;
+}
+

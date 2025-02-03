@@ -1,0 +1,27 @@
+
+.paragraph--global__product--exclusive-promotions-title {
+  text-align: left;
+  font-family: "Flatline";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0;                                                                                                
+  border: 0;
+  letter-spacing: normal;
+  
+}
+
+.paragraph--product--title-video {
+  font-family: "Flatline";
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+}
+
+.strong--product-gifts {
+  font-family: 'brownstd';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}

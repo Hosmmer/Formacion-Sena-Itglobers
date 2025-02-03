@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#global__top-banner-esik-2": {
+    "title": "Global Banner Top",
+    "children": [
+      "flex-layout.col#global__top-banner--content-esika-2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container__product--promotionEsika"
+    }
+  },
+  "flex-layout.col#global__top-banner--content-esika-2": {
+    "title": "Top Banner Content",
+    "children": [
+      "rich-text#top-banner__content--text-promotion--a-2"
+  
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "main__product--promotionEsika"
+    }
+  },
+  "rich-text#top-banner__content--text-promotion--a-2": {
+    "title": "Text Promotion",
+    "props": {
+      "text": "Descubre las MEGA insuperables",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich__text_promotionProduct--a"
+    }
+  }
+}

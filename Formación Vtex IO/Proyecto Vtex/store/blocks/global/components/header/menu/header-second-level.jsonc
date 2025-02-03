@@ -1,0 +1,353 @@
+{
+  "menu-item#desktop__second-level-esika--sets-one": {
+    "props": {
+      "id": "menu-gifts-one",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "Ver todo sets"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--sets-two": {
+    "props": {
+      "id": "menu-gifts-two",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "¿PARA QUIÉN?"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--sets-three": {
+    "props": {
+      "id": "menu-gifts-three",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "text": "POR CATEGORÍA"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--makeup-one": {
+    "props": {
+      "id": "menu-makeup-one",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/maquillaje/rostro",
+        "noFollow": true,
+        "text": "Rostro"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--makeup-two": {
+    "props": {
+      "id": "menu-makeup-two",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/maquillaje/unas",
+        "noFollow": true,
+        "text": "Uñas"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--makeup-three": {
+    "props": {
+      "id": "menu-makeup-three",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/maquillaje/ojos",
+        "noFollow": true,
+        "text": "Ojos"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--makeup-four": {
+    "props": {
+      "id": "menu-makeup-four",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/maquillaje/accesorios-de-maquillaje",
+        "noFollow": true,
+        "text": "Accesorios de Maquillaje"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--makeup-five": {
+    "props": {
+      "id": "menu-makeup-five",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/maquillaje/labios",
+        "noFollow": true,
+        "text": "Labios"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--makeup-six": {
+    "props": {
+      "id": "menu-makeup-six",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/maquillaje/sub-marca",
+        "noFollow": true,
+        "text": "Sub Marca"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--fragrances-one": {
+    "props": {
+      "id": "menu-fragrances-one",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/perfumes/mujer",
+        "noFollow": true,
+        "text": "Mujer"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--fragrances-two": {
+    "props": {
+      "id": "menu-fragrances-two",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/perfumes/home",
+        "noFollow": true,
+        "text": "Hombre"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--fragrances-three": {
+    "props": {
+      "id": "menu-fragrances-three",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/perfumes/asesor-de-perfumes",
+        "noFollow": true,
+        "text": "Asesor de Perfumes"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--care-one": {
+    "props": {
+      "id": "menu-care-one",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-personal/cuerpo",
+        "noFollow": true,
+        "text": "Cuerpo"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--care-two": {
+    "props": {
+      "id": "menu-care-two",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-personal/cabello",
+        "noFollow": true,
+        "text": "Cabello"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--care-three": {
+    "props": {
+      "id": "menu-care-three",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-personal/ninos-y-bebes",
+        "noFollow": true,
+        "text": "Niños y Bebés"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--skin-one": {
+    "props": {
+      "id": "menu-skin-one",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-de-la-piel/oxygen-supreme",
+        "noFollow": true,
+        "text": "Oxygen Supreme"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--skin-two": {
+    "props": {
+      "id": "menu-skin-two",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-de-la-piel/limpiadoras-y-desmaquilladoras",
+        "noFollow": true,
+        "text": "Limpiadoras y \n Desmaquilladoras"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--skin-three": {
+    "props": {
+      "id": "menu-skin-three",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-de-la-piel/hidratantes",
+        "noFollow": true,
+        "text": "Hidratantes"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--skin-four": {
+    "props": {
+      "id": "menu-skin-four",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-de-la-piel/nutritivas",
+        "noFollow": true,
+        "text": "Nutritivas"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--skin-five": {
+    "props": {
+      "id": "menu-skin-five",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-de-la-piel/cuidado-de-ojos",
+        "noFollow": true,
+        "text": "Cuidado de Ojos"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--skin-six": {
+    "props": {
+      "id": "menu-skin-six",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-de-la-piel/antimanchas",
+        "noFollow": true,
+        "text": "Antimanchas"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--skin-seven": {
+    "props": {
+      "id": "menu-skin-seven",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-de-la-piel/protectores-solares",
+        "noFollow": true,
+        "text": "Protectores Solares"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--skin-eight": {
+    "props": {
+      "id": "menu-skin-eight",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/cuidado-de-la-piel/diagnostico-de-la-piel-onlines",
+        "noFollow": true,
+        "text": "Diagnostico* de la Piel Online"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--accessories-one": {
+    "props": {
+      "id": "menu-accessories-one",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/accesorios/lo-nuevo",
+        "noFollow": true,
+        "text": "Lo Nuevo"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--accessories-two": {
+    "props": {
+      "id": "menu-accessories-two",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/accesorios/mujer",
+        "noFollow": true,
+        "text": "Mujer"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--accessories-three": {
+    "props": {
+      "id": "menu-accessories-three",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/accesorios/hombre",
+        "noFollow": true,
+        "text": "Hombre"
+      }
+    }
+  },
+  "menu-item#desktop__second-level-esika--accessories-four": {
+    "props": {
+      "id": "menu-accessories-four",
+      "type": "custom",
+      "blockClass": "global__link-level-second",
+      "itemProps": {
+        "type": "internal",
+        "href": "/esika/accesorios/niños",
+        "noFollow": true,
+        "text": "Niños"
+      }
+    }
+  }
+}

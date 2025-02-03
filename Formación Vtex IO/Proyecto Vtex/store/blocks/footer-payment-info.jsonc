@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#global__footer-payment-info": {
+    "title": "Global Footer payment info",
+    "props": {
+      "blockClass": "footer-payment",
+      "preserveLayoutOnMobile": "true"
+      // "colGap": 1
+    },
+    "children": [
+      "rich-text#footer-payment-info--secure-payments",
+      "rich-text#footer-payment-info--secure-delivery",
+      "rich-text#footer-payment-info--quality-products",
+      "flex-layout.col#global__spacer",
+      "rich-text#footer-cteo"
+    ]
+  },
+  "rich-text#footer-payment-info--secure-payments": {
+    "title": "Footer payment secure-payments",
+    "props": {
+      "blockClass": "payment-info--secure-payments",
+      "text": "![pagseguro](assets/img/footer/icons/pagoSeguro.svg) Pagos 100% seguros"
+    }
+  },
+  "rich-text#footer-payment-info--secure-delivery": {
+    "title": "Footer payment secure-delivery",
+    "props": {
+      "blockClass": "payment-info--secure-payments",
+      "text": "![entregas](assets/img/footer/icons/entregaCarro.svg) Entregas a todo el país"
+    }
+  },
+  "rich-text#footer-payment-info--quality-products": {
+    "title": "Footer payment quality-products",
+    "props": {
+      "blockClass": "payment-info--quality-products",
+      "text": "![estrella](assets/img/footer/icons/productoCalida.svg) Productos de calidad"
+    }
+  },
+  "rich-text#footer-cteo": {
+    "title": "Footer cteo",
+    "props": {
+      "blockClass": "payment-info--cteo",
+      "text": "CETCO S.A. - RUC: 20100123763"
+    }
+  },
+  "flex-layout.col#global__spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "flex-layout.row#desktop__footer-content--one": {
+    // "title": "Desktop footer content One",
+    "props": {
+      "blockClass": "footer__columns-footer-content--one"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-content__col-1",
+      "vtex.menu@2.x:menu#footer-content__col-2",
+      "vtex.menu@2.x:menu#footer-content__col-3",
+      "flex-layout.col#footer-content__col-spacer",
+      "flex-layout.col#footer-content__col-4"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-content__col-1": {
+    "title": "Col Menu #1",
+    "props": {
+      "blockClass": "footer-content__col-1",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#group-our-brands--title",
+      "menu-item#global__esika",
+      "menu-item#global__lbel",
+      "menu-item#global__cyzone"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-content__col-2": {
+    "title": "Col Menu #1",
+    "props": {
+      "blockClass": "footer-content__col-2",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#group-legal--title",
+      "menu-item#global__web-use-conditions",
+      "menu-item#global__policy-privacy",
+      "menu-item#global__terms-and-conditions",
+      "menu-item#global__bow-rights",
+      "menu-item#global__authorization-to-send-advertising",
+      "menu-item#global__authorization-to-send-testAnimal",
+      "menu-item#global__exchange-and-return-policy",
+      "menu-item#global__superInrtedencia-industria-sic",
+      "menu-item#global__antiSoborno-politica-negocio",
+      "menu-item#global__cookies-policy"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-content__col-3": {
+    "title": "Col Menu #1",
+    "props": {
+      "blockClass": "footer-content__col-3",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#paragraph--group-contact-us--title",
+      "menu-item#global__how-to-buy",
+      "menu-item#global__frequent-questions",
+      "menu-item#global__contac-us",
+      "menu-item#global__QuieroSer-consultora",
+      "menu-item#global__nuestrasTiendas-esika"
+    ]
+  },
+  "flex-layout.col#footer-content__col-spacer": {
+    "children": []
+  },
+  "flex-layout.col#footer-content__col-4": {
+    "title": "Footer content Column Fourth",
+    "props": {
+      "blockClass": "footer-content__col-4"
+    },
+    "children": [
+      "flex-layout.row#global__footer-social"
+    ]
+  },
+  "flex-layout.row#desktop__footer-content--two": {
+    "title": "Desktop footer content Two",
+    "props": {
+      "blockClass": "footer__row-footer-content--two" //,
+      // "preventHorizontalStretch": "true"
+    },
+    "children": [
+      "flex-layout.row#global__footer-payment-info",
+      "flex-layout.row#global__footer-payment-methods"
+    ]
+  }
+ 
+}

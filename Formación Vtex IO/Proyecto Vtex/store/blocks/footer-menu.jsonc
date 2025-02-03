@@ -1,0 +1,236 @@
+{
+  "menu-item#global__esika": {
+    "props": {
+      "id": "menu-contact-us",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "ésika"
+      }
+    }
+  },
+  "menu-item#global__lbel": {
+    "props": {
+      "id": "menu-customer-care",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "L´Bel"
+      }
+    }
+  },
+  "menu-item#global__cyzone": {
+    "props": {
+      "id": "menu-customer-cyzone",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Cyzone"
+      }
+    }
+  },
+  "menu-item#global__web-use-conditions": {
+    "props": {
+      "id": "menu-customer-web-use-conditions",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Condiciones de uso y Política de privacidad"
+      }
+    }
+  },
+  "menu-item#global__policy-privacy": {
+    "props": {
+      "id": "menu-customer-policy-privacy",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Código de ética ACOVEDI"
+      }
+    }
+  },
+  "menu-item#global__terms-and-conditions": {
+    "props": {
+      "id": "menu-customer-terms-and-conditions",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#global__bow-rights": {
+    "props": {
+      "id": "menu-customer-bowrights",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Derechos Arco"
+      }
+    }
+  },
+  "menu-item#global__authorization-to-send-advertising": {
+    "props": {
+      "id": "menu-customer-authorization-to-send-advertising",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Autorización para el Envío de Publicidad"
+      }
+    }
+  },
+  "menu-item#global__authorization-to-send-testAnimal": {
+    "props": {
+      "id": "menu-customer-authorization-to-send-testAnimal",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "No testeo en animales"
+      }
+    }
+  },
+  "menu-item#global__exchange-and-return-policy": {
+    "props": {
+      "id": "menu-customer-exchange-and-return-policy",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Política de cambio y devoluciones"
+      }
+    }
+  },
+  "menu-item#global__superInrtedencia-industria-sic": {
+    "props": {
+      "id": "menu-customer-superInrtedencia-industria-sic",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Superintendencia de Industria y Comercio SIC"
+      }
+    }
+  },
+  "menu-item#global__antiSoborno-politica-negocio": {
+    "props": {
+      "id": "menu-customer-antiSoborno-politica-negoci",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Política antisoborno y anticorrupción para negocios y transacciones internacionales."
+      }
+    }
+  },
+  "menu-item#global__cookies-policy": {
+    "props": {
+      "id": "menu-customer-cookies-policy",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Política autocontrol y gestión de riesgo integral (SAGRILAFT)."
+      }
+    }
+  },
+  "menu-item#global__how-to-buy": {
+    "props": {
+      "id": "menu-customer-how-to-buy",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Cómo comprar"
+      }
+    }
+  },
+  "menu-item#global__frequent-questions": {
+    "props": {
+      "id": "menu-customer-frequent-questions",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#global__contac-us": {
+    "props": {
+      "id": "menu-customer-contac-us",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Escríbenos"
+      }
+    }
+  },
+  "menu-item#global__QuieroSer-consultora": {
+    "props": {
+      "id": "menu-customer-QuieroSer-consultora",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Quiero ser consultora"
+      }
+    }
+  },
+  "menu-item#global__nuestrasTiendas-esika": {
+    "props": {
+      "id": "menu-customer-nuestrasTiendas-esika",
+      "type": "custom",
+      "blockClass": "link-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/link",
+        "noFollow": true,
+        "text": "Nuestras tiendas"
+      }
+    }
+  }
+}
